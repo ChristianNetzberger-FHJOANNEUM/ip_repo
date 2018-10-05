@@ -1,0 +1,2 @@
+DEFAULT_FILE atom sbus_mux5_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

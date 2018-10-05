@@ -1,0 +1,2 @@
+DEFAULT_FILE atom register_array_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

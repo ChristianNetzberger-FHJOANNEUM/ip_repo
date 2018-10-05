@@ -1,0 +1,2 @@
+DEFAULT_FILE atom top_axi_sbus_bridge/struct.bd
+DEFAULT_ARCHITECTURE atom struct

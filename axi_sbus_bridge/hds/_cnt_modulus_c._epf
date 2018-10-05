@@ -1,0 +1,2 @@
+DEFAULT_FILE atom cnt_modulus_c_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

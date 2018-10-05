@@ -1,0 +1,1112 @@
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 13,0 15 1 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3748,0 39 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3743,0 40 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3837,0 41 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3832,0 42 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3867,0 43 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3862,0 44 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3897,0 45 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3892,0 46 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 348,0 54 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 353,0 55 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 358,0 56 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 363,0 57 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 368,0 58 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 373,0 59 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 378,0 60 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 383,0 61 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 388,0 62 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 393,0 63 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 403,0 64 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 408,0 65 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 413,0 66 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 418,0 67 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 423,0 68 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 428,0 69 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 433,0 70 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 438,0 71 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 443,0 72 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 448,0 73 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 453,0 74 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 458,0 75 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 468,0 76 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 473,0 77 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 478,0 78 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 483,0 79 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 493,0 80 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 528,0 81 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 548,0 82 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 553,0 83 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 563,0 84 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 568,0 85 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 573,0 86 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3723,0 87 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4507,0 88 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3738,0 89 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3728,0 90 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3733,0 91 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3812,0 92 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4502,0 93 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3827,0 94 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3817,0 95 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3822,0 96 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3842,0 97 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4497,0 98 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3857,0 99 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3847,0 100 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3852,0 101 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3872,0 102 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4492,0 103 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3887,0 104 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3877,0 105 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3882,0 106 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4137,0 108 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4218,0 109 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 4142,0 110 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 398,0 111 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 463,0 112 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 488,0 113 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 498,0 114 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 503,0 115 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 508,0 116 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 513,0 117 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 518,0 118 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 523,0 119 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 533,0 120 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 538,0 121 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 543,0 122 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 558,0 123 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 3927,0 124 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 1,0 127 0 
+DESIGN top_axi_sbus_bridge
+VIEW symbol.sb
+GRAPHIC 1,0 128 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 131
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 1545,0 140 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 146
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 0,0 149 2 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 16575,0 154 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 16587,0 155 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3450,0 157 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14901,0 158 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14847,0 159 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17904,0 160 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15021,0 161 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17870,0 162 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17864,0 163 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14849,0 164 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14899,0 165 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14809,0 166 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14833,0 167 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14823,0 168 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14835,0 169 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14825,0 170 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14845,0 171 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14827,0 172 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14831,0 173 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14811,0 174 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14813,0 175 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14867,0 176 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3448,0 177 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 4446,0 178 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3436,0 179 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 18902,0 180 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7832,0 181 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3446,0 182 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3438,0 183 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3440,0 187 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7810,0 188 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 13983,0 189 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 12011,0 190 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 13975,0 191 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14113,0 192 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19536,0 193 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3444,0 194 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7840,0 195 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3442,0 196 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17882,0 197 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14863,0 198 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14887,0 199 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14903,0 200 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14837,0 201 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 202
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 203
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 1,0 204 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 204
+LIBRARY axi_sbus_bridge
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 10275,0 211 0 
+DESIGN @s00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 14,0 212 1 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 645,0 238 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 650,0 240 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1245,0 241 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1988,0 242 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1235,0 243 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1250,0 244 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1230,0 245 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1240,0 246 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1255,0 247 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 56,0 248 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 76,0 253 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 146,0 255 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 131,0 257 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 151,0 259 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 181,0 261 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 136,0 263 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 156,0 266 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 141,0 269 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 161,0 272 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 166,0 276 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 176,0 279 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 186,0 282 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 191,0 284 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 171,0 288 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 256,0 292 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 271,0 294 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 261,0 298 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 276,0 301 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 281,0 303 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 266,0 306 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 196,0 309 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 206,0 312 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 211,0 315 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 216,0 317 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 201,0 320 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 81,0 323 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 61,0 326 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 86,0 329 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 116,0 331 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 66,0 333 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 91,0 336 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 71,0 339 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 96,0 342 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 101,0 346 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 111,0 349 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 121,0 352 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 126,0 354 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 106,0 358 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 226,0 362 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 221,0 365 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 241,0 367 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 231,0 370 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 246,0 373 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 251,0 375 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 236,0 378 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15168,0 383 0 
+DESIGN cnt_modulus
+VIEW symbol.sb
+GRAPHIC 14,0 384 1 
+DESIGN cnt_modulus
+VIEW rtl
+GRAPHIC 187,0 389 0 
+DESIGN cnt_modulus
+VIEW rtl
+GRAPHIC 197,0 390 0 
+DESIGN cnt_modulus
+VIEW rtl
+GRAPHIC 446,0 391 0 
+DESIGN cnt_modulus
+VIEW rtl
+GRAPHIC 192,0 392 0 
+DESIGN cnt_modulus
+VIEW rtl
+GRAPHIC 889,0 393 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15137,0 396 0 
+DESIGN cnt_modulus_c
+VIEW symbol.sb
+GRAPHIC 14,0 397 1 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 51,0 401 0 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 66,0 402 0 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 218,0 403 0 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 61,0 404 0 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 344,0 405 0 
+DESIGN cnt_modulus_c
+VIEW rtl
+GRAPHIC 56,0 406 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19606,0 409 0 
+DESIGN profiler
+VIEW symbol.sb
+GRAPHIC 14,0 410 1 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 51,0 418 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 56,0 420 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 61,0 421 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 193,0 422 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15102,0 425 0 
+DESIGN register_array_be
+VIEW symbol.sb
+GRAPHIC 14,0 426 1 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 351,0 434 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 346,0 435 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 163,0 436 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 158,0 437 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 594,0 438 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 71,0 439 0 
+DESIGN register_array_be
+VIEW rtl
+GRAPHIC 341,0 440 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19518,0 443 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 495,0 445 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 51,0 446 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 56,0 447 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 91,0 448 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 61,0 449 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 66,0 450 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 918,0 451 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 972,0 452 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 1049,0 453 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 1126,0 454 0 
+DESIGN sbus_mux5
+VIEW rtl
+GRAPHIC 96,0 455 0 
+LIBRARY axi_sbus_bridge
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 458
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 10275,0 461 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15168,0 462 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15137,0 463 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19606,0 464 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15102,0 465 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19518,0 466 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 469
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 9878,0 472 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 508
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 4370,0 509 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 539
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14194,0 540 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 561
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14352,0 562 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 574
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14204,0 575 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 583
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14145,0 584 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 593
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14280,0 594 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 598
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17788,0 599 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 610
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 17798,0 611 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 626
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 627
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 10275,0 629 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 10282,0 630 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3196,0 656 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3192,0 657 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3176,0 658 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 18904,0 659 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3188,0 660 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3184,0 661 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3168,0 662 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3172,0 663 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3180,0 664 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3212,0 665 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3208,0 666 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3216,0 667 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3204,0 668 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3200,0 669 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3260,0 670 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3256,0 671 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3252,0 672 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3248,0 673 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3244,0 674 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3240,0 675 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3236,0 676 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3232,0 677 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3228,0 678 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3116,0 679 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3224,0 680 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3220,0 681 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3048,0 682 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3052,0 683 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3056,0 684 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3120,0 685 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3124,0 686 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3128,0 687 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3132,0 688 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3136,0 689 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3060,0 690 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3064,0 691 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3068,0 692 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3072,0 693 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3076,0 694 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3080,0 695 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3084,0 696 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3088,0 697 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3092,0 698 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3096,0 699 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3100,0 700 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3104,0 701 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3108,0 702 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3140,0 703 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3144,0 704 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3148,0 705 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3152,0 706 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3156,0 707 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3160,0 708 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3164,0 709 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 3112,0 710 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15168,0 712 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15175,0 713 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14771,0 718 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14759,0 719 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14753,0 720 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14777,0 722 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15199,0 724 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15206,0 725 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14781,0 730 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14777,0 731 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14765,0 732 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14747,0 733 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15230,0 736 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15237,0 737 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14797,0 742 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14787,0 743 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14791,0 744 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14803,0 745 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15137,0 748 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15144,0 749 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14605,0 753 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14599,0 754 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14611,0 755 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14703,0 756 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14787,0 757 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19606,0 760 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19613,0 761 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19566,0 769 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19572,0 770 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19578,0 771 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19584,0 772 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15102,0 774 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 15109,0 775 1 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14383,0 783 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14379,0 784 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14401,0 785 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14395,0 786 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14625,0 787 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14391,0 788 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14387,0 789 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19518,0 791 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7848,0 793 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7834,0 794 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 4410,0 795 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7842,0 796 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7812,0 797 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 7818,0 798 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 12013,0 799 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 13977,0 800 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 14115,0 801 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+GRAPHIC 19528,0 802 0 
+DESIGN top_axi_sbus_bridge
+VIEW struct.bd
+NO_GRAPHIC 806

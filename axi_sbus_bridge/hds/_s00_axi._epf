@@ -1,0 +1,2 @@
+DEFAULT_FILE atom S00_AXI.vhd
+DEFAULT_ARCHITECTURE atom arch_imp
