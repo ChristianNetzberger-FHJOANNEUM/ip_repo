@@ -1,0 +1,281 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Oct  3 11:23:58 2018
+# Process ID: 392
+# Current directory: D:/ECM_DCD/username/ip_repo/training_lib/vivado/circuit_ch1_1a/circuit_ch1_1a.runs/synth_1
+# Command line: vivado.exe -log circuit_ch1_1a.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch1_1a.tcl
+# Log file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/circuit_ch1_1a/circuit_ch1_1a.runs/synth_1/circuit_ch1_1a.vds
+# Journal file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/circuit_ch1_1a/circuit_ch1_1a.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source circuit_ch1_1a.tcl -notrace
+Command: synth_design -top circuit_ch1_1a -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14220 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 342.070 ; gain = 79.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'circuit_ch1_1a' [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:27]
+WARNING: [Synth 8-3848] Net buzzer in module/entity circuit_ch1_1a does not have driver. [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'circuit_ch1_1a' (1#1) [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:27]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 381.148 ; gain = 118.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.148 ; gain = 118.816
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ECM_DCD/username/ip_repo/training_lib/zybo_training.xdc]
+Finished Parsing XDC File [D:/ECM_DCD/username/ip_repo/training_lib/zybo_training.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ECM_DCD/username/ip_repo/training_lib/zybo_training.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/circuit_ch1_1a_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/circuit_ch1_1a_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 674.203 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:30]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module circuit_ch1_1a 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:30]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buttons[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |    26|
+|4     |LUT2   |     4|
+|5     |FDRE   |    26|
+|6     |IBUF   |     5|
+|7     |OBUF   |     4|
+|8     |OBUFT  |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    75|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 674.203 ; gain = 118.816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 674.203 ; gain = 411.871
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+13 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 674.203 ; gain = 419.629
+INFO: [Common 17-1381] The checkpoint 'D:/ECM_DCD/username/ip_repo/training_lib/vivado/circuit_ch1_1a/circuit_ch1_1a.runs/synth_1/circuit_ch1_1a.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 674.203 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  3 11:24:28 2018...

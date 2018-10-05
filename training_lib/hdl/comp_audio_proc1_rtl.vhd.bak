@@ -1,0 +1,40 @@
+--
+-- VHDL Architecture training_lib.comp_audio_proc1.rtl
+--
+-- Created:
+--          by - Net.UNKNOWN (KPERSM7467)
+--          at - 21:10:08 31.10.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+--USE ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity comp_audio_proc1 is
+   port( 
+      audio_in_left   : in     std_logic_vector (23 downto 0);
+      audio_in_right  : in     std_logic_vector (23 downto 0);
+      param_val0      : in     std_logic_vector(3 downto 0);
+      param_val1      : in     std_logic_vector(3 downto 0);
+      clk             : in     std_logic;
+      reset_s         : in     std_logic;
+      sample_en_o     : in     std_logic;
+      audio_out_left  : out    std_logic_vector (23 downto 0);
+      audio_out_right : out    std_logic_vector (23 downto 0)
+   );
+
+-- Declarations
+
+end comp_audio_proc1 ;
+
+--
+architecture rtl of comp_audio_proc1 is
+  signal value_int: integer;
+  signal value_vec: std_logic_vector(15 downto 0) := "1000111100001010";
+begin
+  value_int <= conv_integer(value_vec);
+  
+end architecture rtl;
+

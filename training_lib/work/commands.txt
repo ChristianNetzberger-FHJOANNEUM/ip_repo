@@ -1,0 +1,40 @@
+butn 0000
+sldn 0000
+time 10 us
+but0 1
+wait 1 us
+but1 1
+wait 1 us
+but2 1
+wait 1 us
+but3 1
+wait 1 us
+butn 0000
+wait 10 us
+sld0 1
+wait 1 us
+sld1 1
+wait 1 us
+sld2 1
+wait 1 us
+sld3 1
+time 30 us
+----
+sldn 0100
+wait 1 us
+butn 0001
+wait 1 us
+butn 0010
+wait 1 us
+----
+sldn 1101
+butn 0000
+wait 1 us
+butn 0001
+wait 1 us
+butn 0010
+wait 1 us
+butn 0000
+ 
+
+

@@ -1,0 +1,403 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Nov  6 15:37:33 2017
+# Process ID: 13792
+# Current directory: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1
+# Command line: vivado.exe -log circuit_ch5_1a.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch5_1a.tcl
+# Log file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch5_1a.vds
+# Journal file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source circuit_ch5_1a.tcl -notrace
+Command: synth_design -top circuit_ch5_1a -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14060 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 335.160 ; gain = 78.930
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'circuit_ch5_1a' [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:27]
+WARNING: [Synth 8-3848] Net buzzer in module/entity circuit_ch5_1a does not have driver. [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'circuit_ch5_1a' (1#1) [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:27]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[3]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[2]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder1[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 374.488 ; gain = 118.258
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 374.488 ; gain = 118.258
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project1.xdc]
+Finished Parsing XDC File [D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/circuit_ch5_1a_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/circuit_ch5_1a_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 684.797 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 684.797 ; gain = 428.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 684.797 ; gain = 428.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 684.797 ; gain = 428.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 684.797 ; gain = 428.566
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               72 Bit    Registers := 1     
++---Multipliers : 
+	                32x40  Multipliers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module circuit_ch5_1a 
+Detailed RTL Component Info : 
++---Registers : 
+	               72 Bit    Registers := 1     
++---Multipliers : 
+	                32x40  Multipliers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:38]
+WARNING: [Synth 8-6014] Unused sequential element p_reg was removed.  [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:38]
+WARNING: [Synth 8-6014] Unused sequential element p_reg was removed.  [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:38]
+WARNING: [Synth 8-6014] Unused sequential element p_reg was removed.  [D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch5_1a_rtl.vhd:38]
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP p_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register p_reg is absorbed into DSP p_reg.
+DSP Report: operator multOp is absorbed into DSP p_reg.
+DSP Report: operator multOp is absorbed into DSP p_reg.
+DSP Report: Generating DSP multOp, operation Mode is: A*B.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: operator multOp is absorbed into DSP multOp.
+DSP Report: Generating DSP p_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register p_reg is absorbed into DSP p_reg.
+DSP Report: operator multOp is absorbed into DSP p_reg.
+DSP Report: operator multOp is absorbed into DSP p_reg.
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[3]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[2]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port sliders[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch5_1a has unconnected port encoder1[0]
+WARNING: [Synth 8-3332] Sequential element (p_reg[47]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[46]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[45]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[44]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[43]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[42]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[41]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[40]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[39]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[38]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[37]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[36]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[35]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[34]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[33]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[32]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[31]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[30]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[29]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[28]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[27]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[26]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[25]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[24]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[23]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[22]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[21]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[20]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[19]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[18]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[17]) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[47]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[46]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[45]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[44]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[43]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[42]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[41]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[40]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[39]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[38]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[37]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[36]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[35]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[34]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[33]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[32]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[31]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[30]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[29]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[28]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[27]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[26]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[25]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[24]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[23]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[22]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[21]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[20]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[19]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[18]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[17]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[15]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[14]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[13]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[12]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[11]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[10]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[9]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[8]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[7]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[6]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[5]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[4]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[3]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[2]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[1]__0) is unused and will be removed from module circuit_ch5_1a.
+WARNING: [Synth 8-3332] Sequential element (p_reg[0]__0) is unused and will be removed from module circuit_ch5_1a.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 684.797 ; gain = 428.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++---------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name    | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|circuit_ch5_1a | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|circuit_ch5_1a | (PCIN>>17)+A*B | 24     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|circuit_ch5_1a | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|circuit_ch5_1a | (PCIN>>17)+A*B | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++---------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 688.406 ; gain = 432.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 691.414 ; gain = 435.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    14|
+|3     |DSP48E1   |     2|
+|4     |DSP48E1_1 |     2|
+|5     |LUT1      |     2|
+|6     |LUT2      |    55|
+|7     |FDRE      |    18|
+|8     |IBUF      |     3|
+|9     |OBUF      |     4|
+|10    |OBUFT     |     2|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   103|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 93 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 709.699 ; gain = 143.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 709.699 ; gain = 453.469
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+14 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 709.699 ; gain = 461.230
+INFO: [Common 17-1381] The checkpoint 'D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch5_1a.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 709.699 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  6 15:38:11 2017...

@@ -1,0 +1,39 @@
+--
+-- VHDL Architecture training_lib.comp_numeric3.rtl
+--
+-- Created:
+--          by - net.UNKNOWN (KPERSM7467)
+--          at - 12:42:28 03.11.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+entity comp_numeric3 is
+  port(signal_in1: in std_logic_vector(31 downto 0);
+       signal_in2: in std_logic_vector(31 downto 0);
+       signal_sum: out std_logic_vector(31 downto 0);
+       signal_diff: out std_logic_vector(31 downto 0);
+       signal_compare: out std_logic
+     );
+end entity comp_numeric3;
+--
+architecture rtl of comp_numeric3 is
+  signal value_uint32: integer; -- implicit range 0 to 2**32-1
+  signal value_uint16: integer range 0 to 2**16-1;
+  signal value_uint8: integer range 0 to 2**8-1;
+  signal value_int32: integer range -2**31 to 2**31-1;
+  signal value_int16: integer range -2**15 to 2**15-1;
+  signal value_int8: integer range -2**7 to 2**7-1;
+  
+  signal value_vec: std_logic_vector(15 downto 0) := "1000111100001010";
+begin
+  value_uint32  <= to_integer(signed(value_vec)); 
+  value_int16   <= to_integer(signed(value_vec)); 
+  value_int8    <= to_integer(signed(value_vec)); 
+  --value_uint16  <= to_integer(signed(value_vec)); 
+  --value_uint8   <= to_integer(signed(value_vec)); 
+end architecture rtl;
+

@@ -1,0 +1,34 @@
+--
+-- VHDL Architecture training_lib.com_numeric4.rtl
+--
+-- Created:
+--          by - net.UNKNOWN (KPERSM7467)
+--          at - 16:17:51 06.11.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+use ieee.std_logic_signed.all;
+
+entity comp_numeric4 is
+  port(signal_in1: in std_logic_vector(31 downto 0);
+       signal_in2: in std_logic_vector(31 downto 0);
+       signal_sum: out std_logic_vector(31 downto 0);
+       signal_diff: out std_logic_vector(31 downto 0);
+       signal_compare: out std_logic
+     );
+end entity comp_numeric4;
+
+--
+architecture rtl of comp_numeric4 is
+  signal a: std_logic_vector(4 downto 0);
+  signal b: std_logic_vector(2 downto 0);
+  signal p: std_logic_vector(7 downto 0);
+begin
+  a <= "10001";
+  b <= "101";
+  p <= a*b;
+end architecture rtl;
+

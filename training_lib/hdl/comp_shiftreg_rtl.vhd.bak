@@ -1,0 +1,66 @@
+--
+-- VHDL Architecture training_lib.comp_shiftreg.rtl
+--
+-- Created:
+--          by - Net.UNKNOWN (KPERSM7467)
+--          at - 13:16:00 29.10.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+entity comp_shiftreg is
+   generic( 
+      nbits_g      : integer := 16;
+      shift_left_g : boolean := true
+   );
+   port( 
+      load_en    : in     std_logic;
+      shift_en   : in     std_logic;
+      parallel_i : in     std_logic_vector (nbits_g-1 downto 0);
+      serial_i   : in     std_logic;
+      reset      : in     std_logic;
+      clk        : in     std_logic;
+      parallel_o : out    std_logic_vector (nbits_g-1 downto 0);
+      serial_o   : out    std_logic
+   );
+
+-- Declarations
+
+end comp_shiftreg ;
+
+--
+architecture rtl of comp_shiftreg is
+  signal shreg: std_logic_vector(nbits_g-1 downto 0);
+begin
+  
+  --shift register with parallel load and shift left/right
+  process(clk)
+  begin
+    if rising_edge(clk) then
+      if reset = '1' then
+        shreg <= (others => '0');
+      elsif load_en = '1' then
+        shreg <= parallel_i;
+      elsif shift_en = '1' then
+        if shift_left_g then
+          shreg <= shreg(shreg'left-1 downto 0) & serial_i;
+        else
+          shreg <= serial_i & shreg(shreg'left downto 1);
+        end if;
+      end if;
+    end if;
+  end process;
+   
+   ---parallel output--
+   parallel_o <= shreg;
+   
+   --serial output--
+   serial_o <= shreg(shreg'left) when shift_left_g else
+               shreg(0);
+        
+       
+end architecture rtl;
+

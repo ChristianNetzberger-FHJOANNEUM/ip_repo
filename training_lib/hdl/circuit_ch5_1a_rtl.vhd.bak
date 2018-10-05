@@ -1,0 +1,42 @@
+--
+-- VHDL Architecture training_lib.circuit_ch5_1a.rtl
+--
+-- Created:
+--          by - net.UNKNOWN (KPERSM7467)
+--          at - 13:59:18 06.11.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+entity circuit_ch5_1a is
+  port (buttons: in std_logic_vector(3 downto 0);
+        sliders: in std_logic_vector(3 downto 0);
+        encoder0: in std_logic_vector(1 downto 0);
+        encoder1: in std_logic_vector(1 downto 0);
+        clk: in std_logic;
+        buzzer: out std_logic_vector(1 downto 0);
+        leds: out std_logic_vector(3 downto 0)
+        );  
+end entity circuit_ch5_1a;
+
+--
+architecture rtl of circuit_ch5_1a is
+  signal a: std_logic_vector(31 downto 0);
+  signal b: std_logic_vector(39 downto 0);
+  signal p: std_logic_vector(71 downto 0);
+begin
+  a <= (others => buttons(0));
+  b <= (others => buttons(1));
+  
+  process(clk)
+  begin
+    if rising_edge(clk) then
+      p <= a*b;
+    end if;
+   end process;
+      
+end architecture rtl;
+

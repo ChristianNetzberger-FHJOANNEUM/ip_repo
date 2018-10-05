@@ -1,0 +1,76 @@
+--
+-- VHDL Architecture training_lib.comp_barrelshifter.rtl
+--
+-- Created:
+--          by - net.UNKNOWN (KPERSM7467)
+--          at - 13:54:29 03.11.2017
+--
+-- using Mentor Graphics HDL Designer(TM) 2016.2 (Build 5)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+use ieee.std_logic_signed.all;
+
+entity comp_barrelshifter is
+  generic(nbits_g: integer := 16);
+  port(sig_i: in std_logic_vector(nbits_g-1 downto 0);
+       shift: in std_logic_vector(3 downto 0);
+       enable_i: in std_logic;
+       reset: in std_logic;
+       clk: in std_logic;
+       sig_o: out std_logic_vector(nbits_g-1 downto 0);
+       enable_o: out std_logic
+       );
+ end entity comp_barrelshifter;
+
+--
+architecture rtl of comp_barrelshifter is
+  signal shreg: std_logic_vector(nbits_g-1 downto 0);
+begin
+  
+  process(clk)
+  begin
+    if rising_edge(clk) then
+      if reset = '1' then
+        shreg <= (others => '0');
+        enable_o <= '0';
+      else
+        enable_o <= enable_i; --delay enable_i by 1 clock cycle
+        if enable_i = '1' then
+          shreg <= sig_i; -- default assignment
+          if (shift < 0) then --shift to right
+              shreg <= (others => sig_i(sig_i'left)); ---MSB to all bits, divide by 2**shift
+              case shift is
+              when "1111" => shreg(shreg'left-1 downto 0) <= sig_i(sig_i'left downto 1); 
+              when "1110" => shreg(shreg'left-2 downto 0) <= sig_i(sig_i'left downto 2); 
+              when "1101" => shreg(shreg'left-3 downto 0) <= sig_i(sig_i'left downto 3); 
+              when "1100" => shreg(shreg'left-4 downto 0) <= sig_i(sig_i'left downto 4); 
+              when "1011" => shreg(shreg'left-5 downto 0) <= sig_i(sig_i'left downto 5); 
+              when "1010" => shreg(shreg'left-6 downto 0) <= sig_i(sig_i'left downto 6); 
+              when "1001" => shreg(shreg'left-7 downto 0) <= sig_i(sig_i'left downto 7); 
+              when "1000" => shreg(shreg'left-8 downto 0) <= sig_i(sig_i'left downto 8); 
+              when others => shreg <= sig_i;
+              end case;
+          end if;
+          if (shift > 0) then --shift to left, multiply by 2**shift
+              shreg <= (others => '0'); ---'0' to the LSBs          
+              case shift is
+              when "0000" => shreg <= sig_i;
+              when "0001" => shreg(shreg'left downto 1) <= sig_i(sig_i'left-1 downto 0);
+              when "0010" => shreg(shreg'left downto 2) <= sig_i(sig_i'left-2 downto 0);   
+              when "0011" => shreg(shreg'left downto 3) <= sig_i(sig_i'left-3 downto 0);   
+              when "0100" => shreg(shreg'left downto 4) <= sig_i(sig_i'left-4 downto 0);   
+              when "0101" => shreg(shreg'left downto 5) <= sig_i(sig_i'left-5 downto 0);   
+              when "0110" => shreg(shreg'left downto 6) <= sig_i(sig_i'left-6 downto 0);   
+              when "0111" => shreg(shreg'left downto 7) <= sig_i(sig_i'left-7 downto 0);   
+              when others => shreg <= sig_i;
+              end case;
+            end if;
+        end if;
+      end if;
+      end if;
+  end process;
+  sig_o <= shreg;        
+end architecture rtl;
+

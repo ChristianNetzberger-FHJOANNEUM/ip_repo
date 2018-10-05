@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom rtl_proc
+DEFAULT_FILE atom circuit_ch1_2f_rtl_proc.vhd
