@@ -2,11 +2,11 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Mon Nov  6 15:37:33 2017
-# Process ID: 13792
-# Current directory: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1
-# Command line: vivado.exe -log circuit_ch5_1a.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch5_1a.tcl
-# Log file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch5_1a.vds
-# Journal file: D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1\vivado.jou
+# Start of session at: Fri Oct  5 12:11:45 2018
+# Process ID: 8608
+# Current directory: D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1
+# Command line: vivado.exe -log circuit_ch1_1a.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch1_1a.tcl
+# Log file: D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch1_1a.vds
+# Journal file: D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source circuit_ch5_1a.tcl -notrace
+source circuit_ch1_1a.tcl -notrace

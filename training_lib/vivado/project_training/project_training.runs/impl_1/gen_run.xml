@@ -1,261 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1509979052">
-  <File Type="PWROPT-DRC" Name="circuit_ch5_1a_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="circuit_ch5_1a_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="circuit_ch5_1a_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="circuit_ch5_1a_power_routed.rpx"/>
-  <File Type="PA-TCL" Name="circuit_ch5_1a.tcl"/>
-  <File Type="OPT-HWDEF" Name="circuit_ch5_1a.hwdef"/>
-  <File Type="RDI-RDI" Name="circuit_ch5_1a.vdi"/>
-  <File Type="OPT-DCP" Name="circuit_ch5_1a_opt.dcp"/>
-  <File Type="OPT-DRC" Name="circuit_ch5_1a_drc_opted.rpt"/>
-  <File Type="OPT-TIMING" Name="circuit_ch5_1a_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DCP" Name="circuit_ch5_1a_pwropt.dcp"/>
-  <File Type="PWROPT-TIMING" Name="circuit_ch5_1a_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="circuit_ch5_1a_placed.dcp"/>
-  <File Type="PLACE-IO" Name="circuit_ch5_1a_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="circuit_ch5_1a_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="circuit_ch5_1a_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="circuit_ch5_1a_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="circuit_ch5_1a_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="circuit_ch5_1a_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="circuit_ch5_1a_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="circuit_ch5_1a_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="circuit_ch5_1a_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="circuit_ch5_1a_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="circuit_ch5_1a_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="circuit_ch5_1a_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="circuit_ch5_1a_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="circuit_ch5_1a_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="circuit_ch5_1a_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="circuit_ch5_1a_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="circuit_ch5_1a_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="circuit_ch5_1a_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="circuit_ch5_1a.bin"/>
-  <File Type="ROUTE-DRC-RPX" Name="circuit_ch5_1a_drc_routed.rpx"/>
-  <File Type="BG-DRC" Name="circuit_ch5_1a.drc"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="circuit_ch5_1a_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MSK" Name="circuit_ch5_1a.msk"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="circuit_ch5_1a_methodology_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="circuit_ch5_1a.bgn"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="circuit_ch5_1a_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="circuit_ch5_1a_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="circuit_ch5_1a_power_summary_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="circuit_ch5_1a_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="circuit_ch5_1a_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="circuit_ch5_1a_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="circuit_ch5_1a_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="circuit_ch5_1a_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="circuit_ch5_1a_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="circuit_ch5_1a_clock_utilization_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="circuit_ch5_1a_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="circuit_ch5_1a_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="circuit_ch5_1a_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="circuit_ch5_1a_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="circuit_ch5_1a_timing_summary_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="circuit_ch5_1a.bit"/>
-  <File Type="BITSTR-RBT" Name="circuit_ch5_1a.rbt"/>
-  <File Type="BITSTR-NKY" Name="circuit_ch5_1a.nky"/>
-  <File Type="BITSTR-BMM" Name="circuit_ch5_1a_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="circuit_ch5_1a.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="circuit_ch5_1a.sysdef"/>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1538734304">
+  <File Type="PWROPT-DRC" Name="circuit_ch1_1a_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="circuit_ch1_1a_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="circuit_ch1_1a_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="circuit_ch1_1a_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="circuit_ch1_1a.tcl"/>
+  <File Type="OPT-HWDEF" Name="circuit_ch1_1a.hwdef"/>
+  <File Type="RDI-RDI" Name="circuit_ch1_1a.vdi"/>
+  <File Type="OPT-DCP" Name="circuit_ch1_1a_opt.dcp"/>
+  <File Type="OPT-DRC" Name="circuit_ch1_1a_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="circuit_ch1_1a_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="circuit_ch1_1a_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="circuit_ch1_1a_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="circuit_ch1_1a_placed.dcp"/>
+  <File Type="PLACE-IO" Name="circuit_ch1_1a_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="circuit_ch1_1a_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="circuit_ch1_1a_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="circuit_ch1_1a_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="circuit_ch1_1a_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="circuit_ch1_1a_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="circuit_ch1_1a_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="circuit_ch1_1a_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="circuit_ch1_1a_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="circuit_ch1_1a_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="circuit_ch1_1a_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="circuit_ch1_1a_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="circuit_ch1_1a_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="circuit_ch1_1a_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="circuit_ch1_1a_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="circuit_ch1_1a_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="circuit_ch1_1a_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="circuit_ch1_1a_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="circuit_ch1_1a.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="circuit_ch1_1a_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="circuit_ch1_1a.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="circuit_ch1_1a_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="circuit_ch1_1a.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="circuit_ch1_1a_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="circuit_ch1_1a.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="circuit_ch1_1a_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="circuit_ch1_1a_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="circuit_ch1_1a_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="circuit_ch1_1a_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="circuit_ch1_1a_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="circuit_ch1_1a_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="circuit_ch1_1a_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="circuit_ch1_1a_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="circuit_ch1_1a_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="circuit_ch1_1a_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="circuit_ch1_1a_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="circuit_ch1_1a_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="circuit_ch1_1a_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="circuit_ch1_1a_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="circuit_ch1_1a_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="circuit_ch1_1a.bit"/>
+  <File Type="BITSTR-RBT" Name="circuit_ch1_1a.rbt"/>
+  <File Type="BITSTR-NKY" Name="circuit_ch1_1a.nky"/>
+  <File Type="BITSTR-BMM" Name="circuit_ch1_1a_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="circuit_ch1_1a.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="circuit_ch1_1a.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../hdl/circuit_ch5_1a_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_param_reg_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_signal_debounce_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_timer_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_compare_g_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_counter_modulo_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_datareg_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_dds_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_delay_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_edge_det_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_integrate_dump_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_oneshot_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_pulsetrain_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_pwm_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_shiftreg_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_strobetrain_g_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_tonefrequency_lut_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../audio_lib/hdl/i2c_config_fsm.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="audio_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../audio_lib/hdl/i2c_master_fsm.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="audio_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../audio_lib/hdl/i2s_master_fsm.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="audio_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../audio_lib/hdl/top_audio_struct.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="audio_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/circuit_ch3_1c_struct.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_strobetrain_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_1a_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../hdl/circuit_ch1_2e_v.v">
+      <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_1b_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -263,7 +85,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_1c_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -271,7 +92,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_1d_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -279,7 +99,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2a_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -287,7 +106,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2b_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -295,7 +113,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2c_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -303,7 +120,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2d_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -311,7 +127,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2e_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -319,7 +134,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2f_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -327,7 +141,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch1_2f_rtl_proc.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -335,7 +148,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_1a_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -343,7 +155,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_1b_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -351,7 +162,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2a_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -359,7 +169,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2b_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -367,7 +176,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2c_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -375,7 +183,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2d_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -383,7 +190,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2e_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -391,7 +197,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2f_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -399,7 +204,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2g_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -407,7 +211,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2h_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -415,7 +218,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2i_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -423,7 +225,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2j_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -431,7 +232,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2k_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -439,7 +239,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2l_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -447,7 +246,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_2m_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -455,7 +253,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_3a_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -463,7 +260,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_3b_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -471,39 +267,6 @@
     </File>
     <File Path="$PPRDIR/../../hdl/circuit_ch2_3c_rtl.vhd">
       <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/circuit_ch3_1a_struct.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/comp_counter_modulo_var_rtl.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/circuit_ch3_1b_struct.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../hdl/circuit_ch3_1d_struct.vhd">
-      <FileInfo>
-        <Attr Name="Library" Val="training_lib"/>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -511,24 +274,27 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="circuit_ch5_1a"/>
+      <Option Name="TopModule" Val="circuit_ch1_1a"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/project1.xdc">
+    <File Path="$PSRCDIR/constrs_1/imports/xproject_training/project1.xdc">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../xproject_training/project1.xdc"/>
+        <Attr Name="ImportTime" Val="1538731307"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PPRDIR/project1.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

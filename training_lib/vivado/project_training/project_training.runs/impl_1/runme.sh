@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/impl_1'
+HD_PWD='D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log circuit_ch5_1a.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source circuit_ch5_1a.tcl -notrace
+EAStep vivado -log circuit_ch1_1a.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source circuit_ch1_1a.tcl -notrace
 
 

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/ECM_DCD/username/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1'
+HD_PWD='D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log circuit_ch5_1a.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch5_1a.tcl
+EAStep vivado -log circuit_ch1_1a.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch1_1a.tcl

@@ -1,7 +1,9 @@
+[ModelSim]
+training_lib = $HDS_PROJECT_DIR\training_lib\work
 [hdl]
-training_lib = $HDS_PROJECT_DIR\training_lib\hdl
+training_lib = $HDS_PROJECT_DIR/training_lib/hdl
 [hds]
-training_lib = $HDS_PROJECT_DIR\training_lib\hds
+training_lib = $HDS_PROJECT_DIR/training_lib/hds
 [hds_settings]
 default_library = training_lib
 version = 2
