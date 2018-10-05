@@ -26,6 +26,6 @@ end entity circuit_ch1_1a;
 --
 architecture rtl of circuit_ch1_1a is
 begin
-  leds <= buttons;
+ 
 end architecture rtl;
 
