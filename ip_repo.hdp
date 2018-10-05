@@ -1,0 +1,13 @@
+[hdl]
+training_lib = $HDS_PROJECT_DIR\training_lib\hdl
+[hds]
+training_lib = $HDS_PROJECT_DIR\training_lib\hds
+[hds_settings]
+default_library = training_lib
+version = 2
+[library_files_inclusion]
+training_lib = all
+[library_type]
+training_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

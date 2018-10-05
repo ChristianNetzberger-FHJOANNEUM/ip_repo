@@ -1,2 +1,2 @@
 # ip_repo
-IP repository for Vivado
+IP repository for VHDL design
