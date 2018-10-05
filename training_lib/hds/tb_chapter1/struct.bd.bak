@@ -206,7 +206,7 @@ value "KPERSM7467"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:36:11"
+value "12:36:33"
 )
 (vvPair
 variable "group"
@@ -310,7 +310,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "12:36:11"
+value "12:36:33"
 )
 (vvPair
 variable "unit"
@@ -4809,16 +4809,16 @@ uid 42,0
 va (VaSet
 font "arial,8,1"
 )
-xt "0,0,5400,1000"
+xt "-3000,-5000,2400,-4000"
 st "Package List"
-blo "0,800"
+blo "-3000,-4200"
 )
 *142 (MLText
 uid 43,0
 va (VaSet
 font "arial,8,0"
 )
-xt "0,1000,10800,4000"
+xt "-3000,-4000,7800,-1000"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;"
@@ -4902,9 +4902,9 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "239,16,1530,830"
+windowSize "245,12,1536,826"
 viewArea "-7720,-6120,66690,38120"
-cachedDiagramExtent "-2000,-7000,69400,88000"
+cachedDiagramExtent "-3000,-7000,69400,88000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-49000"
 lastUid 1322,0

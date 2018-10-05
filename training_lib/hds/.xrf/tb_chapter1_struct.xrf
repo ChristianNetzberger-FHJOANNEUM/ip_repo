@@ -36,16 +36,16 @@ VIEW struct.bd
 GRAPHIC 291,0 40 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 465,0 41 0 
+GRAPHIC 1426,0 41 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 473,0 42 0 
+GRAPHIC 1428,0 42 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 481,0 43 0 
+GRAPHIC 1446,0 43 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 573,0 44 0 
+GRAPHIC 1448,0 44 0 
 DESIGN tb_chapter1
 VIEW struct.bd
 GRAPHIC 730,0 45 0 
@@ -239,7 +239,7 @@ VIEW struct.bd
 GRAPHIC 393,0 195 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 483,0 197 0 
+GRAPHIC 1430,0 197 0 
 DESIGN tb_chapter1
 VIEW struct.bd
 GRAPHIC 949,0 199 0 
@@ -260,7 +260,7 @@ VIEW struct.bd
 GRAPHIC 541,0 205 0 
 DESIGN tb_chapter1
 VIEW struct.bd
-GRAPHIC 575,0 207 0 
+GRAPHIC 1438,0 207 0 
 DESIGN tb_chapter1
 VIEW struct.bd
 GRAPHIC 1025,0 209 0 
