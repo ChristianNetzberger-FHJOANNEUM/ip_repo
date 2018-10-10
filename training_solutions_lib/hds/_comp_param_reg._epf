@@ -1,0 +1,2 @@
+DEFAULT_FILE atom comp_param_reg_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

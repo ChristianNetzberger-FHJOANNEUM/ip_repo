@@ -1,0 +1,1630 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/ECM_DCD/username/ip_repo/training_lib/work
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VH70TmCmJZjGF;88P@]acI0
+Z1 04 11 6 work tb_chapter3 struct 1
+=1-54ee751a3c3f-59ee442b-1ac-301c
+o-quiet +acc -auto_acc_if_foreign -work training_lib -L training_lib -L audio_lib
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dD:/ECM_DCD/username/ip_repo/training_lib/work
+!s110 1508787243
+T_opt1
+!s110 1508912804
+VQV?kfGJd_i3HZ__;L4OoZ0
+04 11 6 work tb_chapter1 struct 1
+=1-54ee751a3c3f-59f02ea4-194-35dc
+o-quiet +acc -auto_acc_if_foreign -work training_solutions_lib -L training_solutions_lib
+n@_opt1
+R2
+T_opt2
+VH>0d2<nNbmhOTb?8hDGoM0
+R1
+=1-54ee751a3c3f-59ec70a2-3cb-3a0c
+o-quiet +acc -auto_acc_if_foreign -work training_lib -L training_lib
+n@_opt2
+R2
+R3
+!s110 1508667555
+Ebhv_zybo_tester1
+Z4 w1508870444
+Z5 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z6 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z8 dD:/ECM_DCD/username/ip_repo/training_solutions_lib/work
+Z9 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/bhv_zybo_tester1_bhv.vhd
+Z10 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/bhv_zybo_tester1_bhv.vhd
+l0
+L16
+VATg24OJNTb>ML9Ml6aASO3
+Z11 OL;C;10.2c;57
+31
+Z12 !s110 1508912725
+Z13 !s108 1508912725.028000
+Z14 !s90 -work|training_solutions_lib|-nologo|-93|-f|C:/Users/net/AppData/Local/Temp/Files0|
+Z15 !s107 D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/bhv_zybo_tester1_bhv.vhd|D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1d_rtl.vhd|D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1c_rtl.vhd|D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1b_rtl.vhd|D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1a_rtl.vhd|
+Z16 o-work training_solutions_lib -nologo -93
+Z17 tExplicit 1
+!s100 Kz_d>;k7lBEVT0j`JO5L82
+!i10b 1
+!i111 0
+Abhv
+R5
+R6
+R7
+DEx4 work 16 bhv_zybo_tester1 0 22 ATg24OJNTb>ML9Ml6aASO3
+l67
+L34
+VzP1[e_S>YXk?zMN[bb5C>2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 mDaLbFA4d@jHhLUocX4X<2
+!i10b 1
+!i111 0
+Ecircuit_ch1_1a
+R4
+R5
+R6
+R7
+R8
+Z18 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1a_rtl.vhd
+Z19 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1a_rtl.vhd
+l0
+L14
+VCjl:H8P9I<fGOX7e1BQS93
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 M6=`j6zabGGOI9Qeoz2VS3
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_1a 0 22 Cjl:H8P9I<fGOX7e1BQS93
+l27
+L26
+V;ASVUdGL4Z9?6lRQ6Udc50
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 lJ^LcMZ:Xe8Vj2eD^?:`H2
+!i10b 1
+!i111 0
+Ecircuit_ch1_1b
+R4
+R5
+R6
+R7
+R8
+Z20 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1b_rtl.vhd
+Z21 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1b_rtl.vhd
+l0
+L14
+VfcRz6TVDgab^RB<_POPbe2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 A^Y3^>XRnS8Sij:m1iL>g2
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_1b 0 22 fcRz6TVDgab^RB<_POPbe2
+l27
+L26
+Vje^5O<?B5:L7>4OoEVfTP2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 gD[;fJo`GB3W0ENb`]L;g2
+!i10b 1
+!i111 0
+Ecircuit_ch1_1c
+R4
+R5
+R6
+R7
+R8
+Z22 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1c_rtl.vhd
+Z23 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1c_rtl.vhd
+l0
+L14
+VF?B;=C;^JlF[[D7ZbPkJ:0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 183SGQhM7CQ_KzdPkaY3E0
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_1c 0 22 F?B;=C;^JlF[[D7ZbPkJ:0
+l27
+L26
+Vc=hf[Xo9B^5fZimCc]g9[3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 X[Elj;Qi@LD2bK^S@iWMD1
+!i10b 1
+!i111 0
+Ecircuit_ch1_1d
+R4
+R5
+R6
+R7
+R8
+Z24 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1d_rtl.vhd
+Z25 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_1d_rtl.vhd
+l0
+L14
+Vef9W`58VSnbMQ>F5i>kLk0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 iDlJUh1o1cXHJX[2dBea83
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_1d 0 22 ef9W`58VSnbMQ>F5i>kLk0
+l27
+L26
+V>9bQzTMj72`OzKcoSRn3@2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+R17
+!s100 kel7JImIVNXBkn@S1[h<l3
+!i10b 1
+!i111 0
+Ecircuit_ch1_2a
+Z26 w1508426865
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+R5
+R6
+R7
+R3
+Z28 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2a_rtl.vhd
+Z29 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2a_rtl.vhd
+l0
+L15
+VKl?0gfk<d17FIeB>_]1EX1
+R11
+33
+Z30 !s110 1508431694
+Z31 !s108 1508431694.547000
+Z32 !s90 -work|training_lib|-nologo|-2008|-f|C:/Users/net/AppData/Local/Temp/Files0|
+Z33 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2a_rtl.vhd|
+Z34 o-work training_lib -nologo -2008
+R17
+!s100 _zz@>mfS4=L:MUf@>]gkG2
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2a 0 22 Kl?0gfk<d17FIeB>_]1EX1
+l28
+L27
+VH=LVI3fa[K[R8D41Cnamk1
+R11
+33
+R30
+R31
+R32
+R33
+R34
+R17
+!s100 z2VQe78lbb7QMCHFm3jVh3
+!i10b 1
+!i111 0
+Ecircuit_ch1_2b
+Z35 w1508426991
+R27
+R5
+R6
+R7
+R3
+Z36 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2b_rtl.vhd
+Z37 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2b_rtl.vhd
+l0
+L15
+VI]i^mTQSLWO6kE5S=DK`V0
+R11
+33
+Z38 !s110 1508431687
+Z39 !s108 1508431686.980000
+R32
+Z40 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2b_rtl.vhd|
+R34
+R17
+!s100 H5NnPPC[m4XYcPF=ja2on3
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2b 0 22 I]i^mTQSLWO6kE5S=DK`V0
+l28
+L27
+VHicV6N<4FJn[=mIK;K_a90
+R11
+33
+R38
+R39
+R32
+R40
+R34
+R17
+!s100 FLaDS3kI_V67>G]h6^]8T2
+!i10b 1
+!i111 0
+Ecircuit_ch1_2c
+Z41 w1508427749
+R27
+R5
+R6
+R7
+R3
+Z42 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd
+Z43 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd
+l0
+L15
+VTlIQD=jJbb=R:FXKC=_Wc2
+R11
+33
+Z44 !s110 1508431679
+Z45 !s108 1508431679.633000
+R32
+Z46 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd|
+R34
+R17
+!s100 KJK9;LbeTGJ3JcB77Yl540
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2c 0 22 TlIQD=jJbb=R:FXKC=_Wc2
+l28
+L27
+Vh0b7I`<<J6fcBoQS_=8YJ3
+R11
+33
+R44
+R45
+R32
+R46
+R34
+R17
+!s100 8?DnW<HEeS5WT4G7]iU@12
+!i10b 1
+!i111 0
+Ecircuit_ch1_2d
+Z47 w1508429531
+Z48 DPx4 ieee 16 std_logic_signed 0 22 8FY=586_D?ni<6VI>V>_P1
+R5
+R6
+R7
+R3
+Z49 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2d_rtl.vhd
+Z50 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2d_rtl.vhd
+l0
+L15
+V8FAXH_=o`DT[o^ZE^Ahie2
+R11
+33
+Z51 !s110 1508431672
+Z52 !s108 1508431672.533000
+R32
+Z53 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2d_rtl.vhd|
+R34
+R17
+!s100 Sn35Ecdz[9NUo]`PSh_BF0
+!i10b 1
+!i111 0
+Artl
+R48
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2d 0 22 8FAXH_=o`DT[o^ZE^Ahie2
+l28
+L27
+V37ogA<6S?L8:aoB3MOh9d1
+R11
+33
+R51
+R52
+R32
+R53
+R34
+R17
+!s100 lK@Bf;A2e6KnD_aLRA9G@2
+!i10b 1
+!i111 0
+Ecircuit_ch1_2e
+Z54 w1508431389
+R48
+R5
+R6
+R7
+R3
+Z55 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2e_rtl.vhd
+Z56 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2e_rtl.vhd
+l0
+L15
+VfPiJPh=dSFBK`_kJGVo7L1
+R11
+33
+Z57 !s110 1508431662
+Z58 !s108 1508431662.769000
+R32
+Z59 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2e_rtl.vhd|
+R34
+R17
+!s100 ``I<REfz9N?zglFVh8C>20
+!i10b 1
+!i111 0
+Artl
+R48
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2e 0 22 fPiJPh=dSFBK`_kJGVo7L1
+l28
+L27
+Vlai_fQQ_k<jh4aXcz;noQ0
+R11
+33
+R57
+R58
+R32
+R59
+R34
+R17
+!s100 g`7[>OTLVX<K^?N;H[7zK2
+!i10b 1
+!i111 0
+Ecircuit_ch1_2f
+R4
+R48
+R5
+R6
+R7
+R8
+Z60 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_2f_rtl_proc.vhd
+Z61 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_2f_rtl_proc.vhd
+l0
+L15
+VA1_YDHcZ@L9d]LCa=<@m]2
+R11
+33
+R12
+Z62 !s108 1508912725.197000
+Z63 !s90 -work|training_solutions_lib|-nologo|-2008|-f|C:/Users/net/AppData/Local/Temp/Files1|
+Z64 !s107 D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/circuit_ch1_2f_rtl_proc.vhd|
+Z65 o-work training_solutions_lib -nologo -2008
+R17
+!s100 7;7A7X5@YfPNB2_=e<kIA2
+!i10b 1
+!i111 0
+Artl_proc
+R48
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2f 0 22 A1_YDHcZ@L9d]LCa=<@m]2
+l28
+L27
+Ve1][0_CEanI<KR>mN=;2_0
+R11
+33
+R12
+R62
+R63
+R64
+R65
+R17
+!s100 ZC8AlYIfi2EHCP5njDYk82
+!i10b 1
+!i111 0
+Artl
+R48
+R5
+R6
+R7
+DEx4 work 14 circuit_ch1_2f 0 22 1Z:N:jUDYjNkU;]>AHAC62
+l29
+L27
+V0JhHE[_f6<ARNULJG1oYH1
+R11
+33
+R32
+R34
+R17
+FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2f_rtl.vhd
+w1508431643
+8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2f_rtl.vhd
+R3
+!s110 1508431645
+!s108 1508431645.247000
+!s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch1_2f_rtl.vhd|
+!s100 eJonB6d<KmDK@?:^ooPkN0
+!i10b 1
+!i111 0
+Ecircuit_ch2_1a
+Z66 w1508436998
+R5
+R6
+R7
+R3
+Z67 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1a_rtl.vhd
+Z68 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1a_rtl.vhd
+l0
+L14
+VA9b`8Q[FBo`9efOL;e:nN0
+R11
+31
+Z69 !s110 1508437013
+Z70 !s108 1508437013.923000
+Z71 !s90 -work|training_lib|-nologo|-93|-f|C:/Users/net/AppData/Local/Temp/Files0|
+Z72 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter2_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1a_rtl.vhd|
+Z73 o-work training_lib -nologo -93
+R17
+!s100 AIo0;_cb^m[41a>cKfW9a2
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_1a 0 22 A9b`8Q[FBo`9efOL;e:nN0
+l30
+L26
+VM[@;n@_^Y`F;G:V:mOI8j2
+R11
+31
+R69
+R70
+R71
+R72
+R73
+R17
+!s100 B>Ah^N[Y=30naQPcK9jfE1
+!i10b 1
+!i111 0
+Ecircuit_ch2_1b
+Z74 w1508520525
+R5
+R6
+R7
+R3
+Z75 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1b_rtl.vhd
+Z76 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1b_rtl.vhd
+l0
+L14
+VbJVORU`I>RGXV9lYSCnME0
+R11
+31
+Z77 !s110 1508529983
+Z78 !s108 1508529983.749000
+R71
+Z79 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_1b_rtl.vhd|
+R73
+R17
+!s100 [2m6]cSl<ZnA`AS:nmda<1
+!i10b 1
+!i111 0
+Artl
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_1b 0 22 bJVORU`I>RGXV9lYSCnME0
+l31
+L26
+VH1L^jYVZ1Q<Z36aH_`n]>0
+R11
+31
+R77
+R78
+R71
+R79
+R73
+R17
+!s100 4zM]EDBRHAfWV>o<JWfUa2
+!i10b 1
+!i111 0
+Ecircuit_ch2_2a
+w1508520834
+R5
+R6
+R7
+R3
+8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2a_rtl.vhd
+FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2a_rtl.vhd
+l0
+L14
+VFPSnc>^jIzUJg4TF=SSOf1
+R11
+31
+R71
+R73
+R17
+!s100 nZD?iS`lKa5RTk6P0UULE2
+!s110 1508520861
+!i10b 1
+!s108 1508520861.035000
+!s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2a_rtl.vhd|
+!i111 0
+Ecircuit_ch2_2b
+Z80 w1508522884
+R27
+R5
+R6
+R7
+R3
+Z81 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2b_rtl.vhd
+Z82 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2b_rtl.vhd
+l0
+L15
+V0WBKG3VUU0n3]eQNX[7G?2
+R11
+33
+Z83 !s110 1508522886
+Z84 !s108 1508522886.467000
+R32
+Z85 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2b_rtl.vhd|
+R34
+R17
+!s100 1Ak=aIlAhRLPN]ZK@WH7]2
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2b 0 22 0WBKG3VUU0n3]eQNX[7G?2
+l30
+L27
+Vz@78bn>^_in>JE6`F]AMC3
+R11
+33
+R83
+R84
+R32
+R85
+R34
+R17
+!s100 GfY>7zXoCYX4cRU5]N0a12
+!i10b 1
+!i111 0
+Ecircuit_ch2_2c
+Z86 w1508523584
+R27
+R5
+R6
+R7
+R3
+Z87 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2c_rtl.vhd
+Z88 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2c_rtl.vhd
+l0
+L15
+VO=@f_fb``@bZe`1h^ZaU50
+R11
+33
+Z89 !s110 1508523641
+Z90 !s108 1508523641.140000
+R32
+Z91 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2c_rtl.vhd|
+R34
+R17
+!s100 MOzTdl6Yf_:VDhb:6DMM83
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2c 0 22 O=@f_fb``@bZe`1h^ZaU50
+l30
+L27
+Vk<Hd_YGCL1gc;8W5gMPoV2
+R11
+33
+R89
+R90
+R32
+R91
+R34
+R17
+!s100 @fMYaP83M4DVPQoO9UTDE0
+!i10b 1
+!i111 0
+Ecircuit_ch2_2d
+Z92 w1508524421
+R27
+R5
+R6
+R7
+R3
+Z93 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2d_rtl.vhd
+Z94 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2d_rtl.vhd
+l0
+L15
+VZb1[AL1f0J0EJAEI^TzKH2
+R11
+33
+Z95 !s110 1508524475
+Z96 !s108 1508524475.740000
+R32
+Z97 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2d_rtl.vhd|
+R34
+R17
+!s100 F?k4DhUVMf^T1^K35BE[92
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2d 0 22 Zb1[AL1f0J0EJAEI^TzKH2
+l31
+L27
+VJoL3GNW5cR2JWVePEXIBm0
+R11
+33
+R95
+R96
+R32
+R97
+R34
+R17
+!s100 iQ3VejnPCM7`DB0kG^5IX2
+!i10b 1
+!i111 0
+Ecircuit_ch2_2f
+Z98 w1508526191
+R27
+R5
+R6
+R7
+R3
+Z99 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2f_rtl.vhd
+Z100 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2f_rtl.vhd
+l0
+L15
+VWM]BZ4_MoAIYF7Wk5F9^W1
+R11
+33
+Z101 !s110 1508526243
+Z102 !s108 1508526243.523000
+R32
+Z103 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2f_rtl.vhd|
+R34
+R17
+!s100 ZOz2S>3>7DzbOeBUmEk4N3
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2f 0 22 WM]BZ4_MoAIYF7Wk5F9^W1
+l31
+L27
+VeOz=^_00R53CdaV2H86H^2
+R11
+33
+R101
+R102
+R32
+R103
+R34
+R17
+!s100 <`0Z7C`U^=kYfJ^2hUk^@2
+!i10b 1
+!i111 0
+Ecircuit_ch2_2g
+Z104 w1508529245
+R27
+R5
+R6
+R7
+R3
+Z105 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2g_rtl.vhd
+Z106 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2g_rtl.vhd
+l0
+L15
+VDiQ2gdCS25008@eYK1lHG1
+R11
+33
+Z107 !s110 1508529253
+Z108 !s108 1508529253.542000
+R32
+Z109 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2g_rtl.vhd|
+R34
+R17
+!s100 C?ml9?9JB@:d:dK7P^c2U2
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2g 0 22 DiQ2gdCS25008@eYK1lHG1
+l31
+L27
+VbEVUEGW[hLGnQG2hWUV]G1
+R11
+33
+R107
+R108
+R32
+R109
+R34
+R17
+!s100 gDb9?[hg3`0aBd@CAZhZ=0
+!i10b 1
+!i111 0
+Ecircuit_ch2_2h
+Z110 w1508531889
+R27
+R5
+R6
+R7
+R3
+Z111 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2h_rtl.vhd
+Z112 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2h_rtl.vhd
+l0
+L15
+Vne0bk2[4:D6]Pz@B03d0J2
+R11
+33
+Z113 !s110 1508531895
+Z114 !s108 1508531895.314000
+R32
+Z115 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2h_rtl.vhd|
+R34
+R17
+!s100 cjz1kNjKl<Zb00<6ZzInL0
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2h 0 22 ne0bk2[4:D6]Pz@B03d0J2
+l33
+L27
+VI9QRZ6W9nXGZHKJ_LJf8o0
+R11
+33
+R113
+R114
+R32
+R115
+R34
+R17
+!s100 @5^Ij6XmTOL@VIaAG;JS73
+!i10b 1
+!i111 0
+Ecircuit_ch2_2i
+Z116 w1508574258
+R27
+R5
+R6
+R7
+R3
+Z117 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2i_rtl.vhd
+Z118 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2i_rtl.vhd
+l0
+L15
+Vmd3cRW@BSNBU9iChL^;lo0
+R11
+33
+Z119 !s110 1508574261
+Z120 !s108 1508574261.119000
+R32
+Z121 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2i_rtl.vhd|
+R34
+R17
+!s100 Rnad[@<0OoFi3^A7z`4>A1
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2i 0 22 md3cRW@BSNBU9iChL^;lo0
+l34
+L27
+VUY67`6SZh;Vm80T;O32dT2
+R11
+33
+R119
+R120
+R32
+R121
+R34
+R17
+!s100 03dYahXD^FGSTGfeROI1Z1
+!i10b 1
+!i111 0
+Ecircuit_ch2_2k
+Z122 w1508583093
+R27
+R5
+R6
+R7
+R3
+Z123 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2k_rtl.vhd
+Z124 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2k_rtl.vhd
+l0
+L15
+V2j1ZOJ]N1<?1?fFEUj<830
+R11
+33
+Z125 !s110 1508583099
+Z126 !s108 1508583099.478000
+R32
+Z127 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2k_rtl.vhd|
+R34
+R17
+!s100 gO_?7`nPTNV3[PRBhn6oC2
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2k 0 22 2j1ZOJ]N1<?1?fFEUj<830
+l36
+L27
+V4QU`:8ljYfKjUz^;U>z2h1
+R11
+33
+R125
+R126
+R32
+R127
+R34
+R17
+!s100 S_HNgSQLa08J8ndE3`AnB3
+!i10b 1
+!i111 0
+Ecircuit_ch2_2m
+Z128 w1508679850
+R27
+R5
+R6
+R7
+R3
+Z129 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2m_rtl.vhd
+Z130 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2m_rtl.vhd
+l0
+L15
+V6fS5BOUAle@jT7h<DUO<a0
+R11
+31
+Z131 !s110 1508679853
+Z132 !s108 1508679853.158000
+R71
+Z133 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_2m_rtl.vhd|
+R73
+R17
+!s100 fM>?em[>:_cGe?o6hbWj92
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_2m 0 22 6fS5BOUAle@jT7h<DUO<a0
+l31
+L27
+VTTKd>`]nIRZiG2JIS92VG3
+R11
+31
+R131
+R132
+R71
+R133
+R73
+R17
+!s100 =oM>C5>oP8G[mDa04F0<V2
+!i10b 1
+!i111 0
+Ecircuit_ch2_3b
+Z134 w1508577016
+R27
+R5
+R6
+R7
+R3
+Z135 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3b_rtl.vhd
+Z136 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3b_rtl.vhd
+l0
+L15
+VEk6C?j=0?B4EkVlD[f47m2
+R11
+33
+Z137 !s110 1508577019
+Z138 !s108 1508577019.357000
+R32
+Z139 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3b_rtl.vhd|
+R34
+R17
+!s100 jI@b>LTXe6O>I[`cHVnO;1
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_3b 0 22 Ek6C?j=0?B4EkVlD[f47m2
+l34
+L27
+VS7B<N7BIN]G>f0hD3666e1
+R11
+33
+R137
+R138
+R32
+R139
+R34
+R17
+!s100 ?a_]a47ePkg7@ET5:blP?0
+!i10b 1
+!i111 0
+Ecircuit_ch2_3c
+Z140 w1508579404
+R27
+R5
+R6
+R7
+R3
+Z141 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3c_rtl.vhd
+Z142 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3c_rtl.vhd
+l0
+L15
+VkE9RfJeKYG>[3>^ZEOgoQ3
+R11
+33
+Z143 !s110 1508579405
+Z144 !s108 1508579405.874000
+R32
+Z145 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch2_3c_rtl.vhd|
+R34
+R17
+!s100 N23IR`;1gbXaJzo@`i5R92
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 circuit_ch2_3c 0 22 kE9RfJeKYG>[3>^ZEOgoQ3
+l36
+L27
+V>Un^21A0Hm4oYA>DlnDj91
+R11
+33
+R143
+R144
+R32
+R145
+R34
+R17
+!s100 ILbZd15iP2F4Ymc^Q`XUj3
+!i10b 1
+!i111 0
+Ecircuit_ch3_1a
+Z146 w1508787188
+R5
+R6
+R7
+R3
+Z147 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1a_struct.vhd
+Z148 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1a_struct.vhd
+l0
+L13
+VMUoa^jG1;XKac@2^;]JPR3
+R11
+31
+Z149 !s110 1508787195
+Z150 !s108 1508787195.647000
+R71
+Z151 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter3_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1c_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1a_struct.vhd|
+R73
+R17
+!s100 ?3G?lfEMZ^KfUI1mbeYzR2
+!i10b 1
+!i111 0
+Astruct
+Z152 DEx12 training_lib 18 comp_signal_synchr 0 22 z]`g@COAzoQ9nMa>SWFeE0
+R27
+Z153 DEx12 training_lib 14 comp_param_reg 0 22 Xkka59AFRh4Q313K8mg582
+DEx4 work 14 circuit_ch3_1a 0 22 MUoa^jG1;XKac@2^;]JPR3
+R5
+R6
+R7
+l119
+L46
+VPoD`fX]bSm<S>cP6SlSVQ1
+R11
+31
+R149
+R150
+R71
+R151
+R73
+R17
+!s100 ;3ki[Xiel]0C<>07cVHoG2
+!i10b 1
+!i111 0
+Ecircuit_ch3_1b
+Z154 w1508699982
+R5
+R6
+R7
+R3
+Z155 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1b_struct.vhd
+Z156 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1b_struct.vhd
+l0
+L13
+VZWQ1Hl1MD6dM[Tk;jTQmX0
+R11
+31
+Z157 !s110 1508700135
+Z158 !s108 1508700135.123000
+R71
+Z159 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1b_struct.vhd|
+R73
+R17
+!s100 i?fl1=dSD<bb7bJ<iH6PG3
+!i10b 1
+!i111 0
+Astruct
+Z160 DEx12 training_lib 10 comp_timer 0 22 Mi`lH:MSfhQ[eWc?mG=`O1
+R152
+R153
+R27
+Z161 DEx12 training_lib 23 comp_counter_modulo_var 0 22 n;:Q4`;;6^@zB45AWGb3N1
+DEx4 work 14 circuit_ch3_1b 0 22 ZWQ1Hl1MD6dM[Tk;jTQmX0
+R5
+R6
+R7
+l145
+L46
+VS:6jP`CTgb@GRL`W13`FJ1
+R11
+31
+R157
+R158
+R71
+R159
+R73
+R17
+!s100 jm:@LSDDW58_kgKVeXG5J2
+!i10b 1
+!i111 0
+Ecircuit_ch3_1c
+Z162 w1508787864
+R5
+R6
+R7
+R3
+Z163 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1c_struct.vhd
+Z164 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1c_struct.vhd
+l0
+L13
+VoblncM<oNX<<lCeI4G]Nc1
+R11
+31
+Z165 !s110 1508787867
+Z166 !s108 1508787867.421000
+Z167 !s90 -work|training_lib|-nologo|-93|-f|C:/Users/net/AppData/Local/Temp/Files1|
+Z168 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1c_struct.vhd|
+R73
+R17
+!s100 lnIi2VJh7oi:J7G4:30T]1
+!i10b 1
+!i111 0
+Astruct
+DEx9 audio_lib 9 top_audio 0 22 BilFZjGY@zgKUMdgeeH@00
+R160
+R152
+R153
+R27
+R161
+DEx4 work 14 circuit_ch3_1c 0 22 oblncM<oNX<<lCeI4G]Nc1
+R5
+R6
+R7
+l187
+L57
+VBe;f?U[9U[9UYzmLEaC^X3
+R11
+31
+R165
+R166
+R167
+R168
+R73
+R17
+!s100 i<;7KbWl_:G<WAmY>9Kcm0
+!i10b 1
+!i111 0
+Ecomp_counter_modulo
+Z169 w1508696794
+R27
+R5
+R6
+R7
+R3
+Z170 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_rtl.vhd
+Z171 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_rtl.vhd
+l0
+L15
+VbT3eEGE7mM6c@?5i8h8[b2
+R11
+31
+Z172 !s110 1508696885
+Z173 !s108 1508696885.715000
+R71
+Z174 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_rtl.vhd|
+R73
+R17
+!s100 VGQ@bzN7zYz[o<:cFJ;YI2
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 19 comp_counter_modulo 0 22 bT3eEGE7mM6c@?5i8h8[b2
+l31
+L28
+VW>AQ]<S8hgcUIfH@gY4Gb1
+R11
+31
+R172
+R173
+R71
+R174
+R73
+R17
+!s100 VDH==1jF3:d4`GiS05jFb0
+!i10b 1
+!i111 0
+Ecomp_counter_modulo_var
+Z175 w1508698022
+R27
+R5
+R6
+R7
+R3
+Z176 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_var_rtl.vhd
+Z177 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_var_rtl.vhd
+l0
+L15
+Vn;:Q4`;;6^@zB45AWGb3N1
+R11
+31
+Z178 !s110 1508698233
+Z179 !s108 1508698233.179000
+R71
+Z180 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1b_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_counter_modulo_var_rtl.vhd|
+R73
+R17
+!s100 :[z;h889i`5=I]Z?8<`XJ1
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 23 comp_counter_modulo_var 0 22 n;:Q4`;;6^@zB45AWGb3N1
+l36
+L33
+VHhkzdT?iQ`^3joI<ml>Yz2
+R11
+31
+R178
+R179
+R71
+R180
+R73
+R17
+!s100 ?52c>A8X=GPdG6]h@YRT[1
+!i10b 1
+!i111 0
+Ecomp_param_reg
+Z181 w1508670160
+R27
+R5
+R6
+R7
+R3
+Z182 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_reg_rtl.vhd
+Z183 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_reg_rtl.vhd
+l0
+L15
+VXkka59AFRh4Q313K8mg582
+R11
+31
+Z184 !s110 1508681483
+Z185 !s108 1508681483.865000
+R71
+Z186 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1a_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_reg_rtl.vhd|
+R73
+R17
+!s100 >ET2@H>4LDIm`<iLAe]k93
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 14 comp_param_reg 0 22 Xkka59AFRh4Q313K8mg582
+l48
+L41
+V2O^XZ7fWX:POzjmVgoI141
+R11
+31
+R184
+R185
+R71
+R186
+R73
+R17
+!s100 WMmi7Mm^]]DaoMX[H1LUL3
+!i10b 1
+!i111 0
+Ecomp_param_storage
+Z187 w1508620750
+R27
+R5
+R6
+R7
+R3
+Z188 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_storage_rtl.vhd
+Z189 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_storage_rtl.vhd
+l0
+L15
+VzhnJLR5ZMQPB>mBD^m@Id1
+R11
+31
+Z190 !s110 1508620759
+Z191 !s108 1508620759.113000
+R71
+Z192 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/circuit_ch3_1a_struct.vhd|D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_param_storage_rtl.vhd|
+R73
+R17
+!s100 InZ1Nd6I1zc>iMfQ1<eCX0
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 18 comp_param_storage 0 22 zhnJLR5ZMQPB>mBD^m@Id1
+l46
+L41
+VUf]laS1W5DOYnbIghzi<03
+R11
+31
+R190
+R191
+R71
+R192
+R73
+R17
+!s100 ajm3mc16UZAAEDi0mXFEY0
+!i10b 1
+!i111 0
+Ecomp_signal_synchr
+Z193 w1508667509
+R27
+R5
+R6
+R7
+R3
+Z194 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_signal_debounce_rtl.vhd
+Z195 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_signal_debounce_rtl.vhd
+l0
+L15
+Vz]`g@COAzoQ9nMa>SWFeE0
+R11
+33
+Z196 !s110 1508667517
+Z197 !s108 1508667517.454000
+R32
+Z198 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_signal_debounce_rtl.vhd|
+R34
+R17
+!s100 WbhkeF@h61bbn9jf?QlSj1
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 18 comp_signal_synchr 0 22 z]`g@COAzoQ9nMa>SWFeE0
+l41
+L34
+VP2B9`On]P2U0nb8j2l^>f3
+R11
+33
+R196
+R197
+R32
+R198
+R34
+R17
+!s100 Mi[@19ZJ=ZGYCz3MB:PTM3
+!i10b 1
+!i111 0
+Ecomp_timer
+Z199 w1508693195
+R27
+R5
+R6
+R7
+R3
+Z200 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_timer_rtl.vhd
+Z201 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_timer_rtl.vhd
+l0
+L15
+VMi`lH:MSfhQ[eWc?mG=`O1
+R11
+31
+Z202 !s110 1508693201
+Z203 !s108 1508693201.944000
+R71
+Z204 !s107 D:/ECM_DCD/username/ip_repo/training_lib/hdl/comp_timer_rtl.vhd|
+R73
+R17
+!s100 QYdfOZFcdU5Xnci^i3G4f3
+!i10b 1
+!i111 0
+Artl
+R27
+R5
+R6
+R7
+DEx4 work 10 comp_timer 0 22 Mi`lH:MSfhQ[eWc?mG=`O1
+l31
+L26
+Vn6<XkMAA<H>>f?;oFkgH63
+R11
+31
+R202
+R203
+R71
+R204
+R73
+R17
+!s100 Te:7NAP92m4cP=P5e>bI=1
+!i10b 1
+!i111 0
+Etb_chapter1
+Z205 w1508912723
+R5
+R6
+R7
+R8
+Z206 8D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/tb_chapter1_struct.vhd
+Z207 FD:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/tb_chapter1_struct.vhd
+l0
+L13
+VKnO::CBdYT2AdLOo4R>0>1
+R11
+31
+R12
+Z208 !s108 1508912725.297000
+Z209 !s90 -work|training_solutions_lib|-nologo|-93|-f|C:/Users/net/AppData/Local/Temp/Files2|
+Z210 !s107 D:/ECM_DCD/username/ip_repo/training_solutions_lib/hdl/tb_chapter1_struct.vhd|
+R16
+R17
+!s100 ac][i7eh1@];[F;GckSFJ1
+!i10b 1
+!i111 0
+Astruct
+R48
+DEx22 training_solutions_lib 14 circuit_ch1_2f 0 22 A1_YDHcZ@L9d]LCa=<@m]2
+DEx22 training_solutions_lib 14 circuit_ch1_1d 0 22 ef9W`58VSnbMQ>F5i>kLk0
+DEx22 training_solutions_lib 14 circuit_ch1_1c 0 22 F?B;=C;^JlF[[D7ZbPkJ:0
+DEx22 training_solutions_lib 14 circuit_ch1_1b 0 22 fcRz6TVDgab^RB<_POPbe2
+DEx22 training_solutions_lib 14 circuit_ch1_1a 0 22 Cjl:H8P9I<fGOX7e1BQS93
+DEx22 training_solutions_lib 16 bhv_zybo_tester1 0 22 ATg24OJNTb>ML9Ml6aASO3
+DEx4 work 11 tb_chapter1 0 22 KnO::CBdYT2AdLOo4R>0>1
+R5
+R6
+R7
+l131
+L33
+VaU1T:Saj0oBg6N=ChH^ZB1
+R11
+31
+R12
+R208
+R209
+R210
+R16
+R17
+!s100 >bd<Ok1h8Rh2OQ;FaWKI[1
+!i10b 1
+!i111 0
+Etb_chapter2
+Z211 w1508437011
+R5
+R6
+R7
+R3
+Z212 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter2_struct.vhd
+Z213 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter2_struct.vhd
+l0
+L13
+VL];DXOVK[]c`mUm]`[fd70
+R11
+31
+R69
+R70
+R71
+R72
+R73
+R17
+!s100 fWzlIBO66F`Xd@Xo6cWhe3
+!i10b 1
+!i111 0
+Astruct
+DEx12 training_lib 14 circuit_ch2_1a 0 22 A9b`8Q[FBo`9efOL;e:nN0
+Z214 DEx12 training_lib 16 bhv_zybo_tester1 0 22 _ZUe`o5gR5cFPLQC=Hg3R3
+DEx4 work 11 tb_chapter2 0 22 L];DXOVK[]c`mUm]`[fd70
+R5
+R6
+R7
+l79
+L33
+V`6SfTC463]WJNn@fNQ8L<1
+R11
+31
+R69
+R70
+R71
+R72
+R73
+R17
+!s100 z<_;=3ND;Y4_;[If^_;S23
+!i10b 1
+!i111 0
+Etb_chapter3
+R146
+R5
+R6
+R7
+R3
+Z215 8D:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter3_struct.vhd
+Z216 FD:/ECM_DCD/username/ip_repo/training_lib/hdl/tb_chapter3_struct.vhd
+l0
+L13
+VR38K;@QNAH2RgX9YdT0jO2
+R11
+31
+R149
+R150
+R71
+R151
+R73
+R17
+!s100 khURagPY;VeRfmcnVeJAo1
+!i10b 1
+!i111 0
+Astruct
+DEx12 training_lib 14 circuit_ch3_1c 0 22 oblncM<oNX<<lCeI4G]Nc1
+DEx12 training_lib 14 circuit_ch3_1a 0 22 MUoa^jG1;XKac@2^;]JPR3
+R214
+DEx4 work 11 tb_chapter3 0 22 R38K;@QNAH2RgX9YdT0jO2
+R5
+R6
+R7
+l108
+L33
+VDMPBUQ2<]0NS7AX5Oj^Ef3
+R11
+31
+R149
+R150
+R71
+R151
+R73
+R17
+!s100 4bN7CdUXPBOYXbm7893Lg3
+!i10b 1
+!i111 0

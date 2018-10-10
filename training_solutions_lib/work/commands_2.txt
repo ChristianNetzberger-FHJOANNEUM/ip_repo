@@ -1,0 +1,9 @@
+butn 0000
+sldn 0000
+time 10 us
+butn 0101
+sldn 0011
+wait 1 us
+sldn 1111
+
+

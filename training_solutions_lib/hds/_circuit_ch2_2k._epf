@@ -1,0 +1,2 @@
+DEFAULT_FILE atom circuit_ch2_2k_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

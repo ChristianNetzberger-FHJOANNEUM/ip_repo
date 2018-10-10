@@ -1,0 +1,112 @@
+# //  ModelSim SE-64 10.2c Jul 19 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L training_solutions_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll} -pli {"C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll"} training_solutions_lib.tb_chapter1(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# 
+# Loading C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_chapter1(struct)#1
+# Loading work.bhv_zybo_tester1(bhv)#1
+# Loading work.circuit_ch1_1a(rtl)#1
+# Loading work.circuit_ch1_1b(rtl)#1
+# Loading work.circuit_ch1_1c(rtl)#1
+# Loading work.circuit_ch1_1d(rtl)#1
+# Loading work.circuit_ch1_2f(rtl_proc)#1
+do wave.do
+run 100 us
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 1.
+#    Time: 36068 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36068 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Note: Simulation complete
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# 0
+# 
+# hds_start \$HDS_PROJECT_DIR/training_lib/work 
+# reading modelsim.ini
+vsim -L training_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays training_lib.tb_chapter1(struct)
+# vsim -L training_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll} -pli {"C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll"} training_lib.tb_chapter1(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# 
+# Loading C:/MentorGraphics/HDS_2016.2/resources/downstream/modelsim/ModelSim_64Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.tb_chapter1(struct)#1
+# Loading work.bhv_zybo_tester1(bhv)#1
+# Loading work.circuit_ch1_1a(rtl)#1
+# Loading work.circuit_ch1_1b(rtl)#1
+# Loading work.circuit_ch1_1c(rtl)#1
+# Loading work.circuit_ch1_1d(rtl)#1
+# Loading work.circuit_ch1_2f(rtl_proc)#1
+# ** Warning: (vsim-8683) Uninitialized out port /tb_chapter1/U_0/leds(3 downto 0) has no driver.
+# 
+# This port will contribute value (4'hX) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /tb_chapter1/U_1/leds(3 downto 0) has no driver.
+# 
+# This port will contribute value (4'hX) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /tb_chapter1/U_2/leds(3 downto 0) has no driver.
+# 
+# This port will contribute value (4'hX) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /tb_chapter1/U_3/leds(3 downto 0) has no driver.
+# 
+# This port will contribute value (4'hX) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /tb_chapter1/U_5/leds(3 downto 0) has no driver.
+# 
+# This port will contribute value (4'hX) to the signal network.
+# 
+log -r *
+run 100 us
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 1.
+#    Time: 36068 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36068 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36072 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3543) TEXTIO procedure READ(CHARACTER) : Parameter L designates an empty string.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Error: (vsim-3549) TEXTIO procedure READ(STRING) : Wrong STRING length. Expected 4, found 0.
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# ** Note: Simulation complete
+#    Time: 36076 ns  Iteration: 0  Instance: /tb_chapter1/U_4
+# 0
+# 

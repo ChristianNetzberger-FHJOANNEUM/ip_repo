@@ -1,0 +1,1 @@
+ -L training_solutions_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays training_solutions_lib.tb_chapter1(struct)

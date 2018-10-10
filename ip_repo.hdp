@@ -1,15 +1,19 @@
 [ModelSim]
-training_lib = $HDS_PROJECT_DIR\training_lib\work
+training_lib = $HDS_PROJECT_DIR/training_lib/work
 [hdl]
+axi_sbus_bridge = $HDS_PROJECT_DIR\axi_sbus_bridge\hdl
 training_lib = $HDS_PROJECT_DIR/training_lib/hdl
 [hds]
+axi_sbus_bridge = $HDS_PROJECT_DIR\axi_sbus_bridge\hds
 training_lib = $HDS_PROJECT_DIR/training_lib/hds
 [hds_settings]
 default_library = training_lib
 version = 2
 [library_files_inclusion]
+axi_sbus_bridge = all
 training_lib = all
 [library_type]
+axi_sbus_bridge = regular
 training_lib = regular
 [shared]
 others = $HDS_TEAM_HOME/shared.hdp
