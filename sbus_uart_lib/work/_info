@@ -1,0 +1,566 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/ECM_DCD/username/ip_repo/sbus_uart_lib/work
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Ebhv_clock_gen
+Z1 w1541672233
+Z2 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 dD:/ECM_DCD/username/ip_repo/sbus_uart_lib/work
+Z6 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_clock_gen_bhv.vhd
+Z7 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_clock_gen_bhv.vhd
+l0
+L14
+VP<648JOPoH]<o0VoAoBZ63
+Z8 OL;C;10.2c;57
+31
+Z9 !s110 1541758483
+Z10 !s108 1541758483.282000
+Z11 !s90 -work|sbus_uart_lib|-nologo|-93|-f|C:/Users/net/AppData/Local/Temp/Files0|
+Z12 !s107 D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/resync_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_delay_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_datareg_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/shreg_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_counter_modulo_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_timer_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_clock_gen_bhv.vhd|
+Z13 o-work sbus_uart_lib -nologo -93
+Z14 tExplicit 1
+!s100 c4D=9j46M:jILmZ@W0;1]3
+!i10b 1
+!i111 0
+Abhv
+R2
+R3
+R4
+DEx4 work 13 bhv_clock_gen 0 22 P<648JOPoH]<o0VoAoBZ63
+l39
+L33
+Vl?GjMmhR25]C@gg81DaXK1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 ]TjH@2WQoO5bN5bj>9?W^3
+!i10b 1
+!i111 0
+Ebhv_strobe_gen
+Z15 w1541757206
+R2
+R3
+R4
+R5
+Z16 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_strobe_gen_rtl.vhd
+Z17 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_strobe_gen_rtl.vhd
+l0
+L14
+VfY?4A?;Nj<9d8bGbJOe8`0
+!s100 O[H_cN>`H8dZ;1PSmGP[A1
+R8
+31
+Z18 !s110 1541758523
+!i10b 1
+Z19 !s108 1541758523.435000
+R11
+Z20 !s107 D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/tb_top_uart_struct.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/bhv_strobe_gen_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/top_uart_struct.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_int_dump_rtl.vhd|D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_oneshot_rtl.vhd|
+!i111 0
+R13
+R14
+Artl
+R2
+R3
+R4
+DEx4 work 14 bhv_strobe_gen 0 22 fY?4A?;Nj<9d8bGbJOe8`0
+l29
+L28
+VfU>5XE;`:EYf4FMRKG=7N1
+!s100 VC2NUZ6omooA38oLdJLaf3
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Ecomp_counter_modulo
+Z21 w1541758159
+Z22 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+R2
+R3
+R4
+R5
+Z23 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_counter_modulo_rtl.vhd
+Z24 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_counter_modulo_rtl.vhd
+l0
+L15
+Vf=;99X<?FOhkWeZ8nYzaV1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 4e6<j0OHdCC?g_oHM4_BU3
+!i10b 1
+!i111 0
+Artl
+R22
+R2
+R3
+R4
+DEx4 work 19 comp_counter_modulo 0 22 f=;99X<?FOhkWeZ8nYzaV1
+l34
+L33
+VjKI>Z>9QmP`>>e3hPb4hi3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 Z6DdhU9@eK_Q4D:^o6k?U2
+!i10b 1
+!i111 0
+Ecomp_datareg
+Z25 w1541758176
+R22
+R2
+R3
+R4
+R5
+Z26 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_datareg_rtl.vhd
+Z27 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_datareg_rtl.vhd
+l0
+L15
+VlhUO9Df1kULTnd0kQ<MIJ0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 RXD^Pz?DgQmng>Z<RM:]h0
+!i10b 1
+!i111 0
+Artl
+R22
+R2
+R3
+R4
+DEx4 work 12 comp_datareg 0 22 lhUO9Df1kULTnd0kQ<MIJ0
+l31
+L30
+V70ALGHTZZ_W>d]:``?zfU3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 =bkf<Y2@Ma<=nSXHmibX>3
+!i10b 1
+!i111 0
+Ecomp_delay
+Z28 w1541758190
+R2
+R3
+R4
+R5
+Z29 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_delay_rtl.vhd
+Z30 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_delay_rtl.vhd
+l0
+L14
+Vl>6^:H3ObehROTSknlf0J3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 H2JcQB[[K6i<V:D1S95;?3
+!i10b 1
+!i111 0
+Artl
+R2
+R3
+R4
+DEx4 work 10 comp_delay 0 22 l>6^:H3ObehROTSknlf0J3
+l31
+L30
+VK@daMEAUfa9=`lW>Rm?Jj0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 H61__:;i?L8Ffb99_0^DM1
+!i10b 1
+!i111 0
+Ecomp_edge_det
+Z31 w1541758202
+R2
+R3
+R4
+R5
+Z32 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_edge_det_rtl.vhd
+Z33 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_edge_det_rtl.vhd
+l0
+L14
+V_j[>D?]@9hkE5VM3Aa;dZ3
+R8
+33
+R9
+Z34 !s108 1541758483.572000
+Z35 !s90 -work|sbus_uart_lib|-nologo|-2008|-f|C:/Users/net/AppData/Local/Temp/Files1|
+Z36 !s107 D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_edge_det_rtl.vhd|
+Z37 o-work sbus_uart_lib -nologo -2008
+R14
+!s100 LF0@TKPUh3ZI?4[W>;22C1
+!i10b 1
+!i111 0
+Artl
+R2
+R3
+R4
+DEx4 work 13 comp_edge_det 0 22 _j[>D?]@9hkE5VM3Aa;dZ3
+l30
+L29
+V>N<JU>z5IGEc3iPjo1QFW2
+R8
+33
+R9
+R34
+R35
+R36
+R37
+R14
+!s100 <S9oHa?YiTVJD9@49jAg[1
+!i10b 1
+!i111 0
+Ecomp_integrator
+Z38 w1541758216
+R22
+R2
+R3
+R4
+R5
+Z39 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_int_dump_rtl.vhd
+Z40 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_int_dump_rtl.vhd
+l0
+L15
+VU:MNTl4Z>W:YD07o7oU_Z1
+!s100 KWKF7IZ:^gh?6claFUIf_1
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Artl
+R22
+R2
+R3
+R4
+DEx4 work 15 comp_integrator 0 22 U:MNTl4Z>W:YD07o7oU_Z1
+l27
+L26
+VkLeQo47LDTI5[Y3c<oW0c0
+!s100 T6h2kaEiR`adl>4o><5B`0
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Ecomp_oneshot
+Z41 w1541758501
+R22
+R2
+R3
+R4
+R5
+Z42 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_oneshot_rtl.vhd
+Z43 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_oneshot_rtl.vhd
+l0
+L15
+VjelcCljh<zK=kloWfU>4a0
+!s100 I@DCMdI[_Ynl?8d@^G4730
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Artl
+R22
+R2
+R3
+R4
+DEx4 work 12 comp_oneshot 0 22 jelcCljh<zK=kloWfU>4a0
+l35
+L34
+V;ooX0joK9I?1_nk;X@mF03
+!s100 ;?ih0_86R>nG>bVV0gC3c3
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Ecomp_timer
+Z44 w1541758265
+R22
+R2
+R3
+R4
+R5
+Z45 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_timer_rtl.vhd
+Z46 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/comp_timer_rtl.vhd
+l0
+L15
+VGSYdWHkXGMBn__54zSncS2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 QYdfOZFcdU5Xnci^i3G4f3
+!i10b 1
+!i111 0
+Artl
+R22
+R2
+R3
+R4
+DEx4 work 10 comp_timer 0 22 GSYdWHkXGMBn__54zSncS2
+l27
+L26
+VliD^zOM1l>LkBI4f[NDQJ1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 c]A[b;g?FG9ER<gYkNVYe3
+!i10b 1
+!i111 0
+Eresync
+Z47 w1541758276
+R2
+R3
+R4
+R5
+Z48 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/resync_rtl.vhd
+Z49 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/resync_rtl.vhd
+l0
+L14
+V^7a33nB5`<U5M::MM;2Xo2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 BPiNl:bQOC<75@nnHD[z62
+!i10b 1
+!i111 0
+Artl
+R2
+R3
+R4
+DEx4 work 6 resync 0 22 ^7a33nB5`<U5M::MM;2Xo2
+l23
+L22
+V`Beb2ojFdV]6[PgG=R]1:0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 HI_2oUg4G0;DK014e^=N33
+!i10b 1
+!i111 0
+Eshreg
+Z50 w1541758287
+R2
+R3
+R4
+R5
+Z51 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/shreg_rtl.vhd
+Z52 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/shreg_rtl.vhd
+l0
+L14
+VXI6mQWXLNfNKga2AXn_hP2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 WPz=IIK8F`g4]780HSTPb3
+!i10b 1
+!i111 0
+Artl
+R2
+R3
+R4
+DEx4 work 5 shreg 0 22 XI6mQWXLNfNKga2AXn_hP2
+l33
+L32
+V[nG]<@I=YFafd6?F=T0k]1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 YT^?gaO7OU2XJRF@UBPL12
+!i10b 1
+!i111 0
+Etb_top_uart
+Z53 w1541758513
+R2
+R3
+R4
+R5
+Z54 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/tb_top_uart_struct.vhd
+Z55 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/tb_top_uart_struct.vhd
+l0
+L13
+VPV=7nYabQYoCPfNminLa]3
+!s100 jFaiRQF5V?JazLNBS84Vj0
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Astruct
+DEx13 sbus_uart_lib 8 top_uart 0 22 ;j:8NP<Gm;>hh8A8Pi0gQ2
+DEx13 sbus_uart_lib 14 bhv_strobe_gen 0 22 fY?4A?;Nj<9d8bGbJOe8`0
+DEx13 sbus_uart_lib 13 bhv_clock_gen 0 22 P<648JOPoH]<o0VoAoBZ63
+DEx4 work 11 tb_top_uart 0 22 PV=7nYabQYoCPfNminLa]3
+R2
+R3
+R4
+l99
+L33
+VjSE;`7XFdko<YTZ@aLYlm1
+!s100 WUeiC<M[5=;VGHSTlIkU?1
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Etop_uart
+R53
+R2
+R3
+R4
+R5
+Z56 8D:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/top_uart_struct.vhd
+Z57 FD:/ECM_DCD/username/ip_repo/sbus_uart_lib/hdl/top_uart_struct.vhd
+l0
+L13
+V;j:8NP<Gm;>hh8A8Pi0gQ2
+!s100 <8RJGGX@MYDUEmE4]]XlS0
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14
+Astruct
+DEx13 sbus_uart_lib 5 shreg 0 22 XI6mQWXLNfNKga2AXn_hP2
+DEx13 sbus_uart_lib 6 resync 0 22 ^7a33nB5`<U5M::MM;2Xo2
+DEx13 sbus_uart_lib 10 comp_timer 0 22 GSYdWHkXGMBn__54zSncS2
+DEx13 sbus_uart_lib 12 comp_oneshot 0 22 jelcCljh<zK=kloWfU>4a0
+DEx13 sbus_uart_lib 15 comp_integrator 0 22 U:MNTl4Z>W:YD07o7oU_Z1
+DEx13 sbus_uart_lib 13 comp_edge_det 0 22 _j[>D?]@9hkE5VM3Aa;dZ3
+DEx13 sbus_uart_lib 10 comp_delay 0 22 l>6^:H3ObehROTSknlf0J3
+DEx13 sbus_uart_lib 12 comp_datareg 0 22 lhUO9Df1kULTnd0kQ<MIJ0
+DEx13 sbus_uart_lib 19 comp_counter_modulo 0 22 f=;99X<?FOhkWeZ8nYzaV1
+DEx4 work 8 top_uart 0 22 ;j:8NP<Gm;>hh8A8Pi0gQ2
+R22
+R2
+R3
+R4
+l200
+L49
+VY_fg>[9:8M=G=_noKd:Vj1
+!s100 @]g8g6SHlhDf`HOQ^B_NU3
+R8
+31
+R18
+!i10b 1
+R19
+R11
+R20
+!i111 0
+R13
+R14

@@ -1,0 +1,2 @@
+DEFAULT_FILE atom comp_timer_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

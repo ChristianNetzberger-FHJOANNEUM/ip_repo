@@ -1,0 +1,176 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Oct 19 09:27:28 2018
+# Process ID: 20840
+# Current directory: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado
+# Command line: vivado.exe -mode gui -journal ./circuit_ch1_1a_Flow.jou -log ./circuit_ch1_1a_Flow.log -source ./HDS_Scripts/circuit_ch1_1a_Flow.tcl
+# Log file: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado/./circuit_ch1_1a_Flow.log
+# Journal file: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado\./circuit_ch1_1a_Flow.jou
+#-----------------------------------------------------------
+start_gui
+source ./HDS_Scripts/circuit_ch1_1a_Flow.tcl
+# lappend ::auto_path "$::env(HDS_HOME)/resources/tcl/tcllib1.4"
+# set ::hdsDebug 0
+# proc ::hdsDebugPuts {msg} {
+#    if {$::hdsDebug} {
+#       puts $msg
+#    }
+# }
+# set normVars {HDS_PROJECT_DIR HDS_TEAM_HOME HDS_HOME XILINX_VIVADO}
+# foreach varName $normVars {
+#    if {[info exists ::env($varName)]} {
+#       set ::env($varName) [file normalize [subst -nobackslash {$::env($varName)}]]
+#    }
+# }
+# puts "## HDS #Running Vivado Project Creation/Update#"
+## HDS #Running Vivado Project Creation/Update#
+# set ::errorCount 0
+# if {[catch {source ./HDS_Scripts/circuit_ch1_1a_Create.tcl} errMsg]} {
+#    if {[regexp "(?q)$errMsg" $errorInfo]} {
+#       puts "Error: $errorInfo"
+#    } else {
+#       puts "Error: $errMsg"
+#    }
+#    return
+# }
+Creating project ./circuit_ch1_1a.xpr
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 878.508 ; gain = 148.859
+## get_filesets
+## get_property DEFAULT_LIB [current_project]
+## current_project
+## current_project
+## current_project
+## current_project
+Project HDL files to add stored in:
+   ./HDS_Scripts/circuit_ch1_1a_fileList.tcl
+## list
+## list
+## list
+## join $vivadoCoresExtList "|"
+## get_files -all -quiet
+## join $nonIpFiles \n
+## join $ipFiles \n
+## join $coreIpFiles \n
+### list
+### list
+### list
+# if {$::errorCount == 0} {
+#    puts "Note: \"source ./HDS_Scripts/circuit_ch1_1a_Create.tcl\" completed successfully\n"
+# } else {
+#    puts "Error: \"source ./HDS_Scripts/circuit_ch1_1a_Create.tcl\" completed with errors\n"
+# }
+Note: "source ./HDS_Scripts/circuit_ch1_1a_Create.tcl" completed successfully
+
+update_compile_order -fileset sources_1
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1:part0:1.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/1.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_es1_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2017.2/data/boards/board_files/TE0803_ES1/2.0/board.xml as part xczu3eg-sfvc784-1-i-es1 specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
+add_files -fileset constrs_1 -norecurse D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc
+import_files -fileset constrs_1 D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 19 09:39:11 2018...

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Oct 19 09:27:28 2018
+# Process ID: 20840
+# Current directory: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado
+# Command line: vivado.exe -mode gui -journal ./circuit_ch1_1a_Flow.jou -log ./circuit_ch1_1a_Flow.log -source ./HDS_Scripts/circuit_ch1_1a_Flow.tcl
+# Log file: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado/./circuit_ch1_1a_Flow.log
+# Journal file: D:/ECM_workspace/ip_repo/sound_lib/vivado/circuit_ch1_1a/vivado\./circuit_ch1_1a_Flow.jou
+#-----------------------------------------------------------
+start_gui
+source ./HDS_Scripts/circuit_ch1_1a_Flow.tcl
+update_compile_order -fileset sources_1
+set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
+add_files -fileset constrs_1 -norecurse D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc
+import_files -fileset constrs_1 D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc
+close_project

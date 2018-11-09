@@ -1,0 +1,2 @@
+DEFAULT_FILE atom bhv_zybo_tester3_bhv.vhd
+DEFAULT_ARCHITECTURE atom bhv
