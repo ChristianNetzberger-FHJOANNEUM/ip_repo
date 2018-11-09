@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Fri Oct  5 12:43:12 2018
-# Process ID: 28596
+# Start of session at: Wed Oct 10 13:15:43 2018
+# Process ID: 16256
 # Current directory: D:/ECM_workspace/ip_repo/training_lib/vivado/project_training
 # Command line: vivado.exe D:\ECM_workspace\ip_repo\training_lib\vivado\project_training\project_training.xpr
 # Log file: D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/vivado.log
@@ -12,3 +12,37 @@
 start_gui
 open_project D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.xpr
 update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit_ch1_2c [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/impl_1/circuit_ch1_2c.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/impl_1/circuit_ch1_2c.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+close_hw
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/impl_1/circuit_ch1_2c.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]

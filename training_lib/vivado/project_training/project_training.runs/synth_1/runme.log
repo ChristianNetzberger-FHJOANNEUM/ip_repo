@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log circuit_ch1_1a.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch1_1a.tcl
+    with args -log circuit_ch1_2c.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source circuit_ch1_2c.tcl
 
 
 ****** Vivado v2017.2 (64-bit)
@@ -8,33 +8,33 @@
   **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 
-source circuit_ch1_1a.tcl -notrace
-Command: synth_design -top circuit_ch1_1a -part xc7z010clg400-1
+source circuit_ch1_2c.tcl -notrace
+Command: synth_design -top circuit_ch1_2c -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 14308 
+INFO: Helper process launched with PID 29120 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 342.531 ; gain = 80.188
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 343.430 ; gain = 78.930
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'circuit_ch1_1a' [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:27]
-WARNING: [Synth 8-3848] Net buzzer in module/entity circuit_ch1_1a does not have driver. [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:21]
-INFO: [Synth 8-256] done synthesizing module 'circuit_ch1_1a' (1#1) [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_1a_rtl.vhd:27]
-WARNING: [Synth 8-3330] design circuit_ch1_1a has an empty top module
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[3]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[2]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port clk
+INFO: [Synth 8-638] synthesizing module 'circuit_ch1_2c' [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd:27]
+WARNING: [Synth 8-3848] Net buzzer in module/entity circuit_ch1_2c does not have driver. [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'circuit_ch1_2c' (1#1) [D:/ECM_workspace/ip_repo/training_lib/hdl/circuit_ch1_2c_rtl.vhd:27]
+WARNING: [Synth 8-3917] design circuit_ch1_2c has port leds[3] driven by constant 0
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder1[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port clk
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.605 ; gain = 119.262
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 382.758 ; gain = 118.258
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -44,7 +44,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.605 ; gain = 119.262
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 382.758 ; gain = 118.258
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -53,32 +53,32 @@ Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc]
 Finished Parsing XDC File [D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/circuit_ch1_1a_propImpl.xdc].
-Resolution: To avoid this warning, move constraints listed in [.Xil/circuit_ch1_1a_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.srcs/constrs_1/imports/xproject_training/project1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/circuit_ch1_2c_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/circuit_ch1_2c_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 597.508 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 622.926 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 597.508 ; gain = 335.164
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 622.926 ; gain = 358.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 597.508 ; gain = 335.164
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 622.926 ; gain = 358.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 597.508 ; gain = 335.164
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 622.926 ; gain = 358.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 597.508 ; gain = 335.164
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 622.926 ; gain = 358.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -112,20 +112,20 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3330] design circuit_ch1_1a has an empty top module
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port buzzer[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[3]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[2]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port sliders[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder0[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[1]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port encoder1[0]
-WARNING: [Synth 8-3331] design circuit_ch1_1a has unconnected port clk
+WARNING: [Synth 8-3917] design circuit_ch1_2c has port leds[3] driven by constant 0
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buzzer[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buzzer[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[3]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[2]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port buttons[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder0[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder0[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder1[1]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port encoder1[0]
+WARNING: [Synth 8-3331] design circuit_ch1_2c has unconnected port clk
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 597.508 ; gain = 335.164
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 622.926 ; gain = 358.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -137,13 +137,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 629.141 ; gain = 366.797
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 650.488 ; gain = 385.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 629.141 ; gain = 366.797
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 650.488 ; gain = 385.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -155,7 +155,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -179,7 +179,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -192,7 +192,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -204,25 +204,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -238,23 +238,25 @@ Report Cell Usage:
 +------+------+------+
 |      |Cell  |Count |
 +------+------+------+
-|1     |IBUF  |     4|
-|2     |OBUF  |     4|
-|3     |OBUFT |     2|
+|1     |LUT3  |     1|
+|2     |LUT4  |     2|
+|3     |IBUF  |     4|
+|4     |OBUF  |     4|
+|5     |OBUFT |     2|
 +------+------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    10|
+|1     |top      |       |    13|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 639.285 ; gain = 161.039
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 639.285 ; gain = 376.941
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 660.629 ; gain = 155.961
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 660.629 ; gain = 396.129
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -265,7 +267,7 @@ No Unisim elements were transformed.
 
 13 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 650.805 ; gain = 396.223
-INFO: [Common 17-1381] The checkpoint 'D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch1_1a.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 650.805 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Oct  5 12:12:15 2018...
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 672.180 ; gain = 415.445
+INFO: [Common 17-1381] The checkpoint 'D:/ECM_workspace/ip_repo/training_lib/vivado/project_training/project_training.runs/synth_1/circuit_ch1_2c.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 672.180 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 10 13:17:28 2018...

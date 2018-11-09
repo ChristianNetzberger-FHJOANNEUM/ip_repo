@@ -26,6 +26,10 @@ end entity circuit_ch1_2c;
 --
 architecture rtl of circuit_ch1_2c is
 begin
+leds(0) <= '1' when sliders < 6 else '0';
+leds(1) <= '1' when sliders = 6 else '0';
+leds(2) <= '1' when sliders > 6 else '0';
+leds(3) <= '0';  -- turned permanently off
 
 end architecture rtl;
 

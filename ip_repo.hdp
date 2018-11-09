@@ -1,19 +1,34 @@
 [ModelSim]
+rgb2dvi = D:\ECM_workspace\vivado-library-master\ip\rgb2dvi\work
 training_lib = $HDS_PROJECT_DIR/training_lib/work
+[XilinxVivado]
+sound_lib = $HDS_PROJECT_DIR/sound_lib/vivado
 [hdl]
-axi_sbus_bridge = $HDS_PROJECT_DIR\axi_sbus_bridge\hdl
+axi_sbus_bridge = $HDS_PROJECT_DIR/axi_sbus_bridge/hdl
+rgb2dvi = D:\ECM_workspace\vivado-library-master\ip\rgb2dvi\src
+sound_lib = $HDS_PROJECT_DIR\sound_lib\hdl
 training_lib = $HDS_PROJECT_DIR/training_lib/hdl
+training_solutions_lib = $HDS_PROJECT_DIR\training_solutions_lib\hdl
 [hds]
-axi_sbus_bridge = $HDS_PROJECT_DIR\axi_sbus_bridge\hds
+axi_sbus_bridge = $HDS_PROJECT_DIR/axi_sbus_bridge/hds
+rgb2dvi = D:\ECM_workspace\vivado-library-master\ip\rgb2dvi\hdl
+sound_lib = $HDS_PROJECT_DIR\sound_lib\hds
 training_lib = $HDS_PROJECT_DIR/training_lib/hds
+training_solutions_lib = $HDS_PROJECT_DIR\training_solutions_lib\hds
 [hds_settings]
 default_library = training_lib
 version = 2
 [library_files_inclusion]
 axi_sbus_bridge = all
+rgb2dvi = all
+sound_lib = all
 training_lib = all
+training_solutions_lib = all
 [library_type]
 axi_sbus_bridge = regular
+rgb2dvi = regular
+sound_lib = regular
 training_lib = regular
+training_solutions_lib = regular
 [shared]
 others = $HDS_TEAM_HOME/shared.hdp

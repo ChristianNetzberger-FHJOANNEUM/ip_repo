@@ -9,7 +9,7 @@
     <Object name="xc7z010_1" gui_info="">
       <Properties Property="FULL_PROBES.FILE" value=""/>
       <Properties Property="PROBES.FILE" value=""/>
-      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/circuit_ch1_1a.bit"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/circuit_ch1_2c.bit"/>
     </Object>
   </ObjectList>
   <probeset name="hw project" active="false"/>
