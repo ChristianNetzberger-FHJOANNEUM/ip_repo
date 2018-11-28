@@ -1,0 +1,2 @@
+DEFAULT_FILE atom i2c_interface/struct.bd
+DEFAULT_ARCHITECTURE atom struct

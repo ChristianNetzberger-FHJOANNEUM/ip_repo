@@ -1,0 +1,2 @@
+DEFAULT_FILE atom fifo_distram_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

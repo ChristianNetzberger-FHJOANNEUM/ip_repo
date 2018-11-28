@@ -1,0 +1,554 @@
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 13,0 16 1 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 505,0 21 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 515,0 23 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 470,0 24 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1966,0 25 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1152,0 26 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 755,0 27 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1961,0 28 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 2118,0 29 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 500,0 30 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 2326,0 31 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 2273,0 32 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1386,0 33 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1164,0 34 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 808,0 35 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 725,0 36 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1746,0 37 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 672,0 38 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1632,0 39 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1876,0 40 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1711,0 41 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1823,0 42 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1439,0 43 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 530,0 44 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1716,0 45 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 2171,0 46 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 475,0 53 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 480,0 60 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 2019,0 61 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1157,0 62 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 485,0 63 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 510,0 64 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 863,0 65 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1217,0 66 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1,0 69 0 
+DESIGN axi_xfer_ctrl
+VIEW symbol.sb
+GRAPHIC 1,0 70 0 
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 33,0 82 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 88
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 6,0 92 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 103
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 127 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 128
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 130 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 131
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 62,0 132 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 72,0 133 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 135
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 32,0 144 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 149
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 698,0 150 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 152
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 156 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 157 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 199,0 158 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 240,0 166 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 241,0 167 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1305,0 174 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1306,0 175 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 176
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 201,0 177 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 250,0 178 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 251,0 179 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1557,0 180 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1558,0 181 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 182
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1238,0 183 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1253,0 184 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1430,0 188 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1445,0 189 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1649,0 190 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 341,0 191 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 342,0 192 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 199
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 202 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 203
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 206 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 207
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 209 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 210
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 698,0 227 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 230
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 231 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 232 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 240,0 233 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1622,0 234 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1305,0 235 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 285,0 236 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 237
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 238 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 239
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 201,0 240 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 250,0 241 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 285,0 242 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1557,0 243 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 244 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 245
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 201,0 246 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 247
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 285,0 248 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 302,0 249 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1671,0 251 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1649,0 252 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 253
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 302,0 254 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 255
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1238,0 256 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 257 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1370,0 258 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1238,0 259 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1430,0 260 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 261 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1622,0 262 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1644,0 263 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 201,0 264 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 265
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1622,0 266 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 267
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1649,0 268 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 341,0 269 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1430,0 270 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 271
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 1649,0 272 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 273
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 95,0 274 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 276
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 278 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 279
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 281 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 282
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 32,0 292 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 294
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 698,0 295 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 297
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 301 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 184,0 302 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 199,0 303 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 285,0 306 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 300,0 307 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 308
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 310 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 311
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 2,0 312 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 313
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 32,0 315 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+GRAPHIC 24,0 318 0
+LIBRARY axi_dma_bridge
+DESIGN axi_xfer_ctrl
+VIEW fsm.sm
+NO_GRAPHIC 368

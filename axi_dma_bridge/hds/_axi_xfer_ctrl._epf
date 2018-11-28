@@ -1,0 +1,2 @@
+DEFAULT_FILE atom axi_xfer_ctrl/fsm.sm
+DEFAULT_ARCHITECTURE atom fsm

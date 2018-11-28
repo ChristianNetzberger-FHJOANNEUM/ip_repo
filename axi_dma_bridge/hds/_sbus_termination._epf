@@ -1,0 +1,2 @@
+DEFAULT_FILE atom sbus_termination_rtl.vhd
+DEFAULT_ARCHITECTURE atom rtl

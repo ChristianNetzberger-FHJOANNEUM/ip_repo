@@ -1,0 +1,2 @@
+DEFAULT_FILE atom axi_slave64/struct.bd
+DEFAULT_ARCHITECTURE atom struct

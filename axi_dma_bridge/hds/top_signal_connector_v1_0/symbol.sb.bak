@@ -1,0 +1,9816 @@
+DocumentHdrVersion "1.1"
+Header (DocumentHdr
+version 2
+dmPackageRefs [
+(DmPackageRef
+library "ieee"
+unitName "std_logic_1164"
+)
+(DmPackageRef
+library "ieee"
+unitName "std_logic_arith"
+)
+(DmPackageRef
+library "work"
+unitName "busdef"
+)
+]
+libraryRefs [
+"ieee"
+"work"
+]
+)
+version "25.1"
+appVersion "2012.2b (Build 5)"
+model (Symbol
+commonDM (CommonDM
+ldm (LogicalDM
+suid 151,0
+usingSuid 1
+emptyRow *1 (LEmptyRow
+)
+uid 53,0
+optionalChildren [
+*2 (RefLabelRowHdr
+)
+*3 (TitleRowHdr
+)
+*4 (FilterRowHdr
+)
+*5 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*6 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*7 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*8 (NameColHdr
+tm "NameColHdrMgr"
+)
+*9 (ModeColHdr
+tm "ModeColHdrMgr"
+)
+*10 (TypeColHdr
+tm "TypeColHdrMgr"
+)
+*11 (BoundsColHdr
+tm "BoundsColHdrMgr"
+)
+*12 (InitColHdr
+tm "InitColHdrMgr"
+)
+*13 (EolColHdr
+tm "EolColHdrMgr"
+)
+*14 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ACLK"
+t "std_logic"
+prec "-- Global Clock Signal."
+preAdd 0
+posAdd 0
+o 1
+suid 5,0
+)
+)
+uid 586,0
+)
+*15 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARADDR"
+t "std_logic_vector"
+b "(C_M00_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Read address. This signal indicates the initial
+  -- address of a read burst transaction."
+preAdd 0
+posAdd 0
+o 55
+suid 6,0
+)
+)
+uid 588,0
+)
+*16 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 56
+suid 7,0
+)
+)
+uid 590,0
+)
+*17 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 57
+suid 8,0
+)
+)
+uid 592,0
+)
+*18 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ARESETN"
+t "std_logic"
+prec "-- Global Reset Singal. This Signal is Active Low"
+preAdd 0
+posAdd 0
+o 2
+suid 9,0
+)
+)
+uid 594,0
+)
+*19 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Read Address."
+preAdd 0
+posAdd 0
+o 58
+suid 10,0
+)
+)
+uid 596,0
+)
+*20 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 59
+suid 11,0
+)
+)
+uid 598,0
+)
+*21 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 60
+suid 12,0
+)
+)
+uid 600,0
+)
+*22 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 61
+suid 13,0
+)
+)
+uid 602,0
+)
+*23 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each read transaction"
+preAdd 0
+posAdd 0
+o 62
+suid 14,0
+)
+)
+uid 604,0
+)
+*24 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ARREADY"
+t "std_logic"
+prec "-- Read address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 3
+suid 15,0
+)
+)
+uid 606,0
+)
+*25 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 63
+suid 16,0
+)
+)
+uid 608,0
+)
+*26 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_ARUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 64
+suid 17,0
+)
+)
+uid 610,0
+)
+*27 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid read address and control information"
+preAdd 0
+posAdd 0
+o 65
+suid 18,0
+)
+)
+uid 612,0
+)
+*28 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWADDR"
+t "std_logic_vector"
+b "(C_M00_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address"
+preAdd 0
+posAdd 0
+o 66
+suid 19,0
+)
+)
+uid 614,0
+)
+*29 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 67
+suid 20,0
+)
+)
+uid 616,0
+)
+*30 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 68
+suid 21,0
+)
+)
+uid 618,0
+)
+*31 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address ID"
+preAdd 0
+posAdd 0
+o 69
+suid 22,0
+)
+)
+uid 620,0
+)
+*32 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 70
+suid 23,0
+)
+)
+uid 622,0
+)
+*33 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 71
+suid 24,0
+)
+)
+uid 624,0
+)
+*34 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 72
+suid 25,0
+)
+)
+uid 626,0
+)
+*35 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each write transaction."
+preAdd 0
+posAdd 0
+o 73
+suid 26,0
+)
+)
+uid 628,0
+)
+*36 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_AWREADY"
+t "std_logic"
+prec "-- Write address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 4
+suid 27,0
+)
+)
+uid 630,0
+)
+*37 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 74
+suid 28,0
+)
+)
+uid 632,0
+)
+*38 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_AWUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write address channel."
+preAdd 0
+posAdd 0
+o 75
+suid 29,0
+)
+)
+uid 634,0
+)
+*39 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid write address and control information."
+preAdd 0
+posAdd 0
+o 76
+suid 30,0
+)
+)
+uid 636,0
+)
+*40 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Response."
+preAdd 0
+posAdd 0
+o 5
+suid 31,0
+)
+)
+uid 638,0
+)
+*41 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_BREADY"
+t "std_logic"
+prec "-- Response ready. This signal indicates that the master
+  -- can accept a write response."
+preAdd 0
+posAdd 0
+o 77
+suid 32,0
+)
+)
+uid 640,0
+)
+*42 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Write response. This signal indicates the status of the write transaction."
+preAdd 0
+posAdd 0
+o 6
+suid 33,0
+)
+)
+uid 642,0
+)
+*43 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_BUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write response channel"
+preAdd 0
+posAdd 0
+o 7
+suid 34,0
+)
+)
+uid 644,0
+)
+*44 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BVALID"
+t "std_logic"
+prec "-- Write response valid. This signal indicates that the
+  -- channel is signaling a valid write response."
+preAdd 0
+posAdd 0
+o 8
+suid 35,0
+)
+)
+uid 646,0
+)
+*45 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RDATA"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Read Data"
+preAdd 0
+posAdd 0
+o 9
+suid 36,0
+)
+)
+uid 648,0
+)
+*46 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Read ID tag. This signal is the identification tag
+  -- for the read data group of signals generated by the slave."
+preAdd 0
+posAdd 0
+o 10
+suid 37,0
+)
+)
+uid 650,0
+)
+*47 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RLAST"
+t "std_logic"
+prec "-- Read last. This signal indicates the last transfer in a read burst"
+preAdd 0
+posAdd 0
+o 11
+suid 38,0
+)
+)
+uid 652,0
+)
+*48 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_RREADY"
+t "std_logic"
+prec "-- Read ready. This signal indicates that the master can
+  -- accept the read data and response information."
+preAdd 0
+posAdd 0
+o 78
+suid 39,0
+)
+)
+uid 654,0
+)
+*49 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Read response. This signal indicates the status of the read transfer"
+preAdd 0
+posAdd 0
+o 12
+suid 40,0
+)
+)
+uid 656,0
+)
+*50 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_RUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 13
+suid 41,0
+)
+)
+uid 658,0
+)
+*51 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RVALID"
+t "std_logic"
+prec "-- Read valid. This signal indicates that the channel
+  -- is signaling the required read data."
+preAdd 0
+posAdd 0
+o 14
+suid 42,0
+)
+)
+uid 660,0
+)
+*52 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WDATA"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Data."
+preAdd 0
+posAdd 0
+o 79
+suid 43,0
+)
+)
+uid 662,0
+)
+*53 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WLAST"
+t "std_logic"
+prec "-- Write last. This signal indicates the last transfer in a write burst."
+preAdd 0
+posAdd 0
+o 80
+suid 44,0
+)
+)
+uid 664,0
+)
+*54 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_WREADY"
+t "std_logic"
+prec "-- Write ready. This signal indicates that the slave
+  -- can accept the write data."
+preAdd 0
+posAdd 0
+o 15
+suid 45,0
+)
+)
+uid 666,0
+)
+*55 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WSTRB"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH/8-1 downto 0)"
+prec "-- Write strobes. This signal indicates which byte
+  -- lanes hold valid data. There is one write strobe
+  -- bit for each eight bits of the write data bus."
+preAdd 0
+posAdd 0
+o 81
+suid 46,0
+)
+)
+uid 668,0
+)
+*56 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_WUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write data channel."
+preAdd 0
+posAdd 0
+o 82
+suid 47,0
+)
+)
+uid 670,0
+)
+*57 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WVALID"
+t "std_logic"
+prec "-- Write valid. This signal indicates that valid write
+  -- data and strobes are available"
+preAdd 0
+posAdd 0
+o 83
+suid 48,0
+)
+)
+uid 672,0
+)
+*58 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aclk"
+t "std_logic"
+prec "-- Users to add ports here
+
+-- User ports ends
+-- Do not modify the ports beyond this line
+
+
+-- Ports of Axi Slave Bus Interface S00_AXI"
+preAdd 0
+posAdd 0
+o 22
+suid 49,0
+)
+)
+uid 674,0
+)
+*59 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_araddr"
+t "std_logic_vector"
+b "(C_S00_AXI_ADDR_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 23
+suid 50,0
+)
+)
+uid 676,0
+)
+*60 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arburst"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 24
+suid 51,0
+)
+)
+uid 678,0
+)
+*61 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arcache"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 25
+suid 52,0
+)
+)
+uid 680,0
+)
+*62 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aresetn"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 26
+suid 53,0
+)
+)
+uid 682,0
+)
+*63 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 27
+suid 54,0
+)
+)
+uid 684,0
+)
+*64 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arlen"
+t "std_logic_vector"
+b "(7 downto 0)"
+preAdd 0
+posAdd 0
+o 28
+suid 55,0
+)
+)
+uid 686,0
+)
+*65 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arlock"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 29
+suid 56,0
+)
+)
+uid 688,0
+)
+*66 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arprot"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 30
+suid 57,0
+)
+)
+uid 690,0
+)
+*67 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arqos"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 31
+suid 58,0
+)
+)
+uid 692,0
+)
+*68 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_arready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 104
+suid 59,0
+)
+)
+uid 694,0
+)
+*69 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arregion"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 32
+suid 60,0
+)
+)
+uid 696,0
+)
+*70 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arsize"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 33
+suid 61,0
+)
+)
+uid 698,0
+)
+*71 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aruser"
+t "std_logic_vector"
+b "(C_S00_AXI_ARUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 34
+suid 62,0
+)
+)
+uid 700,0
+)
+*72 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 35
+suid 63,0
+)
+)
+uid 702,0
+)
+*73 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awaddr"
+t "std_logic_vector"
+b "(C_S00_AXI_ADDR_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 36
+suid 64,0
+)
+)
+uid 704,0
+)
+*74 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awburst"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 37
+suid 65,0
+)
+)
+uid 706,0
+)
+*75 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awcache"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 38
+suid 66,0
+)
+)
+uid 708,0
+)
+*76 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 39
+suid 67,0
+)
+)
+uid 710,0
+)
+*77 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awlen"
+t "std_logic_vector"
+b "(7 downto 0)"
+preAdd 0
+posAdd 0
+o 40
+suid 68,0
+)
+)
+uid 712,0
+)
+*78 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awlock"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 41
+suid 69,0
+)
+)
+uid 714,0
+)
+*79 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awprot"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 42
+suid 70,0
+)
+)
+uid 716,0
+)
+*80 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awqos"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 43
+suid 71,0
+)
+)
+uid 718,0
+)
+*81 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_awready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 105
+suid 72,0
+)
+)
+uid 720,0
+)
+*82 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awregion"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 44
+suid 73,0
+)
+)
+uid 722,0
+)
+*83 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awsize"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 45
+suid 74,0
+)
+)
+uid 724,0
+)
+*84 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awuser"
+t "std_logic_vector"
+b "(C_S00_AXI_AWUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 46
+suid 75,0
+)
+)
+uid 726,0
+)
+*85 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 47
+suid 76,0
+)
+)
+uid 728,0
+)
+*86 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 106
+suid 77,0
+)
+)
+uid 730,0
+)
+*87 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_bready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 48
+suid 78,0
+)
+)
+uid 732,0
+)
+*88 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bresp"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 107
+suid 79,0
+)
+)
+uid 734,0
+)
+*89 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_buser"
+t "std_logic_vector"
+b "(C_S00_AXI_BUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 108
+suid 80,0
+)
+)
+uid 736,0
+)
+*90 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 109
+suid 81,0
+)
+)
+uid 738,0
+)
+*91 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rdata"
+t "std_logic_vector"
+b "(C_S00_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 110
+suid 82,0
+)
+)
+uid 740,0
+)
+*92 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 111
+suid 83,0
+)
+)
+uid 742,0
+)
+*93 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 112
+suid 84,0
+)
+)
+uid 744,0
+)
+*94 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_rready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 49
+suid 85,0
+)
+)
+uid 746,0
+)
+*95 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rresp"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 113
+suid 86,0
+)
+)
+uid 748,0
+)
+*96 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_ruser"
+t "std_logic_vector"
+b "(C_S00_AXI_RUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 114
+suid 87,0
+)
+)
+uid 750,0
+)
+*97 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 115
+suid 88,0
+)
+)
+uid 752,0
+)
+*98 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wdata"
+t "std_logic_vector"
+b "(C_S00_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 50
+suid 89,0
+)
+)
+uid 754,0
+)
+*99 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 51
+suid 90,0
+)
+)
+uid 756,0
+)
+*100 (LogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_wready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 116
+suid 91,0
+)
+)
+uid 758,0
+)
+*101 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wstrb"
+t "std_logic_vector"
+b "((C_S00_AXI_DATA_WIDTH/8)-1 downto 0)"
+preAdd 0
+posAdd 0
+o 52
+suid 92,0
+)
+)
+uid 760,0
+)
+*102 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wuser"
+t "std_logic_vector"
+b "(C_S00_AXI_WUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 53
+suid 93,0
+)
+)
+uid 762,0
+)
+*103 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 54
+suid 94,0
+)
+)
+uid 764,0
+)
+*104 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_irq"
+t "std_logic"
+o 101
+suid 97,0
+)
+)
+uid 886,0
+)
+*105 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_cs"
+t "std_logic"
+o 84
+suid 127,0
+)
+)
+uid 1568,0
+)
+*106 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_din"
+t "std_logic"
+o 85
+suid 128,0
+)
+)
+uid 1570,0
+)
+*107 (LogPort
+port (LogicalPort
+decl (Decl
+n "an4_adc1_dout"
+t "std_logic"
+o 16
+suid 129,0
+)
+)
+uid 1572,0
+)
+*108 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_sclk"
+t "std_logic"
+o 86
+suid 130,0
+)
+)
+uid 1574,0
+)
+*109 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_cs"
+t "std_logic"
+o 87
+suid 131,0
+)
+)
+uid 1576,0
+)
+*110 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_din"
+t "std_logic"
+o 88
+suid 132,0
+)
+)
+uid 1578,0
+)
+*111 (LogPort
+port (LogicalPort
+decl (Decl
+n "an4_adc2_dout"
+t "std_logic"
+o 17
+suid 133,0
+)
+)
+uid 1580,0
+)
+*112 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_sclk"
+t "std_logic"
+o 89
+suid 134,0
+)
+)
+uid 1582,0
+)
+*113 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_din"
+t "std_logic"
+o 90
+suid 135,0
+)
+)
+uid 1584,0
+)
+*114 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_sclk"
+t "std_logic"
+o 91
+suid 136,0
+)
+)
+uid 1586,0
+)
+*115 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_sync"
+t "std_logic"
+o 92
+suid 137,0
+)
+)
+uid 1588,0
+)
+*116 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digio"
+t "std_logic"
+o 93
+suid 138,0
+)
+)
+uid 1590,0
+)
+*117 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digio_dir"
+t "std_logic"
+o 94
+suid 139,0
+)
+)
+uid 1592,0
+)
+*118 (LogPort
+port (LogicalPort
+decl (Decl
+n "an4_gpio_i"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 20
+suid 140,0
+)
+)
+uid 1594,0
+)
+*119 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_gpio_o"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 99
+suid 141,0
+)
+)
+uid 1596,0
+)
+*120 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_gpio_t"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 100
+suid 142,0
+)
+)
+uid 1598,0
+)
+*121 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_scl_o"
+t "std_logic"
+o 95
+suid 143,0
+)
+)
+uid 1796,0
+)
+*122 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_scl_t"
+t "std_logic"
+o 96
+suid 144,0
+)
+)
+uid 1798,0
+)
+*123 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_sda_o"
+t "std_logic"
+o 97
+suid 145,0
+)
+)
+uid 1800,0
+)
+*124 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_sda_t"
+t "std_logic"
+o 98
+suid 146,0
+)
+)
+uid 1802,0
+)
+*125 (LogPort
+port (LogicalPort
+decl (Decl
+n "an4_digipot_sda_i"
+t "std_logic"
+o 19
+suid 147,0
+)
+)
+uid 1804,0
+)
+*126 (LogPort
+port (LogicalPort
+decl (Decl
+n "an4_digipot_scl_i"
+t "std_logic"
+o 18
+suid 148,0
+)
+)
+uid 1806,0
+)
+*127 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "isens_ads7883_cs"
+t "std_logic"
+o 102
+suid 149,0
+)
+)
+uid 1909,0
+)
+*128 (LogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "isens_ads7883_sclk"
+t "std_logic"
+o 103
+suid 150,0
+)
+)
+uid 1911,0
+)
+*129 (LogPort
+port (LogicalPort
+decl (Decl
+n "isens_ads7883_sdo"
+t "std_logic"
+o 21
+suid 151,0
+)
+)
+uid 1913,0
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 66,0
+optionalChildren [
+*130 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *131 (MRCItem
+litem &1
+pos 116
+dimension 20
+)
+uid 68,0
+optionalChildren [
+*132 (MRCItem
+litem &2
+pos 0
+dimension 20
+uid 69,0
+)
+*133 (MRCItem
+litem &3
+pos 1
+dimension 23
+uid 70,0
+)
+*134 (MRCItem
+litem &4
+pos 2
+hidden 1
+dimension 20
+uid 71,0
+)
+*135 (MRCItem
+litem &14
+pos 0
+dimension 20
+uid 587,0
+)
+*136 (MRCItem
+litem &15
+pos 19
+dimension 20
+uid 589,0
+)
+*137 (MRCItem
+litem &16
+pos 33
+dimension 20
+uid 591,0
+)
+*138 (MRCItem
+litem &17
+pos 37
+dimension 20
+uid 593,0
+)
+*139 (MRCItem
+litem &18
+pos 1
+dimension 20
+uid 595,0
+)
+*140 (MRCItem
+litem &19
+pos 15
+dimension 20
+uid 597,0
+)
+*141 (MRCItem
+litem &20
+pos 10
+dimension 20
+uid 599,0
+)
+*142 (MRCItem
+litem &21
+pos 4
+dimension 20
+uid 601,0
+)
+*143 (MRCItem
+litem &22
+pos 41
+dimension 20
+uid 603,0
+)
+*144 (MRCItem
+litem &23
+pos 42
+dimension 20
+uid 605,0
+)
+*145 (MRCItem
+litem &24
+pos 18
+dimension 20
+uid 607,0
+)
+*146 (MRCItem
+litem &25
+pos 34
+dimension 20
+uid 609,0
+)
+*147 (MRCItem
+litem &26
+pos 40
+dimension 20
+uid 611,0
+)
+*148 (MRCItem
+litem &27
+pos 8
+dimension 20
+uid 613,0
+)
+*149 (MRCItem
+litem &28
+pos 16
+dimension 20
+uid 615,0
+)
+*150 (MRCItem
+litem &29
+pos 26
+dimension 20
+uid 617,0
+)
+*151 (MRCItem
+litem &30
+pos 28
+dimension 20
+uid 619,0
+)
+*152 (MRCItem
+litem &31
+pos 22
+dimension 20
+uid 621,0
+)
+*153 (MRCItem
+litem &32
+pos 25
+dimension 20
+uid 623,0
+)
+*154 (MRCItem
+litem &33
+pos 43
+dimension 20
+uid 625,0
+)
+*155 (MRCItem
+litem &34
+pos 17
+dimension 20
+uid 627,0
+)
+*156 (MRCItem
+litem &35
+pos 20
+dimension 20
+uid 629,0
+)
+*157 (MRCItem
+litem &36
+pos 32
+dimension 20
+uid 631,0
+)
+*158 (MRCItem
+litem &37
+pos 24
+dimension 20
+uid 633,0
+)
+*159 (MRCItem
+litem &38
+pos 21
+dimension 20
+uid 635,0
+)
+*160 (MRCItem
+litem &39
+pos 7
+dimension 20
+uid 637,0
+)
+*161 (MRCItem
+litem &40
+pos 6
+dimension 20
+uid 639,0
+)
+*162 (MRCItem
+litem &41
+pos 9
+dimension 20
+uid 641,0
+)
+*163 (MRCItem
+litem &42
+pos 36
+dimension 20
+uid 643,0
+)
+*164 (MRCItem
+litem &43
+pos 2
+dimension 20
+uid 645,0
+)
+*165 (MRCItem
+litem &44
+pos 12
+dimension 20
+uid 647,0
+)
+*166 (MRCItem
+litem &45
+pos 30
+dimension 20
+uid 649,0
+)
+*167 (MRCItem
+litem &46
+pos 27
+dimension 20
+uid 651,0
+)
+*168 (MRCItem
+litem &47
+pos 38
+dimension 20
+uid 653,0
+)
+*169 (MRCItem
+litem &48
+pos 5
+dimension 20
+uid 655,0
+)
+*170 (MRCItem
+litem &49
+pos 23
+dimension 20
+uid 657,0
+)
+*171 (MRCItem
+litem &50
+pos 29
+dimension 20
+uid 659,0
+)
+*172 (MRCItem
+litem &51
+pos 39
+dimension 20
+uid 661,0
+)
+*173 (MRCItem
+litem &52
+pos 14
+dimension 20
+uid 663,0
+)
+*174 (MRCItem
+litem &53
+pos 3
+dimension 20
+uid 665,0
+)
+*175 (MRCItem
+litem &54
+pos 31
+dimension 20
+uid 667,0
+)
+*176 (MRCItem
+litem &55
+pos 13
+dimension 20
+uid 669,0
+)
+*177 (MRCItem
+litem &56
+pos 11
+dimension 20
+uid 671,0
+)
+*178 (MRCItem
+litem &57
+pos 35
+dimension 20
+uid 673,0
+)
+*179 (MRCItem
+litem &58
+pos 77
+dimension 20
+uid 675,0
+)
+*180 (MRCItem
+litem &59
+pos 49
+dimension 20
+uid 677,0
+)
+*181 (MRCItem
+litem &60
+pos 52
+dimension 20
+uid 679,0
+)
+*182 (MRCItem
+litem &61
+pos 54
+dimension 20
+uid 681,0
+)
+*183 (MRCItem
+litem &62
+pos 76
+dimension 20
+uid 683,0
+)
+*184 (MRCItem
+litem &63
+pos 48
+dimension 20
+uid 685,0
+)
+*185 (MRCItem
+litem &64
+pos 50
+dimension 20
+uid 687,0
+)
+*186 (MRCItem
+litem &65
+pos 53
+dimension 20
+uid 689,0
+)
+*187 (MRCItem
+litem &66
+pos 55
+dimension 20
+uid 691,0
+)
+*188 (MRCItem
+litem &67
+pos 56
+dimension 20
+uid 693,0
+)
+*189 (MRCItem
+litem &68
+pos 67
+dimension 20
+uid 695,0
+)
+*190 (MRCItem
+litem &69
+pos 57
+dimension 20
+uid 697,0
+)
+*191 (MRCItem
+litem &70
+pos 51
+dimension 20
+uid 699,0
+)
+*192 (MRCItem
+litem &71
+pos 58
+dimension 20
+uid 701,0
+)
+*193 (MRCItem
+litem &72
+pos 59
+dimension 20
+uid 703,0
+)
+*194 (MRCItem
+litem &73
+pos 75
+dimension 20
+uid 705,0
+)
+*195 (MRCItem
+litem &74
+pos 88
+dimension 20
+uid 707,0
+)
+*196 (MRCItem
+litem &75
+pos 86
+dimension 20
+uid 709,0
+)
+*197 (MRCItem
+litem &76
+pos 78
+dimension 20
+uid 711,0
+)
+*198 (MRCItem
+litem &77
+pos 74
+dimension 20
+uid 713,0
+)
+*199 (MRCItem
+litem &78
+pos 87
+dimension 20
+uid 715,0
+)
+*200 (MRCItem
+litem &79
+pos 85
+dimension 20
+uid 717,0
+)
+*201 (MRCItem
+litem &80
+pos 84
+dimension 20
+uid 719,0
+)
+*202 (MRCItem
+litem &81
+pos 61
+dimension 20
+uid 721,0
+)
+*203 (MRCItem
+litem &82
+pos 83
+dimension 20
+uid 723,0
+)
+*204 (MRCItem
+litem &83
+pos 89
+dimension 20
+uid 725,0
+)
+*205 (MRCItem
+litem &84
+pos 82
+dimension 20
+uid 727,0
+)
+*206 (MRCItem
+litem &85
+pos 81
+dimension 20
+uid 729,0
+)
+*207 (MRCItem
+litem &86
+pos 63
+dimension 20
+uid 731,0
+)
+*208 (MRCItem
+litem &87
+pos 47
+dimension 20
+uid 733,0
+)
+*209 (MRCItem
+litem &88
+pos 64
+dimension 20
+uid 735,0
+)
+*210 (MRCItem
+litem &89
+pos 65
+dimension 20
+uid 737,0
+)
+*211 (MRCItem
+litem &90
+pos 66
+dimension 20
+uid 739,0
+)
+*212 (MRCItem
+litem &91
+pos 69
+dimension 20
+uid 741,0
+)
+*213 (MRCItem
+litem &92
+pos 68
+dimension 20
+uid 743,0
+)
+*214 (MRCItem
+litem &93
+pos 71
+dimension 20
+uid 745,0
+)
+*215 (MRCItem
+litem &94
+pos 60
+dimension 20
+uid 747,0
+)
+*216 (MRCItem
+litem &95
+pos 70
+dimension 20
+uid 749,0
+)
+*217 (MRCItem
+litem &96
+pos 72
+dimension 20
+uid 751,0
+)
+*218 (MRCItem
+litem &97
+pos 73
+dimension 20
+uid 753,0
+)
+*219 (MRCItem
+litem &98
+pos 80
+dimension 20
+uid 755,0
+)
+*220 (MRCItem
+litem &99
+pos 44
+dimension 20
+uid 757,0
+)
+*221 (MRCItem
+litem &100
+pos 62
+dimension 20
+uid 759,0
+)
+*222 (MRCItem
+litem &101
+pos 79
+dimension 20
+uid 761,0
+)
+*223 (MRCItem
+litem &102
+pos 45
+dimension 20
+uid 763,0
+)
+*224 (MRCItem
+litem &103
+pos 46
+dimension 20
+uid 765,0
+)
+*225 (MRCItem
+litem &104
+pos 115
+dimension 20
+uid 885,0
+)
+*226 (MRCItem
+litem &105
+pos 90
+dimension 20
+uid 1567,0
+)
+*227 (MRCItem
+litem &106
+pos 91
+dimension 20
+uid 1569,0
+)
+*228 (MRCItem
+litem &107
+pos 92
+dimension 20
+uid 1571,0
+)
+*229 (MRCItem
+litem &108
+pos 93
+dimension 20
+uid 1573,0
+)
+*230 (MRCItem
+litem &109
+pos 94
+dimension 20
+uid 1575,0
+)
+*231 (MRCItem
+litem &110
+pos 95
+dimension 20
+uid 1577,0
+)
+*232 (MRCItem
+litem &111
+pos 96
+dimension 20
+uid 1579,0
+)
+*233 (MRCItem
+litem &112
+pos 97
+dimension 20
+uid 1581,0
+)
+*234 (MRCItem
+litem &113
+pos 98
+dimension 20
+uid 1583,0
+)
+*235 (MRCItem
+litem &114
+pos 99
+dimension 20
+uid 1585,0
+)
+*236 (MRCItem
+litem &115
+pos 100
+dimension 20
+uid 1587,0
+)
+*237 (MRCItem
+litem &116
+pos 101
+dimension 20
+uid 1589,0
+)
+*238 (MRCItem
+litem &117
+pos 102
+dimension 20
+uid 1591,0
+)
+*239 (MRCItem
+litem &118
+pos 103
+dimension 20
+uid 1593,0
+)
+*240 (MRCItem
+litem &119
+pos 104
+dimension 20
+uid 1595,0
+)
+*241 (MRCItem
+litem &120
+pos 105
+dimension 20
+uid 1597,0
+)
+*242 (MRCItem
+litem &121
+pos 106
+dimension 20
+uid 1795,0
+)
+*243 (MRCItem
+litem &122
+pos 107
+dimension 20
+uid 1797,0
+)
+*244 (MRCItem
+litem &123
+pos 108
+dimension 20
+uid 1799,0
+)
+*245 (MRCItem
+litem &124
+pos 109
+dimension 20
+uid 1801,0
+)
+*246 (MRCItem
+litem &125
+pos 110
+dimension 20
+uid 1803,0
+)
+*247 (MRCItem
+litem &126
+pos 111
+dimension 20
+uid 1805,0
+)
+*248 (MRCItem
+litem &127
+pos 112
+dimension 20
+uid 1908,0
+)
+*249 (MRCItem
+litem &128
+pos 113
+dimension 20
+uid 1910,0
+)
+*250 (MRCItem
+litem &129
+pos 114
+dimension 20
+uid 1912,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 72,0
+optionalChildren [
+*251 (MRCItem
+litem &5
+pos 0
+dimension 20
+uid 73,0
+)
+*252 (MRCItem
+litem &7
+pos 1
+dimension 50
+uid 74,0
+)
+*253 (MRCItem
+litem &8
+pos 2
+dimension 100
+uid 75,0
+)
+*254 (MRCItem
+litem &9
+pos 3
+dimension 50
+uid 76,0
+)
+*255 (MRCItem
+litem &10
+pos 4
+dimension 100
+uid 77,0
+)
+*256 (MRCItem
+litem &11
+pos 5
+dimension 100
+uid 78,0
+)
+*257 (MRCItem
+litem &12
+pos 6
+dimension 50
+uid 79,0
+)
+*258 (MRCItem
+litem &13
+pos 7
+dimension 80
+uid 80,0
+)
+]
+)
+fixedCol 4
+fixedRow 2
+name "Ports"
+uid 67,0
+vaOverrides [
+]
+)
+]
+)
+uid 52,0
+)
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *259 (LEmptyRow
+)
+uid 82,0
+optionalChildren [
+*260 (RefLabelRowHdr
+)
+*261 (TitleRowHdr
+)
+*262 (FilterRowHdr
+)
+*263 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*264 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*265 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*266 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*267 (TypeColHdr
+tm "GenericTypeColHdrMgr"
+)
+*268 (InitColHdr
+tm "GenericValueColHdrMgr"
+)
+*269 (PragmaColHdr
+tm "GenericPragmaColHdrMgr"
+)
+*270 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+*271 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_ADDR_WIDTH"
+type "integer"
+value "64"
+)
+uid 1081,0
+)
+*272 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_ARUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1083,0
+)
+*273 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_AWUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1085,0
+)
+*274 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_BURST_LEN"
+type "integer"
+value "16"
+)
+uid 1087,0
+)
+*275 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_BUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1089,0
+)
+*276 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_DATA_WIDTH"
+type "integer"
+value "32"
+)
+uid 1091,0
+)
+*277 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_ID_WIDTH"
+type "integer"
+value "1"
+)
+uid 1093,0
+)
+*278 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_RUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1095,0
+)
+*279 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_TARGET_SLAVE_BASE_ADDR"
+type "std_logic_vector"
+value "x\"40000000\""
+pr "-- Parameters of Axi Master Bus Interface M00_AXI"
+apr 0
+)
+uid 1097,0
+)
+*280 (LogGeneric
+generic (GiElement
+name "C_M00_AXI_WUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1099,0
+)
+*281 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_ADDR_WIDTH"
+type "integer"
+value "10"
+)
+uid 1101,0
+)
+*282 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_ARUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1103,0
+)
+*283 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_AWUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1105,0
+)
+*284 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_BUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1107,0
+)
+*285 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_DATA_WIDTH"
+type "integer"
+value "32"
+)
+uid 1109,0
+)
+*286 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_ID_WIDTH"
+type "integer"
+value "1"
+pr "-- Users to add parameters here
+
+-- User parameters ends
+-- Do not modify the parameters beyond this line
+
+
+-- Parameters of Axi Slave Bus Interface S00_AXI"
+apr 0
+)
+uid 1111,0
+)
+*287 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_RUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1113,0
+)
+*288 (LogGeneric
+generic (GiElement
+name "C_S00_AXI_WUSER_WIDTH"
+type "integer"
+value "0"
+)
+uid 1115,0
+)
+*289 (LogGeneric
+generic (GiElement
+name "C_SLV_ADDR_WIDTH"
+type "integer"
+value "16"
+)
+uid 1260,0
+)
+*290 (LogGeneric
+generic (GiElement
+name "C_SLV_DATA_WIDTH"
+type "integer"
+value "32"
+)
+uid 1262,0
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 94,0
+optionalChildren [
+*291 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *292 (MRCItem
+litem &259
+pos 20
+dimension 20
+)
+uid 96,0
+optionalChildren [
+*293 (MRCItem
+litem &260
+pos 0
+dimension 20
+uid 97,0
+)
+*294 (MRCItem
+litem &261
+pos 1
+dimension 23
+uid 98,0
+)
+*295 (MRCItem
+litem &262
+pos 2
+hidden 1
+dimension 20
+uid 99,0
+)
+*296 (MRCItem
+litem &271
+pos 0
+dimension 20
+uid 1082,0
+)
+*297 (MRCItem
+litem &272
+pos 1
+dimension 20
+uid 1084,0
+)
+*298 (MRCItem
+litem &273
+pos 2
+dimension 20
+uid 1086,0
+)
+*299 (MRCItem
+litem &274
+pos 3
+dimension 20
+uid 1088,0
+)
+*300 (MRCItem
+litem &275
+pos 4
+dimension 20
+uid 1090,0
+)
+*301 (MRCItem
+litem &276
+pos 5
+dimension 20
+uid 1092,0
+)
+*302 (MRCItem
+litem &277
+pos 6
+dimension 20
+uid 1094,0
+)
+*303 (MRCItem
+litem &278
+pos 7
+dimension 20
+uid 1096,0
+)
+*304 (MRCItem
+litem &279
+pos 8
+dimension 20
+uid 1098,0
+)
+*305 (MRCItem
+litem &280
+pos 9
+dimension 20
+uid 1100,0
+)
+*306 (MRCItem
+litem &281
+pos 10
+dimension 20
+uid 1102,0
+)
+*307 (MRCItem
+litem &282
+pos 11
+dimension 20
+uid 1104,0
+)
+*308 (MRCItem
+litem &283
+pos 12
+dimension 20
+uid 1106,0
+)
+*309 (MRCItem
+litem &284
+pos 13
+dimension 20
+uid 1108,0
+)
+*310 (MRCItem
+litem &285
+pos 14
+dimension 20
+uid 1110,0
+)
+*311 (MRCItem
+litem &286
+pos 15
+dimension 20
+uid 1112,0
+)
+*312 (MRCItem
+litem &287
+pos 16
+dimension 20
+uid 1114,0
+)
+*313 (MRCItem
+litem &288
+pos 17
+dimension 20
+uid 1116,0
+)
+*314 (MRCItem
+litem &289
+pos 18
+dimension 20
+uid 1261,0
+)
+*315 (MRCItem
+litem &290
+pos 19
+dimension 20
+uid 1263,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 100,0
+optionalChildren [
+*316 (MRCItem
+litem &263
+pos 0
+dimension 20
+uid 101,0
+)
+*317 (MRCItem
+litem &265
+pos 1
+dimension 50
+uid 102,0
+)
+*318 (MRCItem
+litem &266
+pos 2
+dimension 100
+uid 103,0
+)
+*319 (MRCItem
+litem &267
+pos 3
+dimension 100
+uid 104,0
+)
+*320 (MRCItem
+litem &268
+pos 4
+dimension 50
+uid 105,0
+)
+*321 (MRCItem
+litem &269
+pos 5
+dimension 50
+uid 106,0
+)
+*322 (MRCItem
+litem &270
+pos 6
+dimension 80
+uid 107,0
+)
+]
+)
+fixedCol 4
+fixedRow 2
+name "Ports"
+uid 95,0
+vaOverrides [
+]
+)
+]
+)
+uid 81,0
+type 1
+)
+VExpander (VariableExpander
+vvMap [
+(vvPair
+variable "HDLDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hdl"
+)
+(vvPair
+variable "HDSDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds"
+)
+(vvPair
+variable "SideDataDesignDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@copy_of_jpec_an4_v1_0\\symbol.sb.info"
+)
+(vvPair
+variable "SideDataUserDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@copy_of_jpec_an4_v1_0\\symbol.sb.user"
+)
+(vvPair
+variable "SourceDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds"
+)
+(vvPair
+variable "appl"
+value "HDL Designer"
+)
+(vvPair
+variable "arch_name"
+value "symbol"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
+)
+(vvPair
+variable "d"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@copy_of_jpec_an4_v1_0"
+)
+(vvPair
+variable "d_logical"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\Copy_of_jpec_an4_v1_0"
+)
+(vvPair
+variable "date"
+value "20.10.2015"
+)
+(vvPair
+variable "day"
+value "Di"
+)
+(vvPair
+variable "day_long"
+value "Dienstag"
+)
+(vvPair
+variable "dd"
+value "20"
+)
+(vvPair
+variable "entity_name"
+value "Copy_of_jpec_an4_v1_0"
+)
+(vvPair
+variable "ext"
+value "<TBD>"
+)
+(vvPair
+variable "f"
+value "symbol.sb"
+)
+(vvPair
+variable "f_logical"
+value "symbol.sb"
+)
+(vvPair
+variable "f_noext"
+value "symbol"
+)
+(vvPair
+variable "graphical_source_author"
+value "net"
+)
+(vvPair
+variable "graphical_source_date"
+value "10/20/15"
+)
+(vvPair
+variable "graphical_source_group"
+value "Personal AEE"
+)
+(vvPair
+variable "graphical_source_time"
+value "10:01:36"
+)
+(vvPair
+variable "group"
+value "UNKNOWN"
+)
+(vvPair
+variable "host"
+value "KPERSM7467"
+)
+(vvPair
+variable "language"
+value "VHDL"
+)
+(vvPair
+variable "library"
+value "jpec_an4"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "E:/vivado/ip_repo/jpec_an4_1.0/work"
+)
+(vvPair
+variable "library_downstream_ModelSimSimulator"
+value "E:/vivado/ip_repo/jpec_an4_1.0/work"
+)
+(vvPair
+variable "mm"
+value "10"
+)
+(vvPair
+variable "module_name"
+value "Copy_of_jpec_an4_v1_0"
+)
+(vvPair
+variable "month"
+value "Okt"
+)
+(vvPair
+variable "month_long"
+value "Oktober"
+)
+(vvPair
+variable "p"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@copy_of_jpec_an4_v1_0\\symbol.sb"
+)
+(vvPair
+variable "p_logical"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\Copy_of_jpec_an4_v1_0\\symbol.sb"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "HDL"
+)
+(vvPair
+variable "series"
+value "HDL Designer Series"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "C:\\MentorGraphics\\modeltech64_10.2c\\win64"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "sb"
+)
+(vvPair
+variable "this_file"
+value "symbol"
+)
+(vvPair
+variable "this_file_logical"
+value "symbol"
+)
+(vvPair
+variable "time"
+value "10:02:40"
+)
+(vvPair
+variable "unit"
+value "Copy_of_jpec_an4_v1_0"
+)
+(vvPair
+variable "user"
+value "net"
+)
+(vvPair
+variable "version"
+value "2012.2b (Build 5)"
+)
+(vvPair
+variable "view"
+value "symbol"
+)
+(vvPair
+variable "year"
+value "2015"
+)
+(vvPair
+variable "yy"
+value "15"
+)
+]
+)
+LanguageMgr "VhdlLangMgr"
+uid 51,0
+optionalChildren [
+*323 (SymbolBody
+uid 8,0
+optionalChildren [
+*324 (CptPort
+uid 128,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 129,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,8625,15000,9375"
+)
+tg (CPTG
+uid 130,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 131,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,8500,22300,9500"
+st "M00_AXI_ACLK"
+blo "16000,9300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 132,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,2000,66000,3600"
+st "-- Global Clock Signal.
+M00_AXI_ACLK       : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ACLK"
+t "std_logic"
+prec "-- Global Clock Signal."
+preAdd 0
+posAdd 0
+o 1
+suid 5,0
+)
+)
+)
+*325 (CptPort
+uid 133,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 134,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,53625,15000,54375"
+)
+tg (CPTG
+uid 135,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 136,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,53500,36800,54500"
+st "M00_AXI_ARADDR : (C_M00_AXI_ADDR_WIDTH-1:0)"
+blo "16000,54300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 137,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,67600,86000,70000"
+st "-- Read address. This signal indicates the initial
+  -- address of a read burst transaction.
+M00_AXI_ARADDR     : out    std_logic_vector (C_M00_AXI_ADDR_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARADDR"
+t "std_logic_vector"
+b "(C_M00_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Read address. This signal indicates the initial
+  -- address of a read burst transaction."
+preAdd 0
+posAdd 0
+o 55
+suid 6,0
+)
+)
+)
+*326 (CptPort
+uid 138,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 139,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,52625,15000,53375"
+)
+tg (CPTG
+uid 140,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 141,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,52500,26700,53500"
+st "M00_AXI_ARBURST : (1:0)"
+blo "16000,53300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 142,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,70000,86000,72400"
+st "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated.
+M00_AXI_ARBURST    : out    std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 56
+suid 7,0
+)
+)
+)
+*327 (CptPort
+uid 143,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 144,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,51625,15000,52375"
+)
+tg (CPTG
+uid 145,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 146,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,51500,26800,52500"
+st "M00_AXI_ARCACHE : (3:0)"
+blo "16000,52300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 147,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,72400,75500,74800"
+st "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system.
+M00_AXI_ARCACHE    : out    std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 57
+suid 8,0
+)
+)
+)
+*328 (CptPort
+uid 148,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 149,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,10625,15000,11375"
+)
+tg (CPTG
+uid 150,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 151,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,10500,24000,11500"
+st "M00_AXI_ARESETN"
+blo "16000,11300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 152,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,3600,70500,5200"
+st "-- Global Reset Singal. This Signal is Active Low
+M00_AXI_ARESETN    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ARESETN"
+t "std_logic"
+prec "-- Global Reset Singal. This Signal is Active Low"
+preAdd 0
+posAdd 0
+o 2
+suid 9,0
+)
+)
+)
+*329 (CptPort
+uid 153,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 154,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,50625,15000,51375"
+)
+tg (CPTG
+uid 155,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 156,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,50500,33400,51500"
+st "M00_AXI_ARID : (C_M00_AXI_ID_WIDTH-1:0)"
+blo "16000,51300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 157,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,74800,85000,76400"
+st "-- Master Interface Read Address.
+M00_AXI_ARID       : out    std_logic_vector (C_M00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Read Address."
+preAdd 0
+posAdd 0
+o 58
+suid 10,0
+)
+)
+)
+*330 (CptPort
+uid 158,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 159,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,49625,15000,50375"
+)
+tg (CPTG
+uid 160,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 161,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,49500,25500,50500"
+st "M00_AXI_ARLEN : (7:0)"
+blo "16000,50300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 162,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,76400,86000,78000"
+st "-- Burst length. The burst length gives the exact number of transfers in a burst
+M00_AXI_ARLEN      : out    std_logic_vector (7 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 59
+suid 11,0
+)
+)
+)
+*331 (CptPort
+uid 163,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 164,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,48625,15000,49375"
+)
+tg (CPTG
+uid 165,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 166,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,48500,23500,49500"
+st "M00_AXI_ARLOCK"
+blo "16000,49300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 167,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,78000,73500,80400"
+st "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer.
+M00_AXI_ARLOCK     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 60
+suid 12,0
+)
+)
+)
+*332 (CptPort
+uid 168,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 169,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,47625,15000,48375"
+)
+tg (CPTG
+uid 170,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 171,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,47500,26200,48500"
+st "M00_AXI_ARPROT : (2:0)"
+blo "16000,48300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 172,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,80400,77500,83600"
+st "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access.
+M00_AXI_ARPROT     : out    std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 61
+suid 13,0
+)
+)
+)
+*333 (CptPort
+uid 173,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 174,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,46625,15000,47375"
+)
+tg (CPTG
+uid 175,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 176,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,46500,25700,47500"
+st "M00_AXI_ARQOS : (3:0)"
+blo "16000,47300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 177,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,83600,80000,85200"
+st "-- Quality of Service, QoS identifier sent for each read transaction
+M00_AXI_ARQOS      : out    std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each read transaction"
+preAdd 0
+posAdd 0
+o 62
+suid 14,0
+)
+)
+)
+*334 (CptPort
+uid 178,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 179,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,56625,15000,57375"
+)
+tg (CPTG
+uid 180,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 181,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,56500,24100,57500"
+st "M00_AXI_ARREADY"
+blo "16000,57300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 182,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,5200,83500,7600"
+st "-- Read address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals
+M00_AXI_ARREADY    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_ARREADY"
+t "std_logic"
+prec "-- Read address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 3
+suid 15,0
+)
+)
+)
+*335 (CptPort
+uid 183,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 184,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,45625,15000,46375"
+)
+tg (CPTG
+uid 185,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 186,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,45500,25700,46500"
+st "M00_AXI_ARSIZE : (2:0)"
+blo "16000,46300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 187,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,85200,83500,86800"
+st "-- Burst size. This signal indicates the size of each transfer in the burst
+M00_AXI_ARSIZE     : out    std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 63
+suid 16,0
+)
+)
+)
+*336 (CptPort
+uid 188,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 189,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,44625,15000,45375"
+)
+tg (CPTG
+uid 190,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 191,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,44500,37700,45500"
+st "M00_AXI_ARUSER : (C_M00_AXI_ARUSER_WIDTH-1:0)"
+blo "16000,45300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 192,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,86800,87000,88400"
+st "-- Optional User-defined signal in the read address channel.
+M00_AXI_ARUSER     : out    std_logic_vector (C_M00_AXI_ARUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_ARUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 64
+suid 17,0
+)
+)
+)
+*337 (CptPort
+uid 193,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 194,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,43625,15000,44375"
+)
+tg (CPTG
+uid 195,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 196,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,43500,23600,44500"
+st "M00_AXI_ARVALID"
+blo "16000,44300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 197,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,88400,82000,90800"
+st "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid read address and control information
+M00_AXI_ARVALID    : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_ARVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid read address and control information"
+preAdd 0
+posAdd 0
+o 65
+suid 18,0
+)
+)
+)
+*338 (CptPort
+uid 198,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 199,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,42625,15000,43375"
+)
+tg (CPTG
+uid 200,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 201,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,42500,36900,43500"
+st "M00_AXI_AWADDR : (C_M00_AXI_ADDR_WIDTH-1:0)"
+blo "16000,43300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 202,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,90800,86000,92400"
+st "-- Master Interface Write Address
+M00_AXI_AWADDR     : out    std_logic_vector (C_M00_AXI_ADDR_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWADDR"
+t "std_logic_vector"
+b "(C_M00_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address"
+preAdd 0
+posAdd 0
+o 66
+suid 19,0
+)
+)
+)
+*339 (CptPort
+uid 203,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 204,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,41625,15000,42375"
+)
+tg (CPTG
+uid 205,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 206,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,41500,26800,42500"
+st "M00_AXI_AWBURST : (1:0)"
+blo "16000,42300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 207,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,92400,86000,94800"
+st "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated.
+M00_AXI_AWBURST    : out    std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 67
+suid 20,0
+)
+)
+)
+*340 (CptPort
+uid 208,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 209,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,40625,15000,41375"
+)
+tg (CPTG
+uid 210,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 211,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,40500,26900,41500"
+st "M00_AXI_AWCACHE : (3:0)"
+blo "16000,41300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 212,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,94800,75500,97200"
+st "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system.
+M00_AXI_AWCACHE    : out    std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 68
+suid 21,0
+)
+)
+)
+*341 (CptPort
+uid 213,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 214,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,39625,15000,40375"
+)
+tg (CPTG
+uid 215,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 216,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,39500,33500,40500"
+st "M00_AXI_AWID : (C_M00_AXI_ID_WIDTH-1:0)"
+blo "16000,40300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 217,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,97200,85000,98800"
+st "-- Master Interface Write Address ID
+M00_AXI_AWID       : out    std_logic_vector (C_M00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address ID"
+preAdd 0
+posAdd 0
+o 69
+suid 22,0
+)
+)
+)
+*342 (CptPort
+uid 218,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 219,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,38625,15000,39375"
+)
+tg (CPTG
+uid 220,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 221,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,38500,25600,39500"
+st "M00_AXI_AWLEN : (7:0)"
+blo "16000,39300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 222,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,98800,86000,100400"
+st "-- Burst length. The burst length gives the exact number of transfers in a burst
+M00_AXI_AWLEN      : out    std_logic_vector (7 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 70
+suid 23,0
+)
+)
+)
+*343 (CptPort
+uid 223,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 224,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,37625,15000,38375"
+)
+tg (CPTG
+uid 225,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 226,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,37500,23600,38500"
+st "M00_AXI_AWLOCK"
+blo "16000,38300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 227,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,100400,73500,102800"
+st "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer.
+M00_AXI_AWLOCK     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 71
+suid 24,0
+)
+)
+)
+*344 (CptPort
+uid 228,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 229,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,36625,15000,37375"
+)
+tg (CPTG
+uid 230,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 231,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,36500,26300,37500"
+st "M00_AXI_AWPROT : (2:0)"
+blo "16000,37300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 232,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,102800,77500,106000"
+st "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access.
+M00_AXI_AWPROT     : out    std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 72
+suid 25,0
+)
+)
+)
+*345 (CptPort
+uid 233,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 234,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,35625,15000,36375"
+)
+tg (CPTG
+uid 235,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 236,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,35500,25800,36500"
+st "M00_AXI_AWQOS : (3:0)"
+blo "16000,36300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 237,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,106000,81000,107600"
+st "-- Quality of Service, QoS identifier sent for each write transaction.
+M00_AXI_AWQOS      : out    std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each write transaction."
+preAdd 0
+posAdd 0
+o 73
+suid 26,0
+)
+)
+)
+*346 (CptPort
+uid 238,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 239,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,57625,15000,58375"
+)
+tg (CPTG
+uid 240,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 241,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,57500,24200,58500"
+st "M00_AXI_AWREADY"
+blo "16000,58300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 242,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,7600,83500,10000"
+st "-- Write address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals
+M00_AXI_AWREADY    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_AWREADY"
+t "std_logic"
+prec "-- Write address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 4
+suid 27,0
+)
+)
+)
+*347 (CptPort
+uid 243,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 244,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,34625,15000,35375"
+)
+tg (CPTG
+uid 245,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 246,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,34500,25800,35500"
+st "M00_AXI_AWSIZE : (2:0)"
+blo "16000,35300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 247,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,107600,83500,109200"
+st "-- Burst size. This signal indicates the size of each transfer in the burst
+M00_AXI_AWSIZE     : out    std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 74
+suid 28,0
+)
+)
+)
+*348 (CptPort
+uid 248,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 249,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,33625,15000,34375"
+)
+tg (CPTG
+uid 250,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 251,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,33500,37900,34500"
+st "M00_AXI_AWUSER : (C_M00_AXI_AWUSER_WIDTH-1:0)"
+blo "16000,34300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 252,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,109200,87000,110800"
+st "-- Optional User-defined signal in the write address channel.
+M00_AXI_AWUSER     : out    std_logic_vector (C_M00_AXI_AWUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_AWUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write address channel."
+preAdd 0
+posAdd 0
+o 75
+suid 29,0
+)
+)
+)
+*349 (CptPort
+uid 253,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 254,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,32625,15000,33375"
+)
+tg (CPTG
+uid 255,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 256,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,32500,23700,33500"
+st "M00_AXI_AWVALID"
+blo "16000,33300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 257,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,110800,83000,113200"
+st "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid write address and control information.
+M00_AXI_AWVALID    : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_AWVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid write address and control information."
+preAdd 0
+posAdd 0
+o 76
+suid 30,0
+)
+)
+)
+*350 (CptPort
+uid 258,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 259,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,58625,15000,59375"
+)
+tg (CPTG
+uid 260,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 261,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,58500,32800,59500"
+st "M00_AXI_BID : (C_M00_AXI_ID_WIDTH-1:0)"
+blo "16000,59300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 262,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,10000,85000,11600"
+st "-- Master Interface Write Response.
+M00_AXI_BID        : in     std_logic_vector (C_M00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Response."
+preAdd 0
+posAdd 0
+o 5
+suid 31,0
+)
+)
+)
+*351 (CptPort
+uid 263,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 264,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,31625,15000,32375"
+)
+tg (CPTG
+uid 265,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 266,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,31500,23500,32500"
+st "M00_AXI_BREADY"
+blo "16000,32300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 267,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,113200,74000,115600"
+st "-- Response ready. This signal indicates that the master
+  -- can accept a write response.
+M00_AXI_BREADY     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_BREADY"
+t "std_logic"
+prec "-- Response ready. This signal indicates that the master
+  -- can accept a write response."
+preAdd 0
+posAdd 0
+o 77
+suid 32,0
+)
+)
+)
+*352 (CptPort
+uid 268,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 269,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,59625,15000,60375"
+)
+tg (CPTG
+uid 270,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 271,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,59500,25500,60500"
+st "M00_AXI_BRESP : (1:0)"
+blo "16000,60300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 272,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,11600,84500,13200"
+st "-- Write response. This signal indicates the status of the write transaction.
+M00_AXI_BRESP      : in     std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Write response. This signal indicates the status of the write transaction."
+preAdd 0
+posAdd 0
+o 6
+suid 33,0
+)
+)
+)
+*353 (CptPort
+uid 273,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 274,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,60625,15000,61375"
+)
+tg (CPTG
+uid 275,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 276,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,60500,36500,61500"
+st "M00_AXI_BUSER : (C_M00_AXI_BUSER_WIDTH-1:0)"
+blo "16000,61300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 277,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,13200,86500,14800"
+st "-- Optional User-defined signal in the write response channel
+M00_AXI_BUSER      : in     std_logic_vector (C_M00_AXI_BUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_BUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write response channel"
+preAdd 0
+posAdd 0
+o 7
+suid 34,0
+)
+)
+)
+*354 (CptPort
+uid 278,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 279,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,61625,15000,62375"
+)
+tg (CPTG
+uid 280,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 281,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,61500,23000,62500"
+st "M00_AXI_BVALID"
+blo "16000,62300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 282,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,14800,73500,17200"
+st "-- Write response valid. This signal indicates that the
+  -- channel is signaling a valid write response.
+M00_AXI_BVALID     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_BVALID"
+t "std_logic"
+prec "-- Write response valid. This signal indicates that the
+  -- channel is signaling a valid write response."
+preAdd 0
+posAdd 0
+o 8
+suid 35,0
+)
+)
+)
+*355 (CptPort
+uid 283,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 284,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,62625,15000,63375"
+)
+tg (CPTG
+uid 285,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 286,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,62500,35900,63500"
+st "M00_AXI_RDATA : (C_M00_AXI_DATA_WIDTH-1:0)"
+blo "16000,63300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 287,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,17200,86000,18800"
+st "-- Master Read Data
+M00_AXI_RDATA      : in     std_logic_vector (C_M00_AXI_DATA_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RDATA"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Read Data"
+preAdd 0
+posAdd 0
+o 9
+suid 36,0
+)
+)
+)
+*356 (CptPort
+uid 288,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 289,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,63625,15000,64375"
+)
+tg (CPTG
+uid 290,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 291,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,63500,32900,64500"
+st "M00_AXI_RID : (C_M00_AXI_ID_WIDTH-1:0)"
+blo "16000,64300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 292,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,18800,85000,21200"
+st "-- Read ID tag. This signal is the identification tag
+  -- for the read data group of signals generated by the slave.
+M00_AXI_RID        : in     std_logic_vector (C_M00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RID"
+t "std_logic_vector"
+b "(C_M00_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Read ID tag. This signal is the identification tag
+  -- for the read data group of signals generated by the slave."
+preAdd 0
+posAdd 0
+o 10
+suid 37,0
+)
+)
+)
+*357 (CptPort
+uid 293,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 294,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,64625,15000,65375"
+)
+tg (CPTG
+uid 295,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 296,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,64500,22800,65500"
+st "M00_AXI_RLAST"
+blo "16000,65300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 297,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,21200,80500,22800"
+st "-- Read last. This signal indicates the last transfer in a read burst
+M00_AXI_RLAST      : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RLAST"
+t "std_logic"
+prec "-- Read last. This signal indicates the last transfer in a read burst"
+preAdd 0
+posAdd 0
+o 11
+suid 38,0
+)
+)
+)
+*358 (CptPort
+uid 298,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 299,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,30625,15000,31375"
+)
+tg (CPTG
+uid 300,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 301,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,30500,23600,31500"
+st "M00_AXI_RREADY"
+blo "16000,31300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 302,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,115600,74000,118000"
+st "-- Read ready. This signal indicates that the master can
+  -- accept the read data and response information.
+M00_AXI_RREADY     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_RREADY"
+t "std_logic"
+prec "-- Read ready. This signal indicates that the master can
+  -- accept the read data and response information."
+preAdd 0
+posAdd 0
+o 78
+suid 39,0
+)
+)
+)
+*359 (CptPort
+uid 303,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 304,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,65625,15000,66375"
+)
+tg (CPTG
+uid 305,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 306,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,65500,25600,66500"
+st "M00_AXI_RRESP : (1:0)"
+blo "16000,66300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 307,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,22800,81500,24400"
+st "-- Read response. This signal indicates the status of the read transfer
+M00_AXI_RRESP      : in     std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Read response. This signal indicates the status of the read transfer"
+preAdd 0
+posAdd 0
+o 12
+suid 40,0
+)
+)
+)
+*360 (CptPort
+uid 308,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 309,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,66625,15000,67375"
+)
+tg (CPTG
+uid 310,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 311,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,66500,36700,67500"
+st "M00_AXI_RUSER : (C_M00_AXI_RUSER_WIDTH-1:0)"
+blo "16000,67300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 312,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,24400,86500,26000"
+st "-- Optional User-defined signal in the read address channel.
+M00_AXI_RUSER      : in     std_logic_vector (C_M00_AXI_RUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_RUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 13
+suid 41,0
+)
+)
+)
+*361 (CptPort
+uid 313,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 314,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,67625,15000,68375"
+)
+tg (CPTG
+uid 315,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 316,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,67500,23100,68500"
+st "M00_AXI_RVALID"
+blo "16000,68300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 317,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,26000,72500,28400"
+st "-- Read valid. This signal indicates that the channel
+  -- is signaling the required read data.
+M00_AXI_RVALID     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_RVALID"
+t "std_logic"
+prec "-- Read valid. This signal indicates that the channel
+  -- is signaling the required read data."
+preAdd 0
+posAdd 0
+o 14
+suid 42,0
+)
+)
+)
+*362 (CptPort
+uid 318,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 319,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,29625,15000,30375"
+)
+tg (CPTG
+uid 320,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 321,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,29500,36000,30500"
+st "M00_AXI_WDATA : (C_M00_AXI_DATA_WIDTH-1:0)"
+blo "16000,30300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 322,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,118000,86000,119600"
+st "-- Master Interface Write Data.
+M00_AXI_WDATA      : out    std_logic_vector (C_M00_AXI_DATA_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WDATA"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Data."
+preAdd 0
+posAdd 0
+o 79
+suid 43,0
+)
+)
+)
+*363 (CptPort
+uid 323,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 324,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,28625,15000,29375"
+)
+tg (CPTG
+uid 325,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 326,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,28500,22900,29500"
+st "M00_AXI_WLAST"
+blo "16000,29300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 327,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,119600,82000,121200"
+st "-- Write last. This signal indicates the last transfer in a write burst.
+M00_AXI_WLAST      : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WLAST"
+t "std_logic"
+prec "-- Write last. This signal indicates the last transfer in a write burst."
+preAdd 0
+posAdd 0
+o 80
+suid 44,0
+)
+)
+)
+*364 (CptPort
+uid 328,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 329,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,68625,15000,69375"
+)
+tg (CPTG
+uid 330,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 331,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,68500,23700,69500"
+st "M00_AXI_WREADY"
+blo "16000,69300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 332,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,28400,72000,30800"
+st "-- Write ready. This signal indicates that the slave
+  -- can accept the write data.
+M00_AXI_WREADY     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "M00_AXI_WREADY"
+t "std_logic"
+prec "-- Write ready. This signal indicates that the slave
+  -- can accept the write data."
+preAdd 0
+posAdd 0
+o 15
+suid 45,0
+)
+)
+)
+*365 (CptPort
+uid 333,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 334,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,27625,15000,28375"
+)
+tg (CPTG
+uid 335,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 336,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,27500,36600,28500"
+st "M00_AXI_WSTRB : (C_M00_AXI_DATA_WIDTH/8-1:0)"
+blo "16000,28300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 337,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,121200,87000,124400"
+st "-- Write strobes. This signal indicates which byte
+  -- lanes hold valid data. There is one write strobe
+  -- bit for each eight bits of the write data bus.
+M00_AXI_WSTRB      : out    std_logic_vector (C_M00_AXI_DATA_WIDTH/8-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WSTRB"
+t "std_logic_vector"
+b "(C_M00_AXI_DATA_WIDTH/8-1 downto 0)"
+prec "-- Write strobes. This signal indicates which byte
+  -- lanes hold valid data. There is one write strobe
+  -- bit for each eight bits of the write data bus."
+preAdd 0
+posAdd 0
+o 81
+suid 46,0
+)
+)
+)
+*366 (CptPort
+uid 338,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 339,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,26625,15000,27375"
+)
+tg (CPTG
+uid 340,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 341,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,26500,36900,27500"
+st "M00_AXI_WUSER : (C_M00_AXI_WUSER_WIDTH-1:0)"
+blo "16000,27300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 342,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,124400,86500,126000"
+st "-- Optional User-defined signal in the write data channel.
+M00_AXI_WUSER      : out    std_logic_vector (C_M00_AXI_WUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WUSER"
+t "std_logic_vector"
+b "(C_M00_AXI_WUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write data channel."
+preAdd 0
+posAdd 0
+o 82
+suid 47,0
+)
+)
+)
+*367 (CptPort
+uid 343,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 344,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,25625,15000,26375"
+)
+tg (CPTG
+uid 345,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 346,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,25500,23200,26500"
+st "M00_AXI_WVALID"
+blo "16000,26300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 347,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,126000,73000,128400"
+st "-- Write valid. This signal indicates that valid write
+  -- data and strobes are available
+M00_AXI_WVALID     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M00_AXI_WVALID"
+t "std_logic"
+prec "-- Write valid. This signal indicates that valid write
+  -- data and strobes are available"
+preAdd 0
+posAdd 0
+o 83
+suid 48,0
+)
+)
+)
+*368 (CptPort
+uid 348,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 349,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-59375,15000,-58625"
+)
+tg (CPTG
+uid 350,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 351,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-59500,21000,-58500"
+st "s00_axi_aclk"
+blo "16000,-58700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 352,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,35600,67500,42000"
+st "-- Users to add ports here
+
+-- User ports ends
+-- Do not modify the ports beyond this line
+
+
+-- Ports of Axi Slave Bus Interface S00_AXI
+s00_axi_aclk       : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aclk"
+t "std_logic"
+prec "-- Users to add ports here
+
+-- User ports ends
+-- Do not modify the ports beyond this line
+
+
+-- Ports of Axi Slave Bus Interface S00_AXI"
+preAdd 0
+posAdd 0
+o 22
+suid 49,0
+)
+)
+)
+*369 (CptPort
+uid 353,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 354,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-38375,15000,-37625"
+)
+tg (CPTG
+uid 355,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 356,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-38500,34800,-37500"
+st "s00_axi_araddr : (C_S00_AXI_ADDR_WIDTH-1:0)"
+blo "16000,-37700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 357,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,42000,86000,42800"
+st "s00_axi_araddr     : in     std_logic_vector (C_S00_AXI_ADDR_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_araddr"
+t "std_logic_vector"
+b "(C_S00_AXI_ADDR_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 23
+suid 50,0
+)
+)
+)
+*370 (CptPort
+uid 358,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 359,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-35375,15000,-34625"
+)
+tg (CPTG
+uid 360,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 361,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-35500,24700,-34500"
+st "s00_axi_arburst : (1:0)"
+blo "16000,-34700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 362,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,42800,75500,43600"
+st "s00_axi_arburst    : in     std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arburst"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 24
+suid 51,0
+)
+)
+)
+*371 (CptPort
+uid 363,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 364,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-33375,15000,-32625"
+)
+tg (CPTG
+uid 365,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 366,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-33500,25000,-32500"
+st "s00_axi_arcache : (3:0)"
+blo "16000,-32700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 367,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,43600,75500,44400"
+st "s00_axi_arcache    : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arcache"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 25
+suid 52,0
+)
+)
+)
+*372 (CptPort
+uid 368,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 369,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-58375,15000,-57625"
+)
+tg (CPTG
+uid 370,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 371,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-58500,22200,-57500"
+st "s00_axi_aresetn"
+blo "16000,-57700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 372,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,44400,66000,45200"
+st "s00_axi_aresetn    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aresetn"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 26
+suid 53,0
+)
+)
+)
+*373 (CptPort
+uid 373,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 374,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-39375,15000,-38625"
+)
+tg (CPTG
+uid 375,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 376,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-39500,32000,-38500"
+st "s00_axi_arid : (C_S00_AXI_ID_WIDTH-1:0)"
+blo "16000,-38700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 377,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,45200,85000,46000"
+st "s00_axi_arid       : in     std_logic_vector (C_S00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 27
+suid 54,0
+)
+)
+)
+*374 (CptPort
+uid 378,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 379,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-37375,15000,-36625"
+)
+tg (CPTG
+uid 380,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 381,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-37500,24000,-36500"
+st "s00_axi_arlen : (7:0)"
+blo "16000,-36700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 382,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,46000,75500,46800"
+st "s00_axi_arlen      : in     std_logic_vector (7 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arlen"
+t "std_logic_vector"
+b "(7 downto 0)"
+preAdd 0
+posAdd 0
+o 28
+suid 55,0
+)
+)
+)
+*375 (CptPort
+uid 383,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 384,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-34375,15000,-33625"
+)
+tg (CPTG
+uid 385,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 386,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-34500,21700,-33500"
+st "s00_axi_arlock"
+blo "16000,-33700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 387,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,46800,66000,47600"
+st "s00_axi_arlock     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arlock"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 29
+suid 56,0
+)
+)
+)
+*376 (CptPort
+uid 388,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 389,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-32375,15000,-31625"
+)
+tg (CPTG
+uid 390,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 391,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-32500,24300,-31500"
+st "s00_axi_arprot : (2:0)"
+blo "16000,-31700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 392,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,47600,75500,48400"
+st "s00_axi_arprot     : in     std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arprot"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 30
+suid 57,0
+)
+)
+)
+*377 (CptPort
+uid 393,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 394,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-31375,15000,-30625"
+)
+tg (CPTG
+uid 395,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 396,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-31500,24300,-30500"
+st "s00_axi_arqos : (3:0)"
+blo "16000,-30700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 397,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,48400,75500,49200"
+st "s00_axi_arqos      : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arqos"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 31
+suid 58,0
+)
+)
+)
+*378 (CptPort
+uid 398,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 399,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-19375,15000,-18625"
+)
+tg (CPTG
+uid 400,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 401,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-19500,22200,-18500"
+st "s00_axi_arready"
+blo "16000,-18700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 402,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,144400,66000,145200"
+st "s00_axi_arready    : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_arready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 104
+suid 59,0
+)
+)
+)
+*379 (CptPort
+uid 403,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 404,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-30375,15000,-29625"
+)
+tg (CPTG
+uid 405,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 406,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-30500,25200,-29500"
+st "s00_axi_arregion : (3:0)"
+blo "16000,-29700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 407,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,49200,75500,50000"
+st "s00_axi_arregion   : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arregion"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 32
+suid 60,0
+)
+)
+)
+*380 (CptPort
+uid 408,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 409,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-36375,15000,-35625"
+)
+tg (CPTG
+uid 410,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 411,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-36500,24400,-35500"
+st "s00_axi_arsize : (2:0)"
+blo "16000,-35700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 412,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,50000,75500,50800"
+st "s00_axi_arsize     : in     std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arsize"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 33
+suid 61,0
+)
+)
+)
+*381 (CptPort
+uid 413,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 414,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-29375,15000,-28625"
+)
+tg (CPTG
+uid 415,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 416,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-29500,35800,-28500"
+st "s00_axi_aruser : (C_S00_AXI_ARUSER_WIDTH-1:0)"
+blo "16000,-28700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 417,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,50800,87000,51600"
+st "s00_axi_aruser     : in     std_logic_vector (C_S00_AXI_ARUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_aruser"
+t "std_logic_vector"
+b "(C_S00_AXI_ARUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 34
+suid 62,0
+)
+)
+)
+*382 (CptPort
+uid 418,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 419,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-28375,15000,-27625"
+)
+tg (CPTG
+uid 420,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 421,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-28500,21900,-27500"
+st "s00_axi_arvalid"
+blo "16000,-27700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 422,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,51600,66000,52400"
+st "s00_axi_arvalid    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_arvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 35
+suid 63,0
+)
+)
+)
+*383 (CptPort
+uid 423,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 424,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-56375,15000,-55625"
+)
+tg (CPTG
+uid 425,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 426,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-56500,35000,-55500"
+st "s00_axi_awaddr : (C_S00_AXI_ADDR_WIDTH-1:0)"
+blo "16000,-55700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 427,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,52400,86000,53200"
+st "s00_axi_awaddr     : in     std_logic_vector (C_S00_AXI_ADDR_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awaddr"
+t "std_logic_vector"
+b "(C_S00_AXI_ADDR_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 36
+suid 64,0
+)
+)
+)
+*384 (CptPort
+uid 428,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 429,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-53375,15000,-52625"
+)
+tg (CPTG
+uid 430,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 431,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-53500,24900,-52500"
+st "s00_axi_awburst : (1:0)"
+blo "16000,-52700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 432,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,53200,75500,54000"
+st "s00_axi_awburst    : in     std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awburst"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 37
+suid 65,0
+)
+)
+)
+*385 (CptPort
+uid 433,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 434,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-51375,15000,-50625"
+)
+tg (CPTG
+uid 435,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 436,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-51500,25200,-50500"
+st "s00_axi_awcache : (3:0)"
+blo "16000,-50700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 437,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,54000,75500,54800"
+st "s00_axi_awcache    : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awcache"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 38
+suid 66,0
+)
+)
+)
+*386 (CptPort
+uid 438,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 439,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-57375,15000,-56625"
+)
+tg (CPTG
+uid 440,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 441,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-57500,32200,-56500"
+st "s00_axi_awid : (C_S00_AXI_ID_WIDTH-1:0)"
+blo "16000,-56700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 442,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,54800,85000,55600"
+st "s00_axi_awid       : in     std_logic_vector (C_S00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 39
+suid 67,0
+)
+)
+)
+*387 (CptPort
+uid 443,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 444,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-55375,15000,-54625"
+)
+tg (CPTG
+uid 445,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 446,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-55500,24200,-54500"
+st "s00_axi_awlen : (7:0)"
+blo "16000,-54700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 447,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,55600,75500,56400"
+st "s00_axi_awlen      : in     std_logic_vector (7 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awlen"
+t "std_logic_vector"
+b "(7 downto 0)"
+preAdd 0
+posAdd 0
+o 40
+suid 68,0
+)
+)
+)
+*388 (CptPort
+uid 448,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 449,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-52375,15000,-51625"
+)
+tg (CPTG
+uid 450,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 451,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-52500,21900,-51500"
+st "s00_axi_awlock"
+blo "16000,-51700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 452,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,56400,66000,57200"
+st "s00_axi_awlock     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awlock"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 41
+suid 69,0
+)
+)
+)
+*389 (CptPort
+uid 453,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 454,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-50375,15000,-49625"
+)
+tg (CPTG
+uid 455,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 456,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-50500,24500,-49500"
+st "s00_axi_awprot : (2:0)"
+blo "16000,-49700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 457,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,57200,75500,58000"
+st "s00_axi_awprot     : in     std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awprot"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 42
+suid 70,0
+)
+)
+)
+*390 (CptPort
+uid 458,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 459,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-49375,15000,-48625"
+)
+tg (CPTG
+uid 460,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 461,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-49500,24500,-48500"
+st "s00_axi_awqos : (3:0)"
+blo "16000,-48700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 462,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,58000,75500,58800"
+st "s00_axi_awqos      : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awqos"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 43
+suid 71,0
+)
+)
+)
+*391 (CptPort
+uid 463,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 464,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-14375,15000,-13625"
+)
+tg (CPTG
+uid 465,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 466,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-14500,22400,-13500"
+st "s00_axi_awready"
+blo "16000,-13700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 467,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,145200,66000,146000"
+st "s00_axi_awready    : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_awready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 105
+suid 72,0
+)
+)
+)
+*392 (CptPort
+uid 468,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 469,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-48375,15000,-47625"
+)
+tg (CPTG
+uid 470,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 471,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-48500,25400,-47500"
+st "s00_axi_awregion : (3:0)"
+blo "16000,-47700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 472,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,58800,75500,59600"
+st "s00_axi_awregion   : in     std_logic_vector (3 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awregion"
+t "std_logic_vector"
+b "(3 downto 0)"
+preAdd 0
+posAdd 0
+o 44
+suid 73,0
+)
+)
+)
+*393 (CptPort
+uid 473,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 474,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-54375,15000,-53625"
+)
+tg (CPTG
+uid 475,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 476,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-54500,24600,-53500"
+st "s00_axi_awsize : (2:0)"
+blo "16000,-53700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 477,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,59600,75500,60400"
+st "s00_axi_awsize     : in     std_logic_vector (2 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awsize"
+t "std_logic_vector"
+b "(2 downto 0)"
+preAdd 0
+posAdd 0
+o 45
+suid 74,0
+)
+)
+)
+*394 (CptPort
+uid 478,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 479,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-47375,15000,-46625"
+)
+tg (CPTG
+uid 480,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 481,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-47500,36100,-46500"
+st "s00_axi_awuser : (C_S00_AXI_AWUSER_WIDTH-1:0)"
+blo "16000,-46700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 482,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,60400,87000,61200"
+st "s00_axi_awuser     : in     std_logic_vector (C_S00_AXI_AWUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awuser"
+t "std_logic_vector"
+b "(C_S00_AXI_AWUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 46
+suid 75,0
+)
+)
+)
+*395 (CptPort
+uid 483,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 484,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-46375,15000,-45625"
+)
+tg (CPTG
+uid 485,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 486,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-46500,22100,-45500"
+st "s00_axi_awvalid"
+blo "16000,-45700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 487,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,61200,66000,62000"
+st "s00_axi_awvalid    : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_awvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 47
+suid 76,0
+)
+)
+)
+*396 (CptPort
+uid 488,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 489,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-15375,15000,-14625"
+)
+tg (CPTG
+uid 490,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 491,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-15500,31700,-14500"
+st "s00_axi_bid : (C_S00_AXI_ID_WIDTH-1:0)"
+blo "16000,-14700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 492,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,146000,85000,146800"
+st "s00_axi_bid        : out    std_logic_vector (C_S00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 106
+suid 77,0
+)
+)
+)
+*397 (CptPort
+uid 493,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 494,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-40375,15000,-39625"
+)
+tg (CPTG
+uid 495,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 496,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-40500,21900,-39500"
+st "s00_axi_bready"
+blo "16000,-39700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 497,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,62000,66000,62800"
+st "s00_axi_bready     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_bready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 48
+suid 78,0
+)
+)
+)
+*398 (CptPort
+uid 498,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 499,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-16375,15000,-15625"
+)
+tg (CPTG
+uid 500,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 501,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-16500,24200,-15500"
+st "s00_axi_bresp : (1:0)"
+blo "16000,-15700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 502,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,146800,75500,147600"
+st "s00_axi_bresp      : out    std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bresp"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 107
+suid 79,0
+)
+)
+)
+*399 (CptPort
+uid 503,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 504,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-17375,15000,-16625"
+)
+tg (CPTG
+uid 505,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 506,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-17500,34900,-16500"
+st "s00_axi_buser : (C_S00_AXI_BUSER_WIDTH-1:0)"
+blo "16000,-16700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 507,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,147600,86500,148400"
+st "s00_axi_buser      : out    std_logic_vector (C_S00_AXI_BUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_buser"
+t "std_logic_vector"
+b "(C_S00_AXI_BUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 108
+suid 80,0
+)
+)
+)
+*400 (CptPort
+uid 508,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 509,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-18375,15000,-17625"
+)
+tg (CPTG
+uid 510,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 511,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-18500,21600,-17500"
+st "s00_axi_bvalid"
+blo "16000,-17700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 512,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,148400,66000,149200"
+st "s00_axi_bvalid     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_bvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 109
+suid 81,0
+)
+)
+)
+*401 (CptPort
+uid 513,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 514,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-21375,15000,-20625"
+)
+tg (CPTG
+uid 515,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 516,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-21500,34100,-20500"
+st "s00_axi_rdata : (C_S00_AXI_DATA_WIDTH-1:0)"
+blo "16000,-20700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 517,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,149200,86000,150000"
+st "s00_axi_rdata      : out    std_logic_vector (C_S00_AXI_DATA_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rdata"
+t "std_logic_vector"
+b "(C_S00_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 110
+suid 82,0
+)
+)
+)
+*402 (CptPort
+uid 518,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 519,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-20375,15000,-19625"
+)
+tg (CPTG
+uid 520,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 521,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-20500,31600,-19500"
+st "s00_axi_rid : (C_S00_AXI_ID_WIDTH-1:0)"
+blo "16000,-19700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 522,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,150000,85000,150800"
+st "s00_axi_rid        : out    std_logic_vector (C_S00_AXI_ID_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rid"
+t "std_logic_vector"
+b "(C_S00_AXI_ID_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 111
+suid 83,0
+)
+)
+)
+*403 (CptPort
+uid 523,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 524,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-23375,15000,-22625"
+)
+tg (CPTG
+uid 525,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 526,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-23500,21200,-22500"
+st "s00_axi_rlast"
+blo "16000,-22700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 527,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,150800,66000,151600"
+st "s00_axi_rlast      : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 112
+suid 84,0
+)
+)
+)
+*404 (CptPort
+uid 528,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 529,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-27375,15000,-26625"
+)
+tg (CPTG
+uid 530,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 531,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-27500,21800,-26500"
+st "s00_axi_rready"
+blo "16000,-26700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 532,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,62800,66000,63600"
+st "s00_axi_rready     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_rready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 49
+suid 85,0
+)
+)
+)
+*405 (CptPort
+uid 533,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 534,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-22375,15000,-21625"
+)
+tg (CPTG
+uid 535,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 536,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-22500,24100,-21500"
+st "s00_axi_rresp : (1:0)"
+blo "16000,-21700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 537,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,151600,75500,152400"
+st "s00_axi_rresp      : out    std_logic_vector (1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rresp"
+t "std_logic_vector"
+b "(1 downto 0)"
+preAdd 0
+posAdd 0
+o 113
+suid 86,0
+)
+)
+)
+*406 (CptPort
+uid 538,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 539,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-24375,15000,-23625"
+)
+tg (CPTG
+uid 540,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 541,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-24500,34900,-23500"
+st "s00_axi_ruser : (C_S00_AXI_RUSER_WIDTH-1:0)"
+blo "16000,-23700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 542,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,152400,86500,153200"
+st "s00_axi_ruser      : out    std_logic_vector (C_S00_AXI_RUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_ruser"
+t "std_logic_vector"
+b "(C_S00_AXI_RUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 114
+suid 87,0
+)
+)
+)
+*407 (CptPort
+uid 543,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 544,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-25375,15000,-24625"
+)
+tg (CPTG
+uid 545,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 546,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-25500,21500,-24500"
+st "s00_axi_rvalid"
+blo "16000,-24700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 547,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,153200,66000,154000"
+st "s00_axi_rvalid     : out    std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_rvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 115
+suid 88,0
+)
+)
+)
+*408 (CptPort
+uid 548,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 549,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-45375,15000,-44625"
+)
+tg (CPTG
+uid 550,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 551,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-45500,34300,-44500"
+st "s00_axi_wdata : (C_S00_AXI_DATA_WIDTH-1:0)"
+blo "16000,-44700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 552,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,63600,86000,64400"
+st "s00_axi_wdata      : in     std_logic_vector (C_S00_AXI_DATA_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wdata"
+t "std_logic_vector"
+b "(C_S00_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 50
+suid 89,0
+)
+)
+)
+*409 (CptPort
+uid 553,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 554,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-43375,15000,-42625"
+)
+tg (CPTG
+uid 555,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 556,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-43500,21400,-42500"
+st "s00_axi_wlast"
+blo "16000,-42700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 557,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,64400,66000,65200"
+st "s00_axi_wlast      : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 51
+suid 90,0
+)
+)
+)
+*410 (CptPort
+uid 558,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 559,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-13375,15000,-12625"
+)
+tg (CPTG
+uid 560,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 561,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-13500,22000,-12500"
+st "s00_axi_wready"
+blo "16000,-12700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 562,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,154000,64500,154800"
+st "s00_axi_wready     : out    std_logic "
+)
+thePort (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "s00_axi_wready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 116
+suid 91,0
+)
+)
+)
+*411 (CptPort
+uid 563,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 564,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-44375,15000,-43625"
+)
+tg (CPTG
+uid 565,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 566,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-44500,35400,-43500"
+st "s00_axi_wstrb : ((C_S00_AXI_DATA_WIDTH/8)-1:0)"
+blo "16000,-43700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 567,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,65200,88000,66000"
+st "s00_axi_wstrb      : in     std_logic_vector ((C_S00_AXI_DATA_WIDTH/8)-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wstrb"
+t "std_logic_vector"
+b "((C_S00_AXI_DATA_WIDTH/8)-1 downto 0)"
+preAdd 0
+posAdd 0
+o 52
+suid 92,0
+)
+)
+)
+*412 (CptPort
+uid 568,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 569,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-42375,15000,-41625"
+)
+tg (CPTG
+uid 570,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 571,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-42500,35200,-41500"
+st "s00_axi_wuser : (C_S00_AXI_WUSER_WIDTH-1:0)"
+blo "16000,-41700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 572,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,66000,86500,66800"
+st "s00_axi_wuser      : in     std_logic_vector (C_S00_AXI_WUSER_WIDTH-1 downto 0) ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wuser"
+t "std_logic_vector"
+b "(C_S00_AXI_WUSER_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 53
+suid 93,0
+)
+)
+)
+*413 (CptPort
+uid 573,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 574,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,-41375,15000,-40625"
+)
+tg (CPTG
+uid 575,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 576,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,-41500,21700,-40500"
+st "s00_axi_wvalid"
+blo "16000,-40700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 577,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,66800,66000,67600"
+st "s00_axi_wvalid     : in     std_logic  ;"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "s00_axi_wvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 54
+suid 94,0
+)
+)
+)
+*414 (CptPort
+uid 935,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 936,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,27625,62750,28375"
+)
+tg (CPTG
+uid 937,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 938,0
+va (VaSet
+font "arial,8,0"
+)
+xt "58000,27500,61000,28500"
+st "an4_irq"
+ju 2
+blo "61000,28300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 939,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,142000,66000,142800"
+st "an4_irq            : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_irq"
+t "std_logic"
+o 101
+suid 97,0
+)
+)
+)
+*415 (CptPort
+uid 1599,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1600,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,19625,62750,20375"
+)
+tg (CPTG
+uid 1601,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1602,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55800,19500,61000,20500"
+st "an4_adc1_cs"
+ju 2
+blo "61000,20300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1603,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,128400,66000,129200"
+st "an4_adc1_cs        : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_cs"
+t "std_logic"
+o 84
+suid 127,0
+)
+)
+)
+*416 (CptPort
+uid 1604,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1605,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,17625,62750,18375"
+)
+tg (CPTG
+uid 1606,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1607,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55600,17500,61000,18500"
+st "an4_adc1_din"
+ju 2
+blo "61000,18300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1608,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,129200,66000,130000"
+st "an4_adc1_din       : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_din"
+t "std_logic"
+o 85
+suid 128,0
+)
+)
+)
+*417 (CptPort
+uid 1609,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1610,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,16625,62750,17375"
+)
+tg (CPTG
+uid 1611,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1612,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55200,16500,61000,17500"
+st "an4_adc1_dout"
+ju 2
+blo "61000,17300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1613,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,30800,66000,31600"
+st "an4_adc1_dout      : in     std_logic  ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "an4_adc1_dout"
+t "std_logic"
+o 16
+suid 129,0
+)
+)
+)
+*418 (CptPort
+uid 1614,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1615,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,18625,62750,19375"
+)
+tg (CPTG
+uid 1616,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1617,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55300,18500,61000,19500"
+st "an4_adc1_sclk"
+ju 2
+blo "61000,19300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1618,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,130000,66000,130800"
+st "an4_adc1_sclk      : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc1_sclk"
+t "std_logic"
+o 86
+suid 130,0
+)
+)
+)
+*419 (CptPort
+uid 1619,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1620,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,7625,62750,8375"
+)
+tg (CPTG
+uid 1621,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1622,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55800,7500,61000,8500"
+st "an4_adc2_cs"
+ju 2
+blo "61000,8300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1623,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,130800,66000,131600"
+st "an4_adc2_cs        : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_cs"
+t "std_logic"
+o 87
+suid 131,0
+)
+)
+)
+*420 (CptPort
+uid 1624,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1625,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,5625,62750,6375"
+)
+tg (CPTG
+uid 1626,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1627,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55600,5500,61000,6500"
+st "an4_adc2_din"
+ju 2
+blo "61000,6300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1628,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,131600,66000,132400"
+st "an4_adc2_din       : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_din"
+t "std_logic"
+o 88
+suid 132,0
+)
+)
+)
+*421 (CptPort
+uid 1629,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1630,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,4625,62750,5375"
+)
+tg (CPTG
+uid 1631,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1632,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55200,4500,61000,5500"
+st "an4_adc2_dout"
+ju 2
+blo "61000,5300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1633,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,31600,66000,32400"
+st "an4_adc2_dout      : in     std_logic  ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "an4_adc2_dout"
+t "std_logic"
+o 17
+suid 133,0
+)
+)
+)
+*422 (CptPort
+uid 1634,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1635,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,6625,62750,7375"
+)
+tg (CPTG
+uid 1636,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1637,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55300,6500,61000,7500"
+st "an4_adc2_sclk"
+ju 2
+blo "61000,7300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1638,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,132400,66000,133200"
+st "an4_adc2_sclk      : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_adc2_sclk"
+t "std_logic"
+o 89
+suid 134,0
+)
+)
+)
+*423 (CptPort
+uid 1639,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1640,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,-10375,62750,-9625"
+)
+tg (CPTG
+uid 1641,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1642,0
+va (VaSet
+font "arial,8,0"
+)
+xt "56000,-10500,61000,-9500"
+st "an4_dac_din"
+ju 2
+blo "61000,-9700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1643,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,133200,66000,134000"
+st "an4_dac_din        : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_din"
+t "std_logic"
+o 90
+suid 135,0
+)
+)
+)
+*424 (CptPort
+uid 1644,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1645,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,-9375,62750,-8625"
+)
+tg (CPTG
+uid 1646,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1647,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55700,-9500,61000,-8500"
+st "an4_dac_sclk"
+ju 2
+blo "61000,-8700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1648,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,134000,66000,134800"
+st "an4_dac_sclk       : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_sclk"
+t "std_logic"
+o 91
+suid 136,0
+)
+)
+)
+*425 (CptPort
+uid 1649,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1650,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,-8375,62750,-7625"
+)
+tg (CPTG
+uid 1651,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1652,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55500,-8500,61000,-7500"
+st "an4_dac_sync"
+ju 2
+blo "61000,-7700"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1653,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,134800,66000,135600"
+st "an4_dac_sync       : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_dac_sync"
+t "std_logic"
+o 92
+suid 137,0
+)
+)
+)
+*426 (CptPort
+uid 1654,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1655,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,24625,62750,25375"
+)
+tg (CPTG
+uid 1656,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1657,0
+va (VaSet
+font "arial,8,0"
+)
+xt "57300,24500,61000,25500"
+st "an4_digio"
+ju 2
+blo "61000,25300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1658,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,135600,66000,136400"
+st "an4_digio          : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digio"
+t "std_logic"
+o 93
+suid 138,0
+)
+)
+)
+*427 (CptPort
+uid 1659,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1660,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,25625,62750,26375"
+)
+tg (CPTG
+uid 1661,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1662,0
+va (VaSet
+font "arial,8,0"
+)
+xt "55600,25500,61000,26500"
+st "an4_digio_dir"
+ju 2
+blo "61000,26300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1663,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,136400,66000,137200"
+st "an4_digio_dir      : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digio_dir"
+t "std_logic"
+o 94
+suid 139,0
+)
+)
+)
+*428 (CptPort
+uid 1664,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1665,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,55625,62750,56375"
+)
+tg (CPTG
+uid 1666,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1667,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54300,55500,61000,56500"
+st "an4_gpio_i : (7:0)"
+ju 2
+blo "61000,56300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1668,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,34000,76000,34800"
+st "an4_gpio_i         : in     std_logic_vector (7 downto 0 ) ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "an4_gpio_i"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 20
+suid 140,0
+)
+)
+)
+*429 (CptPort
+uid 1669,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1670,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,56625,62750,57375"
+)
+tg (CPTG
+uid 1671,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1672,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54100,56500,61000,57500"
+st "an4_gpio_o : (7:0)"
+ju 2
+blo "61000,57300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1673,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,140400,76000,141200"
+st "an4_gpio_o         : out    std_logic_vector (7 downto 0 ) ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_gpio_o"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 99
+suid 141,0
+)
+)
+)
+*430 (CptPort
+uid 1674,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1675,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,57625,62750,58375"
+)
+tg (CPTG
+uid 1676,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1677,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54300,57500,61000,58500"
+st "an4_gpio_t : (7:0)"
+ju 2
+blo "61000,58300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1678,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,141200,76000,142000"
+st "an4_gpio_t         : out    std_logic_vector (7 downto 0 ) ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_gpio_t"
+t "std_logic_vector"
+b "(7 downto 0 )"
+o 100
+suid 142,0
+)
+)
+)
+*431 (CptPort
+uid 1807,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1808,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,31625,62750,32375"
+)
+tg (CPTG
+uid 1809,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1810,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54100,31500,61000,32500"
+st "an4_digipot_scl_o"
+ju 2
+blo "61000,32300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1811,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,137200,66000,138000"
+st "an4_digipot_scl_o  : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_scl_o"
+t "std_logic"
+o 95
+suid 143,0
+)
+)
+)
+*432 (CptPort
+uid 1812,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1813,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,32625,62750,33375"
+)
+tg (CPTG
+uid 1814,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1815,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54300,32500,61000,33500"
+st "an4_digipot_scl_t"
+ju 2
+blo "61000,33300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1816,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,138000,66000,138800"
+st "an4_digipot_scl_t  : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_scl_t"
+t "std_logic"
+o 96
+suid 144,0
+)
+)
+)
+*433 (CptPort
+uid 1817,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1818,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,37625,62750,38375"
+)
+tg (CPTG
+uid 1819,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1820,0
+va (VaSet
+font "arial,8,0"
+)
+xt "53900,37500,61000,38500"
+st "an4_digipot_sda_o"
+ju 2
+blo "61000,38300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1821,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,138800,66000,139600"
+st "an4_digipot_sda_o  : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_sda_o"
+t "std_logic"
+o 97
+suid 145,0
+)
+)
+)
+*434 (CptPort
+uid 1822,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1823,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,38625,62750,39375"
+)
+tg (CPTG
+uid 1824,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1825,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54100,38500,61000,39500"
+st "an4_digipot_sda_t"
+ju 2
+blo "61000,39300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1826,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,139600,66000,140400"
+st "an4_digipot_sda_t  : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "an4_digipot_sda_t"
+t "std_logic"
+o 98
+suid 146,0
+)
+)
+)
+*435 (CptPort
+uid 1827,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1828,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,36625,62750,37375"
+)
+tg (CPTG
+uid 1829,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1830,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54100,36500,61000,37500"
+st "an4_digipot_sda_i"
+ju 2
+blo "61000,37300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1831,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,33200,66000,34000"
+st "an4_digipot_sda_i  : in     std_logic  ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "an4_digipot_sda_i"
+t "std_logic"
+o 19
+suid 147,0
+)
+)
+)
+*436 (CptPort
+uid 1832,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1833,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,30625,62750,31375"
+)
+tg (CPTG
+uid 1834,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1835,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54300,30500,61000,31500"
+st "an4_digipot_scl_i"
+ju 2
+blo "61000,31300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1836,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,32400,66000,33200"
+st "an4_digipot_scl_i  : in     std_logic  ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "an4_digipot_scl_i"
+t "std_logic"
+o 18
+suid 148,0
+)
+)
+)
+*437 (CptPort
+uid 1914,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1915,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,58625,62750,59375"
+)
+tg (CPTG
+uid 1916,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1917,0
+va (VaSet
+font "arial,8,0"
+)
+xt "54000,58500,61000,59500"
+st "isens_ads7883_cs"
+ju 2
+blo "61000,59300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1918,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,142800,66000,143600"
+st "isens_ads7883_cs   : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "isens_ads7883_cs"
+t "std_logic"
+o 102
+suid 149,0
+)
+)
+)
+*438 (CptPort
+uid 1919,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1920,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "62000,59625,62750,60375"
+)
+tg (CPTG
+uid 1921,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 1922,0
+va (VaSet
+font "arial,8,0"
+)
+xt "53500,59500,61000,60500"
+st "isens_ads7883_sclk"
+ju 2
+blo "61000,60300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1923,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,143600,66000,144400"
+st "isens_ads7883_sclk : out    std_logic  ;"
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "isens_ads7883_sclk"
+t "std_logic"
+o 103
+suid 150,0
+)
+)
+)
+*439 (CptPort
+uid 1924,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1925,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,69625,15000,70375"
+)
+tg (CPTG
+uid 1926,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 1927,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,69500,23400,70500"
+st "isens_ads7883_sdo"
+blo "16000,70300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 1928,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,34800,66000,35600"
+st "isens_ads7883_sdo  : in     std_logic  ;"
+)
+thePort (LogicalPort
+decl (Decl
+n "isens_ads7883_sdo"
+t "std_logic"
+o 21
+suid 151,0
+)
+)
+)
+]
+shape (Rectangle
+uid 1907,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "15000,-61000,62000,72000"
+)
+biTextGroup (BiTextGroup
+uid 10,0
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+first (Text
+uid 11,0
+va (VaSet
+font "arial,8,1"
+)
+xt "36200,1000,39900,2000"
+st "jpec_an4"
+blo "36200,1800"
+)
+second (Text
+uid 12,0
+va (VaSet
+font "arial,8,1"
+)
+xt "36200,2000,46300,3000"
+st "Copy_of_jpec_an4_v1_0"
+blo "36200,2800"
+)
+)
+gi *440 (GenericInterface
+uid 13,0
+ps "CenterOffsetStrategy"
+matrix (Matrix
+uid 14,0
+text (MLText
+uid 15,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "0,12000,33500,36000"
+st "Generic Declarations
+
+C_M00_AXI_ADDR_WIDTH             integer          64           
+C_M00_AXI_ARUSER_WIDTH           integer          0            
+C_M00_AXI_AWUSER_WIDTH           integer          0            
+C_M00_AXI_BURST_LEN              integer          16           
+C_M00_AXI_BUSER_WIDTH            integer          0            
+C_M00_AXI_DATA_WIDTH             integer          32           
+C_M00_AXI_ID_WIDTH               integer          1            
+C_M00_AXI_RUSER_WIDTH            integer          0            
+-- Parameters of Axi Master Bus Interface M00_AXI
+C_M00_AXI_TARGET_SLAVE_BASE_ADDR std_logic_vector x\"40000000\"  
+C_M00_AXI_WUSER_WIDTH            integer          0            
+C_S00_AXI_ADDR_WIDTH             integer          10           
+C_S00_AXI_ARUSER_WIDTH           integer          0            
+C_S00_AXI_AWUSER_WIDTH           integer          0            
+C_S00_AXI_BUSER_WIDTH            integer          0            
+C_S00_AXI_DATA_WIDTH             integer          32           
+-- Users to add parameters here
+
+-- User parameters ends
+-- Do not modify the parameters beyond this line
+
+
+-- Parameters of Axi Slave Bus Interface S00_AXI
+C_S00_AXI_ID_WIDTH               integer          1            
+C_S00_AXI_RUSER_WIDTH            integer          0            
+C_S00_AXI_WUSER_WIDTH            integer          0            
+C_SLV_ADDR_WIDTH                 integer          16           
+C_SLV_DATA_WIDTH                 integer          32           "
+)
+header "Generic Declarations"
+showHdrWhenContentsEmpty 1
+)
+elements [
+(GiElement
+name "C_M00_AXI_ADDR_WIDTH"
+type "integer"
+value "64"
+)
+(GiElement
+name "C_M00_AXI_ARUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_M00_AXI_AWUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_M00_AXI_BURST_LEN"
+type "integer"
+value "16"
+)
+(GiElement
+name "C_M00_AXI_BUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_M00_AXI_DATA_WIDTH"
+type "integer"
+value "32"
+)
+(GiElement
+name "C_M00_AXI_ID_WIDTH"
+type "integer"
+value "1"
+)
+(GiElement
+name "C_M00_AXI_RUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_M00_AXI_TARGET_SLAVE_BASE_ADDR"
+type "std_logic_vector"
+value "x\"40000000\""
+pr "-- Parameters of Axi Master Bus Interface M00_AXI"
+apr 0
+)
+(GiElement
+name "C_M00_AXI_WUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_S00_AXI_ADDR_WIDTH"
+type "integer"
+value "10"
+)
+(GiElement
+name "C_S00_AXI_ARUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_S00_AXI_AWUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_S00_AXI_BUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_S00_AXI_DATA_WIDTH"
+type "integer"
+value "32"
+)
+(GiElement
+name "C_S00_AXI_ID_WIDTH"
+type "integer"
+value "1"
+pr "-- Users to add parameters here
+
+-- User parameters ends
+-- Do not modify the parameters beyond this line
+
+
+-- Parameters of Axi Slave Bus Interface S00_AXI"
+apr 0
+)
+(GiElement
+name "C_S00_AXI_RUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_S00_AXI_WUSER_WIDTH"
+type "integer"
+value "0"
+)
+(GiElement
+name "C_SLV_ADDR_WIDTH"
+type "integer"
+value "16"
+)
+(GiElement
+name "C_SLV_DATA_WIDTH"
+type "integer"
+value "32"
+)
+]
+)
+portInstanceVisAsIs 1
+portInstanceVis (PortSigDisplay
+sIVOD 1
+)
+portVis (PortSigDisplay
+sIVOD 1
+)
+)
+*441 (Grouping
+uid 16,0
+optionalChildren [
+*442 (CommentText
+uid 18,0
+shape (Rectangle
+uid 19,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "36000,48000,53000,49000"
+)
+oxt "18000,70000,35000,71000"
+text (MLText
+uid 20,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "36200,48000,44400,49000"
+st "
+by %user on %dd %month %year
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*443 (CommentText
+uid 21,0
+shape (Rectangle
+uid 22,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "53000,44000,57000,45000"
+)
+oxt "35000,66000,39000,67000"
+text (MLText
+uid 23,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "53200,44000,56200,45000"
+st "
+Project:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*444 (CommentText
+uid 24,0
+shape (Rectangle
+uid 25,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "36000,46000,53000,47000"
+)
+oxt "18000,68000,35000,69000"
+text (MLText
+uid 26,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "36200,46000,46200,47000"
+st "
+<enter diagram title here>
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*445 (CommentText
+uid 27,0
+shape (Rectangle
+uid 28,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "32000,46000,36000,47000"
+)
+oxt "14000,68000,18000,69000"
+text (MLText
+uid 29,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "32200,46000,34300,47000"
+st "
+Title:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*446 (CommentText
+uid 30,0
+shape (Rectangle
+uid 31,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "53000,45000,73000,49000"
+)
+oxt "35000,67000,55000,71000"
+text (MLText
+uid 32,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "53200,45200,62400,46200"
+st "
+<enter comments here>
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4000
+visibleWidth 20000
+)
+ignorePrefs 1
+titleBlock 1
+)
+*447 (CommentText
+uid 33,0
+shape (Rectangle
+uid 34,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "57000,44000,73000,45000"
+)
+oxt "39000,66000,55000,67000"
+text (MLText
+uid 35,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "57200,44000,59200,45000"
+st "
+%project_name
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 16000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*448 (CommentText
+uid 36,0
+shape (Rectangle
+uid 37,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "32000,44000,53000,46000"
+)
+oxt "14000,66000,35000,68000"
+text (MLText
+uid 38,0
+va (VaSet
+fg "32768,0,0"
+)
+xt "39150,44500,45850,45500"
+st "
+<company name>
+"
+ju 0
+tm "CommentText"
+wrapOption 3
+visibleHeight 2000
+visibleWidth 21000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*449 (CommentText
+uid 39,0
+shape (Rectangle
+uid 40,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "32000,47000,36000,48000"
+)
+oxt "14000,69000,18000,70000"
+text (MLText
+uid 41,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "32200,47000,34300,48000"
+st "
+Path:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*450 (CommentText
+uid 42,0
+shape (Rectangle
+uid 43,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "32000,48000,36000,49000"
+)
+oxt "14000,70000,18000,71000"
+text (MLText
+uid 44,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "32200,48000,34900,49000"
+st "
+Edited:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*451 (CommentText
+uid 45,0
+shape (Rectangle
+uid 46,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "36000,47000,53000,48000"
+)
+oxt "18000,69000,35000,70000"
+text (MLText
+uid 47,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "36200,47000,51100,48000"
+st "
+%library/%unit/%view
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+]
+shape (GroupingShape
+uid 17,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineStyle 2
+lineWidth 2
+)
+xt "32000,44000,73000,49000"
+)
+oxt "14000,66000,55000,71000"
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList *452 (PackageList
+uid 48,0
+stg "VerticalLayoutStrategy"
+textVec [
+*453 (Text
+uid 49,0
+va (VaSet
+font "arial,8,1"
+)
+xt "0,0,5400,1000"
+st "Package List"
+blo "0,800"
+)
+*454 (MLText
+uid 50,0
+va (VaSet
+font "arial,8,0"
+)
+xt "0,1000,10900,6000"
+st "LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+library work;
+use work.busdef.all;"
+tm "PackageList"
+)
+]
+)
+windowSize "288,162,1307,852"
+viewArea "-30393,-21980,35891,23020"
+cachedDiagramExtent "0,-61000,88000,155800"
+hasePageBreakOrigin 1
+pageBreakOrigin "0,-98000"
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+parentGraphicsRef (HdmGraphicsRef
+libraryName ""
+entityName ""
+viewName ""
+)
+defaultSymbolBody (SymbolBody
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "15000,6000,33000,26000"
+)
+biTextGroup (BiTextGroup
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+first (Text
+va (VaSet
+font "arial,8,1"
+)
+xt "22200,15000,25800,16000"
+st "<library>"
+blo "22200,15800"
+)
+second (Text
+va (VaSet
+font "arial,8,1"
+)
+xt "22200,16000,24800,17000"
+st "<cell>"
+blo "22200,16800"
+)
+)
+gi *455 (GenericInterface
+ps "CenterOffsetStrategy"
+matrix (Matrix
+text (MLText
+va (VaSet
+font "Courier New,8,0"
+)
+xt "0,12000,11500,12800"
+st "Generic Declarations"
+)
+header "Generic Declarations"
+showHdrWhenContentsEmpty 1
+)
+elements [
+]
+)
+portInstanceVisAsIs 1
+portInstanceVis (PortSigDisplay
+sIVOD 1
+)
+portVis (PortSigDisplay
+sIVOD 1
+)
+)
+defaultCptPort (CptPort
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "0,0,750,750"
+)
+tg (CPTG
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+va (VaSet
+font "arial,8,0"
+)
+xt "0,750,1400,1750"
+st "In0"
+blo "0,1550"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+va (VaSet
+font "Courier New,8,0"
+)
+)
+thePort (LogicalPort
+decl (Decl
+n "In0"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 0
+)
+)
+)
+defaultCptPortBuffer (CptPort
+ps "OnEdgeStrategy"
+shape (Diamond
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "0,0,750,750"
+)
+tg (CPTG
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+va (VaSet
+font "arial,8,0"
+)
+xt "0,750,2800,1750"
+st "Buffer0"
+blo "0,1550"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+va (VaSet
+font "Courier New,8,0"
+)
+)
+thePort (LogicalPort
+m 3
+decl (Decl
+n "Buffer0"
+t "std_logic_vector"
+b "(15 DOWNTO 0)"
+o 0
+)
+)
+)
+DeclarativeBlock *456 (SymDeclBlock
+uid 1,0
+stg "SymDeclLayoutStrategy"
+declLabel (Text
+uid 2,0
+va (VaSet
+font "arial,8,1"
+)
+xt "42000,0,47400,1000"
+st "Declarations"
+blo "42000,800"
+)
+portLabel (Text
+uid 3,0
+va (VaSet
+font "arial,8,1"
+)
+xt "42000,1000,44700,2000"
+st "Ports:"
+blo "42000,1800"
+)
+externalLabel (Text
+uid 4,0
+va (VaSet
+font "arial,8,1"
+)
+xt "42000,154800,44400,155800"
+st "User:"
+blo "42000,155600"
+)
+internalLabel (Text
+uid 6,0
+va (VaSet
+isHidden 1
+font "arial,8,1"
+)
+xt "42000,0,47800,1000"
+st "Internal User:"
+blo "42000,800"
+)
+externalText (MLText
+uid 5,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,155800,44000,155800"
+tm "SyDeclarativeTextMgr"
+)
+internalText (MLText
+uid 7,0
+va (VaSet
+isHidden 1
+font "Courier New,8,0"
+)
+xt "42000,0,42000,0"
+tm "SyDeclarativeTextMgr"
+)
+)
+lastUid 2158,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
+activeModelName "Symbol:GEN"
+)

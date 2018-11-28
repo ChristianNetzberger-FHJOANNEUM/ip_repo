@@ -1,0 +1,2 @@
+DEFAULT_FILE atom fifo_stream_ctrl/fsm.sm
+DEFAULT_ARCHITECTURE atom fsm

@@ -1,0 +1,2 @@
+DEFAULT_FILE atom dpram_rtl1111.vhd
+DEFAULT_ARCHITECTURE atom rtl

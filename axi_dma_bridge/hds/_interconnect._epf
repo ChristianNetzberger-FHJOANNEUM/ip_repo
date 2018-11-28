@@ -1,0 +1,2 @@
+DEFAULT_FILE atom interconnect/fsm.sm
+DEFAULT_ARCHITECTURE atom fsm

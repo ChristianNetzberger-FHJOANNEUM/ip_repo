@@ -1,0 +1,2 @@
+DEFAULT_FILE atom dpram64_fileio.vhd
+DEFAULT_ARCHITECTURE atom rtl

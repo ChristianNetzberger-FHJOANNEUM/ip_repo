@@ -1,0 +1,15 @@
+butn 0000
+stin 0000
+sldn 0000
+wait 10 us
+psh0
+wait 1 us
+sti0 1
+sldn 0000
+time 500 us
+butn 1000
+wait 1 us
+butn 0000
+time 999 us
+sti1 1
+

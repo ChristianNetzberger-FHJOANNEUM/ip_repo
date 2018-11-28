@@ -1,0 +1,6829 @@
+DocumentHdrVersion "1.1"
+Header (DocumentHdr
+version 2
+dmPackageRefs [
+(DmPackageRef
+library "work"
+unitName "busdef"
+)
+]
+machine (Machine
+name "mst_exec_state"
+children [
+(Machine
+name "mst_exec_state"
+children [
+]
+stateSignalName "mst_exec_state"
+)
+]
+)
+libraryRefs [
+"work"
+]
+)
+version "25.1"
+appVersion "2012.2b (Build 5)"
+model (StateMachine
+VExpander (VariableExpander
+vvMap [
+(vvPair
+variable "HDLDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hdl"
+)
+(vvPair
+variable "HDSDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds"
+)
+(vvPair
+variable "SideDataDesignDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@m00_@a@x@i_ctrl\\implementation.sm.info"
+)
+(vvPair
+variable "SideDataUserDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@m00_@a@x@i_ctrl\\implementation.sm.user"
+)
+(vvPair
+variable "SourceDir"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds"
+)
+(vvPair
+variable "appl"
+value "HDL Designer"
+)
+(vvPair
+variable "arch_name"
+value "implementation"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
+)
+(vvPair
+variable "d"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@m00_@a@x@i_ctrl"
+)
+(vvPair
+variable "d_logical"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\M00_AXI_ctrl"
+)
+(vvPair
+variable "date"
+value "29.09.2015"
+)
+(vvPair
+variable "day"
+value "Di"
+)
+(vvPair
+variable "day_long"
+value "Dienstag"
+)
+(vvPair
+variable "dd"
+value "29"
+)
+(vvPair
+variable "entity_name"
+value "M00_AXI_ctrl"
+)
+(vvPair
+variable "ext"
+value "<TBD>"
+)
+(vvPair
+variable "f"
+value "implementation.sm"
+)
+(vvPair
+variable "f_logical"
+value "implementation.sm"
+)
+(vvPair
+variable "f_noext"
+value "implementation"
+)
+(vvPair
+variable "graphical_source_author"
+value "net"
+)
+(vvPair
+variable "graphical_source_date"
+value "07/16/15"
+)
+(vvPair
+variable "graphical_source_group"
+value "Personal AEE"
+)
+(vvPair
+variable "graphical_source_time"
+value "16:21:03"
+)
+(vvPair
+variable "group"
+value "UNKNOWN"
+)
+(vvPair
+variable "host"
+value "KPERSM7467"
+)
+(vvPair
+variable "language"
+value "VHDL"
+)
+(vvPair
+variable "library"
+value "jpec_an4"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "d:/HDL/axi_kim_slv_v1_0/designcheck"
+)
+(vvPair
+variable "library_downstream_ISEPARInvoke"
+value "E:/vivado/ip_repo/jpec_isens_1.0/ise"
+)
+(vvPair
+variable "library_downstream_ImpactInvoke"
+value "E:/vivado/ip_repo/jpec_isens_1.0/ise"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "E:/vivado/ip_repo/jpec_an4_1.0/work"
+)
+(vvPair
+variable "library_downstream_ModelSimSimulator"
+value "E:/vivado/ip_repo/jpec_an4_1.0/work"
+)
+(vvPair
+variable "library_downstream_XSTDataPrep"
+value "E:/vivado/ip_repo/jpec_isens_1.0/ise"
+)
+(vvPair
+variable "mm"
+value "09"
+)
+(vvPair
+variable "module_name"
+value "M00_AXI_ctrl"
+)
+(vvPair
+variable "month"
+value "Sep"
+)
+(vvPair
+variable "month_long"
+value "September"
+)
+(vvPair
+variable "p"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\@m00_@a@x@i_ctrl\\implementation.sm"
+)
+(vvPair
+variable "p_logical"
+value "E:\\vivado\\ip_repo\\jpec_an4_1.0\\hds\\M00_AXI_ctrl\\implementation.sm"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "HDL"
+)
+(vvPair
+variable "series"
+value "HDL Designer Series"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "C:\\MentorGraphics\\modeltech64_10.2c\\win64"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "sm"
+)
+(vvPair
+variable "this_file"
+value "implementation"
+)
+(vvPair
+variable "this_file_logical"
+value "implementation"
+)
+(vvPair
+variable "time"
+value "16:15:42"
+)
+(vvPair
+variable "unit"
+value "M00_AXI_ctrl"
+)
+(vvPair
+variable "user"
+value "net"
+)
+(vvPair
+variable "version"
+value "2012.2b (Build 5)"
+)
+(vvPair
+variable "view"
+value "implementation"
+)
+(vvPair
+variable "year"
+value "2015"
+)
+(vvPair
+variable "yy"
+value "15"
+)
+]
+)
+uid 537,0
+optionalChildren [
+*1 (ConcurrentSM
+uid 1,0
+topDiagram (StateDiagram
+LanguageMgr "None"
+uid 2,0
+optionalChildren [
+*2 (State
+uid 126,0
+shape (Circle
+uid 127,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 2
+)
+xt "27477,4000,33477,10000"
+radius 3000
+)
+name (Text
+uid 128,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "29027,6400,31927,7600"
+st "IDLE"
+ju 0
+blo "30477,7400"
+tm "ONodeName"
+)
+wait (TextAssociate
+uid 129,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 130,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "30577,7300,34177,8500"
+st "wait 2"
+blo "30577,8300"
+tm "SmWaitText"
+)
+)
+encoding (Text
+uid 131,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "30477,8000,30477,8000"
+blo "30477,8000"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+uid 134,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 135,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "34377,10100,34577,10300"
+)
+autoResize 1
+tline (Line
+uid 136,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "30477,7000,30477,7000"
+pts [
+"30477,7000"
+"30477,7000"
+]
+)
+bline (Line
+uid 137,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "30477,7000,30477,7000"
+pts [
+"30477,7000"
+"30477,7000"
+]
+)
+ttri (Triangle
+uid 138,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "30027,6825,30377,7175"
+)
+btri (Triangle
+uid 139,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "30027,6825,30377,7175"
+)
+entryActions (MLText
+uid 140,0
+va (VaSet
+)
+xt "30477,7000,30477,7000"
+tm "Actions"
+)
+inActions (MLText
+uid 141,0
+va (VaSet
+)
+xt "30477,7000,30477,7000"
+tm "Actions"
+)
+exitActions (MLText
+uid 142,0
+va (VaSet
+)
+xt "30477,7000,30477,7000"
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+uid 132,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 133,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "28877,8000,33877,9000"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+)
+*3 (State
+uid 143,0
+shape (Circle
+uid 144,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 2
+)
+xt "45681,15569,53689,23577"
+radius 4004
+)
+name (Text
+uid 145,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "46335,18973,53035,20173"
+st "INIT_WRITE"
+ju 0
+blo "49685,19973"
+tm "ONodeName"
+)
+wait (TextAssociate
+uid 146,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 147,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "49785,19873,53385,21073"
+st "wait 2"
+blo "49785,20873"
+tm "SmWaitText"
+)
+)
+encoding (Text
+uid 148,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "49685,20573,49685,20573"
+blo "49685,20573"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+uid 151,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 152,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "53585,22673,53785,22873"
+)
+autoResize 1
+tline (Line
+uid 153,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "49685,19573,49685,19573"
+pts [
+"49685,19573"
+"49685,19573"
+]
+)
+bline (Line
+uid 154,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "49685,19573,49685,19573"
+pts [
+"49685,19573"
+"49685,19573"
+]
+)
+ttri (Triangle
+uid 155,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "49235,19398,49585,19748"
+)
+btri (Triangle
+uid 156,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "49235,19398,49585,19748"
+)
+entryActions (MLText
+uid 157,0
+va (VaSet
+)
+xt "49685,19573,49685,19573"
+tm "Actions"
+)
+inActions (MLText
+uid 158,0
+va (VaSet
+)
+xt "49685,19573,49685,19573"
+tm "Actions"
+)
+exitActions (MLText
+uid 159,0
+va (VaSet
+)
+xt "49685,19573,49685,19573"
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+uid 149,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 150,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "48085,20573,53085,21573"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+impLoop 0
+)
+*4 (State
+uid 160,0
+shape (Circle
+uid 161,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 2
+)
+xt "26283,29542,33429,36688"
+radius 3573
+)
+name (Text
+uid 162,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "26956,32515,32756,33715"
+st "INIT_READ"
+ju 0
+blo "29856,33515"
+tm "ONodeName"
+)
+wait (TextAssociate
+uid 163,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 164,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "29956,33415,33556,34615"
+st "wait 2"
+blo "29956,34415"
+tm "SmWaitText"
+)
+)
+encoding (Text
+uid 165,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "29856,34115,29856,34115"
+blo "29856,34115"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+uid 168,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 169,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "33756,36215,33956,36415"
+)
+autoResize 1
+tline (Line
+uid 170,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "29856,33115,29856,33115"
+pts [
+"29856,33115"
+"29856,33115"
+]
+)
+bline (Line
+uid 171,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "29856,33115,29856,33115"
+pts [
+"29856,33115"
+"29856,33115"
+]
+)
+ttri (Triangle
+uid 172,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "29406,32940,29756,33290"
+)
+btri (Triangle
+uid 173,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "29406,32940,29756,33290"
+)
+entryActions (MLText
+uid 174,0
+va (VaSet
+)
+xt "29856,33115,29856,33115"
+tm "Actions"
+)
+inActions (MLText
+uid 175,0
+va (VaSet
+)
+xt "29856,33115,29856,33115"
+tm "Actions"
+)
+exitActions (MLText
+uid 176,0
+va (VaSet
+)
+xt "29856,33115,29856,33115"
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+uid 166,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 167,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "28256,34115,33256,35115"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+impLoop 0
+)
+*5 (SmResetPoint
+uid 194,0
+shape (CompositeShape
+uid 195,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 196,0
+sl 0
+ro 270
+xt "-10075,-11475,-7825,-10475"
+)
+(OrthoPolyLine
+uid 197,0
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "-9175,-11275,-8576,-10675"
+pts [
+"-8576,-10675"
+"-8876,-10675"
+"-8876,-11275"
+"-9175,-11275"
+]
+)
+(Line
+uid 198,0
+sl 0
+ro 270
+xt "-9826,-11150,-9726,-11100"
+pts [
+"-9826,-11100"
+"-9726,-11150"
+]
+)
+(Line
+uid 199,0
+sl 0
+ro 270
+xt "-9826,-11150,-9826,-10800"
+pts [
+"-9826,-10800"
+"-9826,-11150"
+]
+)
+(Circle
+uid 200,0
+layer 10
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+xt "-9026,-11125,-8726,-10825"
+radius 150
+)
+]
+)
+cond (SmControlCondition
+uid 206,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 207,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "-13025,-13075,-3925,-11875"
+)
+autoResize 1
+cond (MLText
+uid 208,0
+va (VaSet
+isHidden 1
+font "arial,8,0"
+)
+xt "-12925,-12975,-4025,-11975"
+st "M_AXI_ARESETN = '0'"
+tm "SmControlConditionMgr"
+)
+)
+prio (TransitionPriority
+uid 203,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 204,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "-7825,-11756,-6263,-10194"
+radius 781
+)
+pr (Text
+uid 205,0
+va (VaSet
+isHidden 1
+)
+xt "-7444,-11475,-6644,-10475"
+st "1"
+ju 0
+blo "-7044,-10675"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+name (TextAssociate
+uid 201,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 202,0
+va (VaSet
+font "arial,8,0"
+)
+xt "-17275,-11475,-10075,-10475"
+st "M_AXI_ARESETN"
+ju 2
+blo "-10075,-10675"
+tm "SmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+uid 209,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 210,0
+va (VaSet
+isHidden 1
+font "arial,8,0"
+)
+xt "-2200,-6850,3300,-5850"
+st "< Automatic >"
+tm "Actions"
+)
+)
+level 2
+mode 0
+)
+*6 (SmClockPoint
+uid 211,0
+shape (CompositeShape
+uid 212,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 213,0
+sl 0
+ro 270
+xt "-8950,-6475,-6700,-5475"
+)
+(OrthoPolyLine
+uid 214,0
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "-8050,-6275,-7451,-5675"
+pts [
+"-8050,-6275"
+"-7751,-6275"
+"-7751,-5675"
+"-7451,-5675"
+]
+)
+(Arc2D
+pts [
+"-8441,-5822"
+"-8696,-6128"
+"-8441,-6128"
+]
+uid 215,0
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "-8766,-6173,-8441,-5776"
+)
+]
+)
+name (TextAssociate
+uid 216,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 217,0
+va (VaSet
+font "arial,8,0"
+)
+xt "-14950,-6475,-9450,-5475"
+st "M_AXI_ACLK"
+ju 2
+blo "-9450,-5675"
+tm "SmControlSignalNameMgr"
+)
+)
+cond (SmControlCondition
+uid 218,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 219,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "-6700,-6575,4300,-5375"
+)
+autoResize 1
+cond (MLText
+uid 220,0
+va (VaSet
+font "arial,8,0"
+)
+xt "-6600,-6475,4200,-5475"
+st "rising_edge (M_AXI_ACLK)"
+tm "SmControlConditionMgr"
+)
+)
+edge 2
+)
+*7 (Link
+uid 221,0
+shape (CompositeShape
+uid 222,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "0,0,0"
+)
+optionalChildren [
+(Pentagon
+uid 223,0
+sl 0
+ro 270
+xt "4575,-11475,6825,-10475"
+)
+(Line
+uid 224,0
+sl 0
+ro 270
+xt "4075,-10975,4575,-10975"
+pts [
+"4075,-10975"
+"4575,-10975"
+]
+)
+]
+)
+name (TextAssociate
+uid 225,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 226,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "7325,-11475,9525,-10475"
+st "IDLE"
+blo "7325,-10675"
+tm "LinkName"
+)
+)
+)
+*8 (SmRecoveryStatePoint
+uid 237,0
+shape (CompositeShape
+uid 238,0
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Circle
+uid 239,0
+sl 0
+xt "-8725,-16875,-6925,-15075"
+radius 900
+)
+(Line
+uid 240,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-8251,-16401,-7399,-15549"
+pts [
+"-8251,-15549"
+"-7399,-16401"
+]
+)
+(Line
+uid 241,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-8251,-16401,-7399,-15549"
+pts [
+"-7399,-15549"
+"-8251,-16401"
+]
+)
+]
+)
+)
+*9 (Link
+uid 242,0
+shape (CompositeShape
+uid 243,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "0,0,0"
+)
+optionalChildren [
+(Pentagon
+uid 244,0
+sl 0
+ro 270
+xt "-2225,-16475,25,-15475"
+)
+(Line
+uid 245,0
+sl 0
+ro 270
+xt "-2725,-15975,-2225,-15975"
+pts [
+"-2725,-15975"
+"-2225,-15975"
+]
+)
+]
+)
+name (TextAssociate
+uid 246,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 247,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "525,-16475,2725,-15475"
+st "IDLE"
+blo "525,-15675"
+tm "LinkName"
+)
+)
+)
+*10 (Grouping
+uid 453,0
+optionalChildren [
+*11 (CommentText
+uid 455,0
+shape (Rectangle
+uid 456,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "16169,-1892,33169,-892"
+)
+oxt "18000,70000,35000,71000"
+text (MLText
+uid 457,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "16369,-1892,24469,-892"
+st "
+by %user on %dd %month %year
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*12 (CommentText
+uid 458,0
+shape (Rectangle
+uid 459,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "33169,-5892,37169,-4892"
+)
+oxt "35000,66000,39000,67000"
+text (MLText
+uid 460,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "33369,-5892,36369,-4892"
+st "
+Project:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*13 (CommentText
+uid 461,0
+shape (Rectangle
+uid 462,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "16169,-3892,33169,-2892"
+)
+oxt "18000,68000,35000,69000"
+text (MLText
+uid 463,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "16369,-3892,26369,-2892"
+st "
+<enter diagram title here>
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*14 (CommentText
+uid 464,0
+shape (Rectangle
+uid 465,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "12169,-3892,16169,-2892"
+)
+oxt "14000,68000,18000,69000"
+text (MLText
+uid 466,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "12369,-3892,14469,-2892"
+st "
+Title:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*15 (CommentText
+uid 467,0
+shape (Rectangle
+uid 468,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "33169,-4892,53169,-892"
+)
+oxt "35000,67000,55000,71000"
+text (MLText
+uid 469,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "33369,-4692,42569,-3692"
+st "
+<enter comments here>
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4000
+visibleWidth 20000
+)
+ignorePrefs 1
+titleBlock 1
+)
+*16 (CommentText
+uid 470,0
+shape (Rectangle
+uid 471,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "37169,-5892,53169,-4892"
+)
+oxt "39000,66000,55000,67000"
+text (MLText
+uid 472,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "37369,-5892,39369,-4892"
+st "
+%project_name
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 16000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*17 (CommentText
+uid 473,0
+shape (Rectangle
+uid 474,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "12169,-5892,33169,-3892"
+)
+oxt "14000,66000,35000,68000"
+text (MLText
+uid 475,0
+va (VaSet
+fg "32768,0,0"
+)
+xt "19319,-5392,26019,-4392"
+st "
+<company name>
+"
+ju 0
+tm "CommentText"
+wrapOption 3
+visibleHeight 2000
+visibleWidth 21000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*18 (CommentText
+uid 476,0
+shape (Rectangle
+uid 477,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "12169,-2892,16169,-1892"
+)
+oxt "14000,69000,18000,70000"
+text (MLText
+uid 478,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "12369,-2892,14469,-1892"
+st "
+Path:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*19 (CommentText
+uid 479,0
+shape (Rectangle
+uid 480,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "12169,-1892,16169,-892"
+)
+oxt "14000,70000,18000,71000"
+text (MLText
+uid 481,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "12369,-1892,15069,-892"
+st "
+Edited:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*20 (CommentText
+uid 482,0
+shape (Rectangle
+uid 483,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "16169,-2892,33169,-1892"
+)
+oxt "18000,69000,35000,70000"
+text (MLText
+uid 484,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "16369,-2892,30569,-1892"
+st "
+%library/%unit/%view
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+]
+shape (GroupingShape
+uid 454,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineStyle 2
+lineWidth 2
+)
+xt "12169,-5892,53169,-892"
+)
+oxt "14000,66000,55000,71000"
+)
+*21 (Transition
+uid 227,0
+shape (Spline
+uid 228,0
+va (VaSet
+vasetType 3
+)
+xt "-7825,-10975,4075,-10975"
+pts [
+"-7825,-10975"
+"4075,-10975"
+]
+)
+start &5
+end &7
+ss 0
+es 0
+cond "M_AXI_ARESETN = '0'"
+tb (TransitionBlock
+uid 229,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 230,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "-6825,-11975,3075,-9975"
+)
+autoResize 1
+lineShape (Line
+uid 231,0
+va (VaSet
+vasetType 3
+)
+xt "-6325,-10575,2575,-10575"
+pts [
+"-6325,-10575"
+"2575,-10575"
+]
+)
+condition (MLText
+uid 232,0
+va (VaSet
+)
+xt "-6325,-11975,2575,-10975"
+st "M_AXI_ARESETN = '0'"
+tm "Condition"
+)
+actions (MLText
+uid 233,0
+va (VaSet
+isHidden 1
+)
+xt "-4625,-10175,875,-9175"
+st "< Automatic >"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 234,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 235,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "-7416,-11756,-5854,-10194"
+radius 781
+)
+pr (Text
+uid 236,0
+va (VaSet
+isHidden 1
+)
+xt "-7035,-11475,-6235,-10475"
+st "1"
+ju 0
+blo "-6635,-10675"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*22 (Transition
+uid 248,0
+shape (Spline
+uid 249,0
+va (VaSet
+vasetType 3
+)
+xt "-6925,-15975,-2725,-15975"
+pts [
+"-6925,-15975"
+"-2725,-15975"
+]
+)
+start &8
+end &9
+ss 0
+es 0
+tb (TransitionBlock
+uid 250,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 251,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "-7025,-16480,-2625,-15470"
+)
+autoResize 1
+lineShape (Line
+uid 252,0
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "-4825,-15075,-4825,-15075"
+pts [
+"-4825,-15075"
+"-4825,-15075"
+]
+)
+condition (MLText
+uid 253,0
+va (VaSet
+)
+xt "-6525,-16475,-3125,-15475"
+tm "Condition"
+)
+actions (MLText
+uid 254,0
+va (VaSet
+)
+xt "-4825,-15075,-4825,-15075"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 255,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 256,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "-7286,-16756,-5724,-15194"
+radius 781
+)
+pr (Text
+uid 257,0
+va (VaSet
+isHidden 1
+)
+xt "-6905,-16475,-6105,-15475"
+st "1"
+ju 0
+blo "-6505,-15675"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*23 (Transition
+uid 258,0
+shape (Spline
+uid 259,0
+va (VaSet
+vasetType 3
+)
+xt "33431,7518,47874,16003"
+pts [
+"33431,7518"
+"44561,9471"
+"47874,16003"
+]
+arrow 1
+)
+start &2
+end &3
+ss 0
+es 0
+cond "( init_txn_pulse = '1')"
+tb (TransitionBlock
+uid 260,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 261,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "43911,8971,53411,13371"
+)
+autoResize 1
+lineShape (Line
+uid 262,0
+va (VaSet
+vasetType 3
+)
+xt "44411,10671,52911,10671"
+pts [
+"44411,10671"
+"52911,10671"
+]
+)
+condition (MLText
+uid 263,0
+va (VaSet
+)
+xt "44561,9471,52761,10471"
+st "( init_txn_pulse = '1')"
+tm "Condition"
+)
+actions (MLText
+uid 264,0
+va (VaSet
+)
+xt "44411,10871,52911,12871"
+st "ERROR <= '0';
+compare_done <= '0';"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 265,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 266,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "34522,6950,36084,8512"
+radius 781
+)
+pr (Text
+uid 267,0
+va (VaSet
+)
+xt "34903,7231,35703,8231"
+st "1"
+ju 0
+blo "35303,8031"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*24 (Transition
+uid 268,0
+shape (Spline
+uid 269,0
+va (VaSet
+vasetType 3
+)
+xt "32380,9318,45816,18543"
+pts [
+"45816,18543"
+"38314,16544"
+"32380,9318"
+]
+arrow 1
+)
+start &3
+end &2
+ss 0
+es 0
+cond "(writes_done = '1')"
+tb (TransitionBlock
+uid 270,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 271,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "37814,16044,45914,18044"
+)
+autoResize 1
+lineShape (Line
+uid 272,0
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "40014,17944,40014,17944"
+pts [
+"40014,17944"
+"40014,17944"
+]
+)
+condition (MLText
+uid 273,0
+va (VaSet
+)
+xt "38314,16544,45414,17544"
+st "(writes_done = '1')"
+tm "Condition"
+)
+actions (MLText
+uid 274,0
+va (VaSet
+)
+xt "41864,17944,41864,17944"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 275,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 276,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "43336,17480,44898,19042"
+radius 781
+)
+pr (Text
+uid 277,0
+va (VaSet
+)
+xt "43717,17761,44517,18761"
+st "1"
+ju 0
+blo "44117,18561"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*25 (Transition
+uid 278,0
+shape (Spline
+uid 279,0
+va (VaSet
+vasetType 3
+)
+xt "53438,15785,62668,22288"
+pts [
+"53438,18179"
+"59860,15792"
+"62653,19477"
+"58671,22270"
+"53519,20724"
+]
+arrow 1
+)
+start &3
+end &3
+ss 0
+es 0
+tb (TransitionBlock
+uid 280,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 281,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "50725,23474,83925,29884"
+)
+autoResize 1
+lineShape (Line
+uid 282,0
+va (VaSet
+vasetType 3
+)
+xt "51225,24184,83425,24184"
+pts [
+"51225,24184"
+"83425,24184"
+]
+)
+condition (MLText
+uid 283,0
+va (VaSet
+)
+xt "65625,22984,69025,23984"
+tm "Condition"
+)
+actions (MLText
+uid 284,0
+va (VaSet
+)
+xt "51225,24384,83425,29384"
+st "if (axi_awvalid = '0' and start_single_burst_write = '0' and burst_write_active = '0' ) then 
+                     start_single_burst_write <= '1';                                                           
+                   else                                                                                         
+                     start_single_burst_write <= '0'; --Negate to generate a pulse                              
+                   end if;"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 285,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 286,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "54677,16448,56239,18010"
+radius 781
+)
+pr (Text
+uid 287,0
+va (VaSet
+)
+xt "55058,16729,55858,17729"
+st "2"
+ju 0
+blo "55458,17529"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*26 (Transition
+uid 288,0
+shape (Spline
+uid 289,0
+va (VaSet
+vasetType 3
+)
+xt "20228,9533,28870,30547"
+pts [
+"27373,30547"
+"20228,23157"
+"28870,9533"
+]
+arrow 1
+)
+start &4
+end &2
+ss 0
+es 0
+cond "(reads_done = '1')"
+tb (TransitionBlock
+uid 290,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 291,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "17213,22922,25213,24922"
+)
+autoResize 1
+lineShape (Line
+uid 292,0
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "19413,24822,19413,24822"
+pts [
+"19413,24822"
+"19413,24822"
+]
+)
+condition (MLText
+uid 293,0
+va (VaSet
+)
+xt "17713,23422,24713,24422"
+st "(reads_done = '1')"
+tm "Condition"
+)
+actions (MLText
+uid 294,0
+va (VaSet
+)
+xt "21213,24822,21213,24822"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 295,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 296,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "24382,28227,25944,29789"
+radius 781
+)
+pr (Text
+uid 297,0
+va (VaSet
+)
+xt "24763,28508,25563,29508"
+st "1"
+ju 0
+blo "25163,29308"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*27 (Transition
+uid 298,0
+shape (Spline
+uid 299,0
+va (VaSet
+vasetType 3
+)
+xt "27399,35994,35776,44069"
+pts [
+"31971,35994"
+"35760,41150"
+"29724,44052"
+"27403,42079"
+"28913,36561"
+]
+arrow 1
+)
+start &4
+end &4
+ss 0
+es 0
+tb (TransitionBlock
+uid 300,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 301,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "15854,44758,49154,51168"
+)
+autoResize 1
+lineShape (Line
+uid 302,0
+va (VaSet
+vasetType 3
+)
+xt "16354,45468,48654,45468"
+pts [
+"16354,45468"
+"48654,45468"
+]
+)
+condition (MLText
+uid 303,0
+va (VaSet
+)
+xt "30804,44268,34204,45268"
+tm "Condition"
+)
+actions (MLText
+uid 304,0
+va (VaSet
+)
+xt "16354,45668,48654,50668"
+st "if (axi_arvalid = '0' and burst_read_active = '0' and start_single_burst_read = '0') then    
+                     start_single_burst_read <= '1';                                                            
+                   else                                                                                         
+                     start_single_burst_read <= '0'; --Negate to generate a pulse                               
+                   end if;"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 305,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 306,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "32747,36850,34309,38412"
+radius 781
+)
+pr (Text
+uid 307,0
+va (VaSet
+)
+xt "33128,37131,33928,38131"
+st "2"
+ju 0
+blo "33528,37931"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*28 (Transition
+uid 668,0
+shape (Spline
+uid 669,0
+va (VaSet
+vasetType 3
+)
+xt "30978,9957,39777,30379"
+pts [
+"30978,9957"
+"39777,21298"
+"32153,30379"
+]
+arrow 1
+)
+start &2
+end &4
+es 0
+cond "( init_rxn_pulse = '1')"
+tb (TransitionBlock
+uid 670,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 671,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "33353,21927,42853,26727"
+)
+autoResize 1
+lineShape (Line
+uid 672,0
+va (VaSet
+vasetType 3
+)
+xt "33853,23827,42353,23827"
+pts [
+"33853,23827"
+"42353,23827"
+]
+)
+condition (MLText
+uid 673,0
+va (VaSet
+)
+xt "33953,22427,42253,23427"
+st "( init_rxn_pulse = '1')"
+tm "Condition"
+)
+actions (MLText
+uid 674,0
+va (VaSet
+)
+xt "33853,24227,42353,26227"
+st "ERROR <= '0';
+compare_done <= '0';"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 675,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 676,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "32021,11123,33583,12685"
+radius 781
+)
+pr (Text
+uid 677,0
+va (VaSet
+)
+xt "32402,11404,33202,12404"
+st "2"
+ju 0
+blo "32802,12204"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 0
+isActive 0
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList *29 (PackageList
+uid 33,0
+stg "VerticalLayoutStrategy"
+textVec [
+*30 (Text
+uid 34,0
+va (VaSet
+font "arial,8,1"
+)
+xt "-17411,86714,-12011,87714"
+st "Package List"
+blo "-17411,87514"
+)
+*31 (MLText
+uid 35,0
+va (VaSet
+)
+xt "-17411,87714,-9711,89714"
+st "library work;
+use work.busdef.all;"
+tm "SmPackageListTextMgr"
+)
+]
+)
+compDirBlock (MlTextGroup
+uid 36,0
+stg "VerticalLayoutStrategy"
+textVec [
+*32 (Text
+uid 37,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "2725,86852,10825,87852"
+st "Compiler Directives"
+blo "2725,87652"
+)
+*33 (Text
+uid 38,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "2725,87852,12325,88852"
+st "Pre-module directives:"
+blo "2725,88652"
+)
+*34 (MLText
+uid 39,0
+va (VaSet
+isHidden 1
+)
+xt "2725,88852,10225,90852"
+st "`resetall
+`timescale 1ns/10ps"
+tm "SmCompilerDirectivesTextMgr"
+)
+*35 (Text
+uid 40,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "2725,90852,12825,91852"
+st "Post-module directives:"
+blo "2725,91652"
+)
+*36 (MLText
+uid 41,0
+va (VaSet
+isHidden 1
+)
+xt "2725,86852,2725,86852"
+tm "SmCompilerDirectivesTextMgr"
+)
+*37 (Text
+uid 42,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "2725,91852,12625,92852"
+st "End-module directives:"
+blo "2725,92652"
+)
+*38 (MLText
+uid 43,0
+va (VaSet
+isHidden 1
+)
+xt "2725,92852,2725,92852"
+tm "SmCompilerDirectivesTextMgr"
+)
+]
+associable 1
+)
+windowSize "60,10,1667,1003"
+viewArea "57720,77100,140460,127380"
+cachedDiagramExtent "-17411,-16875,293725,691914"
+hasePageBreakOrigin 1
+pageBreakOrigin "-18000,-25000"
+isTopLevel 1
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+localPreDecl *39 (SmLocalDecl
+uid 3,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 4,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "0,0,10500,1000"
+st "Architecture Declarations"
+blo "0,800"
+)
+second (MLText
+uid 5,0
+va (VaSet
+isHidden 1
+font "Courier New,8,0"
+)
+xt "0,1000,0,1000"
+tm "LocalDeclTextMgr"
+)
+declType 1
+)
+localDecl *40 (SmLocalDecl
+uid 6,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 7,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "100979,26070,111479,27070"
+st "Architecture Declarations"
+blo "100979,26870"
+)
+second (MLText
+uid 8,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "100979,27070,179979,92670"
+st "-- function called clogb2 that returns an integer which has the
+   --value of the ceiling of the log base 2
+
+   function clogb2 (bit_depth : integer) return integer is            
+       variable depth  : integer := bit_depth;                               
+       variable count  : integer := 1;                                       
+    begin                                                                   
+        for clogb2 in 1 to bit_depth loop  -- Works for up to 32 bit integers
+         if (bit_depth <= 2) then                                           
+           count := 1;                                                      
+         else                                                               
+           if(depth <= 1) then                                              
+              count := count;                                                
+            else                                                             
+              depth := depth / 2;                                            
+             count := count + 1;                                            
+            end if;                                                          
+          end if;                                                            
+      end loop;                                                             
+      return(count);                                                         
+    end;
+-- C_TRANSACTIONS_NUM is the width of the index counter for
+   -- number of beats in a burst write or burst read transaction.
+    constant C_TRANSACTIONS_NUM : integer := clogb2(C_M_AXI_BURST_LEN-1);
+-- Burst length for transactions, in C_M_AXI_DATA_WIDTHs.
+   -- Non-2^n lengths will eventually cause bursts across 4K address boundaries.
+    --constant C_MASTER_LENGTH : integer := 12; original value!!!
+    constant C_MASTER_LENGTH : integer := 14;
+-- total number of burst transfers is master length divided by burst length and burst size
+    constant C_NO_BURSTS_REQ : integer := (C_MASTER_LENGTH-clogb2((C_M_AXI_BURST_LEN*C_M_AXI_DATA_WIDTH/8)-1));
+-- AXI4FULL signals
+   --AXI4 internal temp signals
+   signal axi_awaddr : std_logic_vector(C_M_AXI_ADDR_WIDTH-1 downto 0);
+signal axi_awvalid : std_logic;
+signal axi_wdata : std_logic_vector(C_M_AXI_DATA_WIDTH-1 downto 0);
+signal axi_wlast : std_logic;
+signal axi_wvalid : std_logic;
+signal axi_bready : std_logic;
+signal axi_araddr : std_logic_vector(C_M_AXI_ADDR_WIDTH-1 downto 0);
+signal axi_arvalid : std_logic;
+signal axi_rready : std_logic;
+--write beat count in a burst
+   signal write_index : std_logic_vector(C_TRANSACTIONS_NUM downto 0);
+--read beat count in a burst
+   signal read_index : std_logic_vector(C_TRANSACTIONS_NUM downto 0);
+--size of C_M_AXI_BURST_LEN length burst in bytes
+--   signal burst_size_bytes : std_logic_vector(C_TRANSACTIONS_NUM+2 downto 0);
+   signal burst_size_bytes : std_logic_vector(C_TRANSACTIONS_NUM+3 downto 0);
+--The burst counters are used to track the number of burst transfers of C_M_AXI_BURST_LEN burst length needed to transfer 2^C_MASTER_LENGTH bytes of data.
+   signal write_burst_counter : std_logic_vector(C_NO_BURSTS_REQ downto 0);
+signal read_burst_counter : std_logic_vector(C_NO_BURSTS_REQ downto 0);
+signal start_single_burst_write : std_logic;
+signal start_single_burst_read : std_logic;
+signal writes_done : std_logic;
+signal reads_done : std_logic;
+signal error_reg : std_logic;
+signal compare_done : std_logic;
+signal read_mismatch : std_logic;
+signal burst_write_active : std_logic;
+signal burst_read_active : std_logic;
+signal expected_rdata : std_logic_vector(C_M_AXI_DATA_WIDTH-1 downto 0);
+--Interface response error flags
+   signal write_resp_error : std_logic;
+signal read_resp_error : std_logic;
+signal wnext : std_logic;
+signal rnext : std_logic;
+signal init_txn_ff : std_logic;
+signal init_txn_ff2 : std_logic;
+--signal init_txn_edge : std_logic;
+signal init_txn_pulse : std_logic;
+signal init_rxn_ff : std_logic;
+signal init_rxn_ff2 : std_logic;
+--signal init_rxn_edge : std_logic;
+signal init_rxn_pulse : std_logic;
+signal init_axi_txn, init_axi_rxn: std_logic;
+signal       INIT_AXI_RX               :     std_logic;
+signal       INIT_AXI_TX               :     std_logic;
+signal       RXN_DONE                  :     std_logic;
+signal       TXN_DONE                  :     std_logic;
+
+
+ "
+tm "LocalDeclTextMgr"
+)
+declType 2
+)
+localPostDecl *41 (SmLocalDecl
+uid 9,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 10,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "0,0,10500,1000"
+st "Architecture Declarations"
+blo "0,800"
+)
+second (MLText
+uid 11,0
+va (VaSet
+isHidden 1
+font "Courier New,8,0"
+)
+xt "0,1000,0,1000"
+tm "LocalDeclTextMgr"
+)
+declType 3
+)
+processDecl *42 (SmProcessDecl
+uid 12,0
+stg "VerticalLayoutStrategy"
+textVec [
+*43 (Text
+uid 13,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "58100,-1000,67000,0"
+st "Process Declarations"
+blo "58100,-200"
+)
+*44 (Text
+uid 14,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "58100,0,65300,1000"
+st "Clocked Process:"
+blo "58100,800"
+)
+*45 (MLText
+uid 15,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "58100,-1000,58100,-1000"
+tm "ProcessDeclTextMgr"
+)
+*46 (Text
+uid 16,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "58100,1000,65000,2000"
+st "Output Process:"
+blo "58100,1800"
+)
+*47 (MLText
+uid 17,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "58100,2000,58100,2000"
+tm "ProcessDeclTextMgr"
+)
+]
+associable 1
+)
+defaultActions *48 (MlTextGroup
+uid 18,0
+stg "VerticalLayoutStrategy"
+textVec [
+*49 (Text
+uid 19,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "-4375,86852,1825,87852"
+st "Global Actions"
+blo "-4375,87652"
+)
+*50 (Text
+uid 20,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "-4375,87852,925,88852"
+st "Pre Actions:"
+blo "-4375,88652"
+)
+*51 (MLText
+uid 21,0
+va (VaSet
+)
+xt "-4375,86852,-4375,86852"
+tm "Actions"
+)
+*52 (Text
+uid 22,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "-4375,88852,1425,89852"
+st "Post Actions:"
+blo "-4375,89652"
+)
+*53 (MLText
+uid 23,0
+va (VaSet
+)
+xt "-4375,89852,-4375,89852"
+tm "Actions"
+)
+]
+associable 1
+)
+archConcurrentStatementBlock *54 (BiTextGroup
+uid 24,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 25,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "7549,86914,17449,87914"
+st "Concurrent Statements"
+blo "7549,87714"
+)
+second (MLText
+uid 26,0
+va (VaSet
+)
+xt "7549,87914,78049,691914"
+st "init_axi_txn <= not init_axi_tx;
+init_axi_rxn <= not init_axi_rx;
+
+txn_done <= writes_done;
+rxn_done <= reads_done;
+we_next <= wnext;
+rd_data <= M_AXI_RDATA(rd_data'range);
+rd_next <= rnext;
+
+--Generate a pulse to initiate AXI WRITE  transaction.
+   process(M_AXI_ACLK)                                                          
+   begin                                                                             
+     if (rising_edge (M_AXI_ACLK)) then                                              
+         -- Initiates AXI transaction delay        
+       if (M_AXI_ARESETN = '0' ) then                                                
+         init_txn_ff <= '0';                                                   
+           init_txn_ff2 <= '0';                                                          
+       else                                                                                       
+         init_txn_ff <= INIT_AXI_TXN;
+           init_txn_ff2 <= init_txn_ff;                                                                     
+       end if;                                                                       
+     end if;                                                                         
+   end process; 
+
+   init_txn_pulse   <= ( not init_txn_ff2)  and  init_txn_ff;
+
+   --Generate a pulse to initiate AXI READ  transaction.
+   process(M_AXI_ACLK)                                                          
+   begin                                                                             
+     if (rising_edge (M_AXI_ACLK)) then                                              
+         -- Initiates AXI transaction delay        
+       if (M_AXI_ARESETN = '0' ) then                                                
+         init_rxn_ff <= '0';                                                   
+           init_rxn_ff2 <= '0';                                                          
+       else                                                                                       
+         init_rxn_ff <= INIT_AXI_RXN;
+           init_rxn_ff2 <= init_rxn_ff;                                                                     
+       end if;                                                                       
+     end if;                                                                         
+   end process; 
+
+   init_txn_pulse   <= ( not init_txn_ff2)  and  init_txn_ff;
+  init_rxn_pulse   <= ( not init_rxn_ff2)  and  init_rxn_ff;
+
+   ----------------------
+   --Write Address Channel
+   ----------------------
+
+   -- The purpose of the write address channel is to request the address and 
+   -- command information for the entire transaction.  It is a single beat
+   -- of information.
+
+   -- The AXI4 Write address channel in this example will continue to initiate
+   -- write commands as fast as it is allowed by the slave/interconnect.
+   -- The address will be incremented on each accepted address transaction,
+   -- by burst_size_byte to point to the next address. 
+
+     process(M_AXI_ACLK)                                            
+     begin                                                                
+       if (rising_edge (M_AXI_ACLK)) then                                 
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                   
+           axi_awvalid <= '0';                                            
+         else                                                             
+           -- If previously not valid , start next transaction            
+           if (axi_awvalid = '0' and start_single_burst_write = '1') then 
+             axi_awvalid <= '1';                                          
+             -- Once asserted, VALIDs cannot be deasserted, so axi_awvalid
+             -- must wait until transaction is accepted                   
+           elsif (M_AXI_AWREADY = '1' and axi_awvalid = '1') then         
+             axi_awvalid <= '0';                                          
+           else                                                           
+             axi_awvalid <= axi_awvalid;                                  
+           end if;                                                        
+         end if;                                                          
+       end if;                                                            
+     end process;                                                         
+                                                                          
+   -- Next address after AWREADY indicates previous address acceptance    
+     process(M_AXI_ACLK)                                                  
+     begin                                                                
+       if (rising_edge (M_AXI_ACLK)) then                                 
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                   
+           axi_awaddr <= (others => '0');                                 
+         else                                                             
+           if (M_AXI_AWREADY= '1' and axi_awvalid = '1') then             
+             axi_awaddr <= axi_awaddr + burst_size_bytes;                 
+           end if;                                                        
+         end if;                                                          
+       end if;                                                            
+     end process;                                                         
+                                                                                       
+   -- WVALID logic, similar to the axi_awvalid always block above                      
+     process(M_AXI_ACLK)                                                               
+     begin                                                                             
+       if (rising_edge (M_AXI_ACLK)) then                                              
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                
+           axi_wvalid <= '0';                                                          
+         else                                                                          
+           if (axi_wvalid = '0' and start_single_burst_write = '1') then               
+             -- If previously not valid, start next transaction                        
+             axi_wvalid <= '1';                                                        
+             --     /* If WREADY and too many writes, throttle WVALID                  
+             --      Once asserted, VALIDs cannot be deasserted, so WVALID             
+             --      must wait until burst is complete with WLAST */                   
+           elsif (wnext = '1' and axi_wlast = '1') then                                
+             axi_wvalid <= '0';                                                        
+           else                                                                        
+             axi_wvalid <= axi_wvalid;                                                 
+           end if;                                                                     
+         end if;                                                                       
+       end if;                                                                         
+     end process;                                                                      
+                                                                                       
+   --WLAST generation on the MSB of a counter underflow                                
+   -- WVALID logic, similar to the axi_awvalid always block above                      
+     process(M_AXI_ACLK)                                                               
+     begin                                                                             
+       if (rising_edge (M_AXI_ACLK)) then                                              
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                
+           axi_wlast <= '0';                                                           
+           -- axi_wlast is asserted when the write index                               
+           -- count reaches the penultimate count to synchronize                       
+           -- with the last write data when write_index is b1111                       
+           -- elsif (&(write_index[C_TRANSACTIONS_NUM-1:1])&& ~write_index[0] && wnext)
+         else                                                                          
+           if (((write_index = C_M_AXI_BURST_LEN-2 and C_M_AXI_BURST_LEN >= 2) and wnext = '1') or (C_M_AXI_BURST_LEN = 1)) then
+             axi_wlast <= '1';                                                         
+             -- Deassrt axi_wlast when the last write data has been                    
+             -- accepted by the slave with a valid response                            
+           elsif (wnext = '1') then                                                    
+             axi_wlast <= '0';                                                         
+           elsif (axi_wlast = '1' and C_M_AXI_BURST_LEN = 1) then                      
+             axi_wlast <= '0';                                                         
+           end if;                                                                     
+         end if;                                                                       
+       end if;                                                                         
+     end process;                                                                      
+                                                                                       
+   -- Burst length counter. Uses extra counter register bit to indicate terminal       
+   -- count to reduce decode logic */                                                  
+     process(M_AXI_ACLK)                                                               
+     begin                                                                             
+       if (rising_edge (M_AXI_ACLK)) then                                              
+         if (M_AXI_ARESETN = '0' or start_single_burst_write = '1' or init_txn_pulse = '1') then               
+           write_index <= (others => '0');                                             
+         else                                                                          
+           if (wnext = '1' and (write_index /= C_M_AXI_BURST_LEN-1))then               
+             write_index <= write_index + '1';                                         
+           end if;                                                                     
+         end if;                                                                       
+       end if;                                                                         
+     end process;                                                                      
+                                                                                       
+   -- Write Data Generator                                                             
+   -- Data pattern is only a simple incrementing count from 0 for each burst  */       
+     process(M_AXI_ACLK)                                                               
+     variable  sig_one : integer := 1;                                                 
+     begin                                                                             
+       if (rising_edge (M_AXI_ACLK)) then                                              
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                
+           axi_wdata <= CONV_STD_LOGIC_VECTOR(sig_one, C_M_AXI_DATA_WIDTH);            
+           --elsif (wnext && axi_wlast)                                                
+           --  axi_wdata <= 'b0;                                                       
+         else                                                                          
+           if (wnext = '1') then                                                       
+             axi_wdata <= axi_wdata + '1';                                             
+           end if;                                                                     
+         end if;                                                                       
+       end if;                                                                         
+     end process;                                                                      
+
+
+   ------------------------------
+   --Write Response (B) Channel
+   ------------------------------
+
+   --The write response channel provides feedback that the write has committed
+   --to memory. BREADY will occur when all of the data and the write address
+   --has arrived and been accepted by the slave.
+
+   --The write issuance (number of outstanding write addresses) is started by 
+   --the Address Write transfer, and is completed by a BREADY/BRESP.
+
+   --While negating BREADY will eventually throttle the AWREADY signal, 
+   --it is best not to throttle the whole data channel this way.
+
+   --The BRESP bit [1] is used indicate any errors from the interconnect or
+   --slave for the entire write burst. This example will capture the error 
+   --into the ERROR output. 
+
+     process(M_AXI_ACLK)                                             
+     begin                                                                 
+       if (rising_edge (M_AXI_ACLK)) then                                  
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                    
+           axi_bready <= '0';                                              
+           -- accept/acknowledge bresp with axi_bready by the master       
+           -- when M_AXI_BVALID is asserted by slave                       
+         else                                                              
+           if (M_AXI_BVALID = '1' and axi_bready = '0') then               
+             axi_bready <= '1';                                            
+             -- deassert after one clock cycle                             
+           elsif (axi_bready = '1') then                                   
+             axi_bready <= '0';                                            
+           end if;                                                         
+         end if;                                                           
+       end if;                                                             
+     end process;                                                          
+
+
+   ------------------------------
+   --Read Address Channel
+   ------------------------------
+
+   --The Read Address Channel (AW) provides a similar function to the
+   --Write Address channel- to provide the tranfer qualifiers for the burst.
+
+   --In this example, the read address increments in the same
+   --manner as the write address channel.
+
+     process(M_AXI_ACLK)                                
+     begin                                                              
+       if (rising_edge (M_AXI_ACLK)) then                               
+--########         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                 
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                 
+           axi_arvalid <= '0';                                          
+        -- If previously not valid , start next transaction             
+         else                                                           
+           if (axi_arvalid = '0' and start_single_burst_read = '1') then
+             axi_arvalid <= '1';                                        
+           elsif (M_AXI_ARREADY = '1' and axi_arvalid = '1') then       
+             axi_arvalid <= '0';                                        
+           end if;                                                      
+         end if;                                                        
+       end if;                                                          
+     end process;                                                       
+                                                                        
+   -- Next address after ARREADY indicates previous address acceptance  
+     process(M_AXI_ACLK)                                                
+     begin                                                              
+       if (rising_edge (M_AXI_ACLK)) then                               
+--#####         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1' ) then                                 
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1' ) then                                 
+           axi_araddr <= (others => '0');                               
+         else                                                           
+           if (M_AXI_ARREADY = '1' and axi_arvalid = '1') then          
+             axi_araddr <= axi_araddr + burst_size_bytes;               
+           end if;                                                      
+         end if;                                                        
+       end if;                                                          
+     end process;                                                       
+                                                                           
+                                                                           
+   -- Burst length counter. Uses extra counter register bit to indicate    
+   -- terminal count to reduce decode logic                                
+     process(M_AXI_ACLK)                                                   
+     begin                                                                 
+       if (rising_edge (M_AXI_ACLK)) then                                  
+ --####        if (M_AXI_ARESETN = '0' or start_single_burst_read = '1' or init_txn_pulse = '1') then    
+         if (M_AXI_ARESETN = '0' or start_single_burst_read = '1' or init_rxn_pulse = '1') then    
+            read_index <= (others => '0');                                  
+         else                                                              
+           if (rnext = '1' and (read_index <= C_M_AXI_BURST_LEN-1)) then   
+             read_index <= read_index + '1';                               
+           end if;                                                         
+         end if;                                                           
+       end if;                                                             
+     end process;                                                          
+                                                                           
+   --/*                                                                    
+   -- The Read Data channel returns the results of the read request        
+   --                                                                      
+   -- In this example the data checker is always able to accept            
+   -- more data, so no need to throttle the RREADY signal                  
+   -- */                                                                   
+     process(M_AXI_ACLK)                                                   
+     begin                                                                 
+       if (rising_edge (M_AXI_ACLK)) then                                  
+ --###        if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                    
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                    
+            axi_rready <= '0';                                              
+        -- accept/acknowledge rdata/rresp with axi_rready by the master    
+         -- when M_AXI_RVALID is asserted by slave                         
+         else                                                              
+           if (M_AXI_RVALID = '1' and axi_rready = '0') then               
+             axi_rready <= '1';                                            
+             -- deassert after one clock cycle                             
+           elsif (axi_rready = '1') then                                   
+             axi_rready <= '0';                                            
+           end if;                                                         
+           -- retain the previous value                                    
+         end if;                                                           
+       end if;                                                             
+     end process;                                                          
+                                                                           
+   --Check received read data against data generator                       
+     process(M_AXI_ACLK)                                                   
+     begin                                                                 
+       if (rising_edge (M_AXI_ACLK)) then                                  
+--######        if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                    
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                    
+           read_mismatch <= '0';                                           
+         --Only check data when RVALID is active                           
+         else                                                              
+           if (rnext = '1' and (M_AXI_RDATA /= expected_rdata)) then       
+             read_mismatch <= '1';                                         
+           else                                                            
+             read_mismatch <= '0';                                         
+           end if;                                                         
+         end if;                                                           
+       end if;                                                             
+     end process;                                                          
+
+
+   ------------------------------------------
+   --Example design read check data generator
+   -------------------------------------------
+
+   --Generate expected read data to check against actual read data
+
+     process(M_AXI_ACLK)                              
+     variable  sig_one : integer := 1;                      
+     begin                                                  
+       if (rising_edge (M_AXI_ACLK)) then                   
+--####         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                     
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                     
+           expected_rdata <= CONV_STD_LOGIC_VECTOR(sig_one, C_M_AXI_DATA_WIDTH);
+         else                                               
+           if (M_AXI_RVALID = '1' and axi_rready = '1') then
+             expected_rdata <= expected_rdata + '1';        
+           end if;                                          
+         end if;                                            
+       end if;                                              
+     end process;                                           
+
+
+   ------------------------------------
+   --Example design error register
+   ------------------------------------
+
+   --Register and hold any data mismatches, or read/write interface errors 
+
+     process(M_AXI_ACLK)                                          
+     begin                                                              
+       if (rising_edge (M_AXI_ACLK)) then                               
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                 
+           error_reg <= '0';                                            
+         else                                                           
+           if (read_mismatch = '1' or write_resp_error = '1' or read_resp_error = '1') then
+             error_reg <= '1';                                          
+           end if;                                                      
+         end if;                                                        
+       end if;                                                          
+     end process;                                                       
+
+
+   ----------------------------------
+   --Example design throttling
+   ----------------------------------
+
+   -- For maximum port throughput, this user example code will try to allow
+   -- each channel to run as independently and as quickly as possible.
+
+   -- However, there are times when the flow of data needs to be throtted by
+   -- the user application. This example application requires that data is
+   -- not read before it is written and that the write channels do not
+   -- advance beyond an arbitrary threshold (say to prevent an 
+   -- overrun of the current read address by the write address).
+
+   -- From AXI4 Specification, 13.13.1: \"If a master requires ordering between 
+   -- read and write transactions, it must ensure that a response is received 
+   -- for the previous transaction before issuing the next transaction.\"
+
+   -- This example accomplishes this user application throttling through:
+   -- -Reads wait for writes to fully complete
+   -- -Address writes wait when not read + issued transaction counts pass 
+   -- a parameterized threshold
+   -- -Writes wait when a not read + active data burst count pass 
+   -- a parameterized threshold
+
+    -- write_burst_counter counter keeps track with the number of burst transaction initiated             
+    -- against the number of burst transactions the master needs to initiate                                    
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+           write_burst_counter <= (others => '0');                                                              
+         else                                                                                                   
+           if (M_AXI_AWREADY = '1' and axi_awvalid = '1') then                                                  
+            -- if (write_burst_counter(C_NO_BURSTS_REQ) = '0')then                                                
+             if (write_burst_counter /= no_of_bursts_req  ) then                                                
+               write_burst_counter <= write_burst_counter + '1';                                                
+             end if;                                                                                            
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+                                                                                                                
+    -- read_burst_counter counter keeps track with the number of burst transaction initiated                    
+    -- against the number of burst transactions the master needs to initiate                                    
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+--   ######seems to be error      if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                                                         
+           read_burst_counter <= (others => '0');                                                               
+         else                                                                                                   
+           if (M_AXI_ARREADY = '1' and axi_arvalid = '1') then                                                  
+--             if (read_burst_counter(C_NO_BURSTS_REQ) = '0')then                                                 
+             if (read_burst_counter /= no_of_bursts_req )then                                                 
+               read_burst_counter <= read_burst_counter + '1';                                                  
+             end if;                                                                                            
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+                                                                                                                
+                                                                                                                
+     -- burst_write_active signal is asserted when there is a burst write transaction                           
+     -- is initiated by the assertion of start_single_burst_write. burst_write_active                           
+     -- signal remains asserted until the burst write is accepted by the slave                                  
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+           burst_write_active <= '0';                                                                           
+                                                                                                                
+          --The burst_write_active is asserted when a write burst transaction is initiated                      
+         else                                                                                                   
+           if (start_single_burst_write = '1') then                                                             
+             burst_write_active <= '1';                                                                         
+           elsif (M_AXI_BVALID = '1' and axi_bready = '1') then                                                 
+             burst_write_active <= '0';                                                                         
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+                                                                                                                
+    -- Check for last write completion.                                                                         
+                                                                                                                
+    -- This logic is to qualify the last write count with the final write                                       
+    -- response. This demonstrates how to confirm that a write has been                                         
+    -- committed.                                                                                               
+                                                                                                                
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+          writes_done <= '0';                                                                                   
+         --The reads_done should be associated with a rready response                                           
+         --elsif (M_AXI_RVALID && axi_rready && (read_burst_counter == {(C_NO_BURSTS_REQ-1){1}}) && axi_rlast)  
+         else                                                                                                   
+           if (M_AXI_BVALID = '1' and (write_burst_counter = no_of_bursts_req ) and axi_bready = '1') then   
+             writes_done <= '1';                                                                                
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+                                                                                                                
+     -- burst_read_active signal is asserted when there is a burst write transaction                            
+     -- is initiated by the assertion of start_single_burst_write. start_single_burst_read                      
+     -- signal remains asserted until the burst read is accepted by the master                                  
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+--#######         if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                                                         
+           burst_read_active <= '0';                                                                            
+                                                                                                                
+          --The burst_write_active is asserted when a write burst transaction is initiated                      
+         else                                                                                                   
+           if (start_single_burst_read = '1')then                                                               
+             burst_read_active <= '1';                                                                          
+           elsif (M_AXI_RVALID = '1' and axi_rready = '1' and M_AXI_RLAST = '1') then                           
+             burst_read_active <= '0';                                                                          
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+                                                                                                                
+    -- Check for last read completion.                                                                          
+                                                                                                                
+    -- This logic is to qualify the last read count with the final read                                         
+    -- response. This demonstrates how to confirm that a read has been                                          
+    -- committed.                                                                                               
+                                                                                                                
+     process(M_AXI_ACLK)                                                                                        
+     begin                                                                                                      
+       if (rising_edge (M_AXI_ACLK)) then                                                                       
+ --######        if (M_AXI_ARESETN = '0' or init_txn_pulse = '1') then                                                                         
+         if (M_AXI_ARESETN = '0' or init_rxn_pulse = '1') then                                                                         
+            reads_done <= '0';                                                                                   
+           --The reads_done should be associated with a rready response                                         
+           --elsif (M_AXI_RVALID && axi_rready && (read_burst_counter == {(C_NO_BURSTS_REQ-1){1}}) && axi_rlast)
+         else                                                                                                   
+--           if (M_AXI_RVALID = '1' and axi_rready = '1' and (read_index = C_M_AXI_BURST_LEN-1) and (read_burst_counter(C_NO_BURSTS_REQ) = '1')) then
+           if (M_AXI_RVALID = '1' and axi_rready = '1' and (read_index = C_M_AXI_BURST_LEN-1) and (read_burst_counter = no_of_bursts_req)) then
+             reads_done <= '1';                                                                                 
+           end if;                                                                                              
+         end if;                                                                                                
+       end if;                                                                                                  
+     end process;                                                                                               
+
+   -- Add user logic here
+
+   -- User logic ends
+
+
+   -- I/O Connections assignments
+
+   --I/O Connections. Write Address (AW)
+   M_AXI_AWID   <= (others => '0');
+   --The AXI address is a concatenation of the target base address + active offset range
+   M_AXI_AWADDR   <= target_slave_base_address + axi_awaddr;
+   --Burst LENgth is number of transaction beats, minus 1
+   M_AXI_AWLEN   <= CONV_STD_LOGIC_VECTOR( C_M_AXI_BURST_LEN - 1 , 8);
+   --Size should be C_M_AXI_DATA_WIDTH, in 2^SIZE bytes, otherwise narrow bursts are used
+   M_AXI_AWSIZE   <= CONV_STD_LOGIC_VECTOR( clogb2((C_M_AXI_DATA_WIDTH/8)-1) , 3);
+   --INCR burst type is usually used, except for keyhole bursts
+   M_AXI_AWBURST   <= \"01\";
+   M_AXI_AWLOCK   <= '0';
+   --Update value to 4'b0011 if coherent accesses to be used via the Zynq ACP port. Not Allocated, Modifiable, not Bufferable. Not Bufferable since this example is meant to test memory, not intermediate cache. 
+   M_AXI_AWCACHE   <= \"0010\";
+   M_AXI_AWPROT   <= \"000\";
+   M_AXI_AWQOS   <= x\"0\";
+   M_AXI_AWUSER   <= (others => '1');
+   M_AXI_AWVALID   <= axi_awvalid;
+   --Write Data(W)
+   --M_AXI_WDATA   <= axi_wdata;
+   process(we_data)
+   begin
+        M_AXI_WDATA  <=(others => '0');
+        M_AXI_WDATA(we_data'range)   <=we_data;
+   end process;
+   --All bursts are complete and aligned in this example
+   M_AXI_WSTRB   <= (others => '1');
+   M_AXI_WLAST   <= axi_wlast;
+   M_AXI_WUSER   <= (others => '0');
+   M_AXI_WVALID   <= axi_wvalid;
+   --Write Response (B)
+   M_AXI_BREADY   <= axi_bready;
+   --Read Address (AR)
+   M_AXI_ARID   <= (others => '0');
+   M_AXI_ARADDR   <= target_slave_base_address  + axi_araddr;
+   --Burst LENgth is number of transaction beats, minus 1
+   M_AXI_ARLEN   <= CONV_STD_LOGIC_VECTOR((C_M_AXI_BURST_LEN - 1), 8);
+   --Size should be C_M_AXI_DATA_WIDTH, in 2^n bytes, otherwise narrow bursts are used
+   M_AXI_ARSIZE   <= CONV_STD_LOGIC_VECTOR(clogb2((C_M_AXI_DATA_WIDTH/8)-1),3);
+   --INCR burst type is usually used, except for keyhole bursts
+   M_AXI_ARBURST   <= \"01\";
+   M_AXI_ARLOCK   <= '0';
+   --Update value to 4'b0011 if coherent accesses to be used via the Zynq ACP port. Not Allocated, Modifiable, not Bufferable. Not Bufferable since this example is meant to test memory, not intermediate cache. 
+   M_AXI_ARCACHE   <= \"0010\";
+   M_AXI_ARPROT   <= \"000\";
+   M_AXI_ARQOS   <= x\"0\";
+   M_AXI_ARUSER   <= (others => '1');
+   M_AXI_ARVALID   <= axi_arvalid;
+   --Read and Read Response (R)
+   M_AXI_RREADY   <= axi_rready;
+   --Example design I/O
+   ---TXN_DONE   <= compare_done;
+   --Burst size in bytes
+  -- burst_size_bytes   <= CONV_STD_LOGIC_VECTOR((C_M_AXI_BURST_LEN * (C_M_AXI_DATA_WIDTH/8)),C_TRANSACTIONS_NUM+3);
+  burst_size_bytes   <= CONV_STD_LOGIC_VECTOR((C_M_AXI_BURST_LEN * (C_M_AXI_DATA_WIDTH/8)),C_TRANSACTIONS_NUM+4);
+
+   ----------------------
+   --Write Data Channel
+   ----------------------
+
+   --The write data will continually try to push write data across the interface.
+
+   --The amount of data accepted will depend on the AXI slave and the AXI
+   --Interconnect settings, such as if there are FIFOs enabled in interconnect.
+
+   --Note that there is no explicit timing relationship to the write address channel.
+   --The write channel has its own throttling flag, separate from the AW channel.
+
+   --Synchronization between the channels must be determined by the user.
+
+   --The simpliest but lowest performance would be to only issue one address write
+   --and write data burst at a time.
+
+   --In this example they are kept in sync by using the same address increment
+   --and burst sizes. Then the AW and W channels have their transactions measured
+   --with threshold counters as part of the user logic, to make sure neither 
+   --channel gets too far ahead of each other.
+
+   --Forward movement occurs when the write channel is valid and ready
+
+     wnext <= M_AXI_WREADY and axi_wvalid;                                       
+                                                                           
+                                                                           
+   --Flag any write response errors                                        
+     write_resp_error <= axi_bready and M_AXI_BVALID and M_AXI_BRESP(1);   
+
+
+   ----------------------------------
+   --Read Data (and Response) Channel
+   ----------------------------------
+
+    -- Forward movement occurs when the channel is valid and ready   
+     rnext <= M_AXI_RVALID and axi_rready;                                 
+                                                                           
+   --Flag any read response errors                                         
+     read_resp_error <= axi_rready and M_AXI_RVALID and M_AXI_RRESP(1);"
+tm "ArchConcStmtTextMgr"
+)
+associable 1
+)
+signalsGenStatus *55 (SmSignalGenStatus
+uid 30,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 31,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "235175,86852,240875,87852"
+st "Signal Status"
+blo "235175,87652"
+)
+second (MLText
+uid 32,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "235175,87852,265675,147052"
+st "SIGNAL                    MODE    DEFAULT  RESET  SCHEME 
+axi_awaddr                LOCAL                   CLKD   
+axi_awvalid               LOCAL                   CLKD   
+axi_wdata                 LOCAL                   CLKD   
+axi_wlast                 LOCAL                   CLKD   
+axi_wvalid                LOCAL                   CLKD   
+axi_bready                LOCAL                   CLKD   
+axi_araddr                LOCAL                   CLKD   
+axi_arvalid               LOCAL                   CLKD   
+axi_rready                LOCAL                   CLKD   
+write_index               LOCAL                   CLKD   
+read_index                LOCAL                   CLKD   
+burst_size_bytes          LOCAL                   CLKD   
+write_burst_counter       LOCAL                   CLKD   
+read_burst_counter        LOCAL                   CLKD   
+start_single_burst_write  LOCAL            '0'    CLKD   
+start_single_burst_read   LOCAL            '0'    CLKD   
+writes_done               LOCAL                   CLKD   
+reads_done                LOCAL                   CLKD   
+error_reg                 LOCAL                   CLKD   
+compare_done              LOCAL            '0'    CLKD   
+read_mismatch             LOCAL                   CLKD   
+burst_write_active        LOCAL                   CLKD   
+burst_read_active         LOCAL                   CLKD   
+expected_rdata            LOCAL                   CLKD   
+write_resp_error          LOCAL                   CLKD   
+read_resp_error           LOCAL                   CLKD   
+wnext                     LOCAL                   CLKD   
+rnext                     LOCAL                   CLKD   
+init_txn_ff               LOCAL                   CLKD   
+init_txn_ff2              LOCAL                   CLKD   
+init_txn_pulse            LOCAL                   CLKD   
+ERROR                     out              '0'    CLKD   
+M_AXI_AWID                out                     CLKD   
+M_AXI_AWADDR              out                     CLKD   
+M_AXI_AWLEN               out                     CLKD   
+M_AXI_AWSIZE              out                     CLKD   
+M_AXI_AWBURST             out                     CLKD   
+M_AXI_AWLOCK              out                     CLKD   
+M_AXI_AWCACHE             out                     CLKD   
+M_AXI_AWPROT              out                     CLKD   
+M_AXI_AWQOS               out                     CLKD   
+M_AXI_AWUSER              out                     CLKD   
+M_AXI_AWVALID             out                     CLKD   
+M_AXI_WDATA               out                     CLKD   
+M_AXI_WSTRB               out                     CLKD   
+M_AXI_WLAST               out                     CLKD   
+M_AXI_WUSER               out                     CLKD   
+M_AXI_WVALID              out                     CLKD   
+M_AXI_BREADY              out                     CLKD   
+M_AXI_ARID                out                     CLKD   
+M_AXI_ARADDR              out                     CLKD   
+M_AXI_ARLEN               out                     CLKD   
+M_AXI_ARSIZE              out                     CLKD   
+M_AXI_ARBURST             out                     CLKD   
+M_AXI_ARLOCK              out                     CLKD   
+M_AXI_ARCACHE             out                     CLKD   
+M_AXI_ARPROT              out                     CLKD   
+M_AXI_ARQOS               out                     CLKD   
+M_AXI_ARUSER              out                     CLKD   
+M_AXI_ARVALID             out                     CLKD   
+M_AXI_RREADY              out                     CLKD   
+init_rxn_ff               LOCAL                   CLKD   
+init_rxn_ff2              LOCAL                   CLKD   
+init_rxn_pulse            LOCAL                   CLKD   
+we_next                   out                     CLKD   
+rd_next                   out                     CLKD   
+rd_data                   out                     CLKD   
+init_axi_txn              LOCAL                   CLKD   
+init_axi_rxn              LOCAL                   CLKD   
+INIT_AXI_RX               LOCAL                   CLKD   
+INIT_AXI_TX               LOCAL                   CLKD   
+RXN_DONE                  LOCAL                   CLKD   
+TXN_DONE                  LOCAL                   CLKD   
+"
+tm "SmSignalsGenStatusTextMgr"
+)
+)
+stateRegBlock *56 (BiTextGroup
+uid 27,0
+stg "VerticalLayoutStrategy"
+first (Text
+uid 28,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "282925,86852,293725,87852"
+st "State Register Statements"
+blo "282925,87652"
+)
+second (MLText
+uid 29,0
+va (VaSet
+)
+xt "282925,87852,282925,87852"
+tm "Actions"
+)
+associable 1
+)
+)
+genChar (SmGenChar
+uid 44,0
+csName "mst_exec_state"
+nextStateClocking 0
+numProcs 0
+)
+encoding (Encoding
+scheme 3
+encodingStyles [
+(pair
+scheme 0
+style 0
+)
+(pair
+scheme 1
+style 1
+)
+(pair
+scheme 2
+style 0
+)
+(pair
+scheme 3
+style 0
+)
+(pair
+scheme 4
+style 0
+)
+(pair
+scheme 5
+style 0
+)
+]
+otherValues [
+(pair
+scheme 0
+otherValue ""
+)
+(pair
+scheme 1
+otherValue ""
+)
+(pair
+scheme 2
+otherValue ""
+)
+(pair
+scheme 3
+otherValue ""
+)
+(pair
+scheme 4
+otherValue ""
+)
+(pair
+scheme 5
+otherValue ""
+)
+]
+attribute 0
+synSafe 0
+outputEncodedLocals 0
+useVerilogParameterRange 0
+radix 0
+)
+stateOrder [
+&2
+&3
+&4
+]
+name "mst_exec_state"
+)
+]
+lastUid 1237,0
+commonDM (CommonDM
+ldm (LogicalDM
+ordering 1
+emptyRow *57 (LEmptyRow
+)
+uid 539,0
+optionalChildren [
+*58 (RefLabelRowHdr
+)
+*59 (TitleRowHdr
+)
+*60 (FilterRowHdr
+)
+*61 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*62 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*63 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*64 (NameColHdr
+tm "SmNameColHdrMgr"
+)
+*65 (ModeColHdr
+tm "SmModeColHdrMgr"
+)
+*66 (TypeColHdr
+tm "SmTypeColHdrMgr"
+)
+*67 (BoundsColHdr
+tm "SmBoundsColHdrMgr"
+)
+*68 (InitColHdr
+tm "SmInitColHdrMgr"
+)
+*69 (ColumnHdr
+tm "SmCategoryColHdrMgr"
+)
+*70 (ColumnHdr
+tm "SmAssignColHdrMgr"
+)
+*71 (ColumnHdr
+tm "SmExprColHdrMgr"
+)
+*72 (ColumnHdr
+tm "SmSchemeColHdrMgr"
+)
+*73 (ColumnHdr
+tm "SmDefValColHdrMgr"
+)
+*74 (ColumnHdr
+tm "SmRstValColHdrMgr"
+)
+*75 (EolColHdr
+tm "SmEolColHdrMgr"
+)
+*76 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_awaddr"
+t "std_logic_vector"
+b "(C_M_AXI_ADDR_WIDTH-1 downto 0)"
+prec "AXI4FULL signals
+  AXI4 internal temp signals"
+preAdd 0
+posAdd 0
+o 55
+)
+)
+uid 318,0
+scheme 0
+direct 0
+)
+*77 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_awvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 56
+)
+)
+uid 320,0
+scheme 0
+direct 0
+)
+*78 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_wdata"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 57
+)
+)
+uid 322,0
+scheme 0
+direct 0
+)
+*79 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_wlast"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 58
+)
+)
+uid 324,0
+scheme 0
+direct 0
+)
+*80 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_wvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 59
+)
+)
+uid 326,0
+scheme 0
+direct 0
+)
+*81 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_bready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 60
+)
+)
+uid 328,0
+scheme 0
+direct 0
+)
+*82 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_araddr"
+t "std_logic_vector"
+b "(C_M_AXI_ADDR_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 61
+)
+)
+uid 330,0
+scheme 0
+direct 0
+)
+*83 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_arvalid"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 62
+)
+)
+uid 332,0
+scheme 0
+direct 0
+)
+*84 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "axi_rready"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 63
+)
+)
+uid 334,0
+scheme 0
+direct 0
+)
+*85 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "write_index"
+t "std_logic_vector"
+b "(C_TRANSACTIONS_NUM downto 0)"
+prec "write beat count in a burst"
+preAdd 0
+posAdd 0
+o 64
+)
+)
+uid 336,0
+scheme 0
+direct 0
+)
+*86 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "read_index"
+t "std_logic_vector"
+b "(C_TRANSACTIONS_NUM downto 0)"
+prec "read beat count in a burst"
+preAdd 0
+posAdd 0
+o 65
+)
+)
+uid 338,0
+scheme 0
+direct 0
+)
+*87 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "burst_size_bytes"
+t "std_logic_vector"
+b "(C_TRANSACTIONS_NUM+3 downto 0)"
+prec "size of C_M_AXI_BURST_LEN length burst in bytes
+   signal burst_size_bytes : std_logic_vector(C_TRANSACTIONS_NUM+2 downto 0);"
+preAdd 0
+posAdd 0
+o 52
+)
+)
+uid 340,0
+scheme 0
+direct 0
+)
+*88 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "write_burst_counter"
+t "std_logic_vector"
+b "(C_NO_BURSTS_REQ downto 0)"
+prec "The burst counters are used to track the number of burst transfers of C_M_AXI_BURST_LEN burst length needed to transfer 2^C_MASTER_LENGTH bytes of data."
+preAdd 0
+posAdd 0
+o 66
+)
+)
+uid 342,0
+scheme 0
+direct 0
+)
+*89 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "read_burst_counter"
+t "std_logic_vector"
+b "(C_NO_BURSTS_REQ downto 0)"
+preAdd 0
+posAdd 0
+o 67
+)
+)
+uid 344,0
+scheme 0
+direct 0
+)
+*90 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "start_single_burst_write"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 68
+)
+)
+uid 346,0
+scheme 1
+rstVal "'0'"
+direct 0
+)
+*91 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "start_single_burst_read"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 69
+)
+)
+uid 348,0
+scheme 1
+rstVal "'0'"
+direct 0
+)
+*92 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "writes_done"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 70
+)
+)
+uid 350,0
+scheme 0
+direct 0
+)
+*93 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "reads_done"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 71
+)
+)
+uid 352,0
+scheme 0
+direct 0
+)
+*94 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "error_reg"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 72
+)
+)
+uid 354,0
+scheme 0
+direct 0
+)
+*95 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "compare_done"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 73
+)
+)
+uid 356,0
+scheme 1
+rstVal "'0'"
+direct 0
+)
+*96 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "read_mismatch"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 74
+)
+)
+uid 358,0
+scheme 0
+direct 0
+)
+*97 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "burst_write_active"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 75
+)
+)
+uid 360,0
+scheme 0
+direct 0
+)
+*98 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "burst_read_active"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 76
+)
+)
+uid 362,0
+scheme 0
+direct 0
+)
+*99 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "expected_rdata"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 downto 0)"
+preAdd 0
+posAdd 0
+o 77
+)
+)
+uid 364,0
+scheme 0
+direct 0
+)
+*100 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "write_resp_error"
+t "std_logic"
+prec "Interface response error flags"
+preAdd 0
+posAdd 0
+o 78
+)
+)
+uid 366,0
+scheme 0
+direct 0
+)
+*101 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "read_resp_error"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 79
+)
+)
+uid 368,0
+scheme 0
+direct 0
+)
+*102 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "wnext"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 80
+)
+)
+uid 370,0
+scheme 0
+direct 0
+)
+*103 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "rnext"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 81
+)
+)
+uid 372,0
+scheme 0
+direct 0
+)
+*104 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_txn_ff"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 82
+)
+)
+uid 374,0
+scheme 0
+direct 0
+)
+*105 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_txn_ff2"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 83
+)
+)
+uid 376,0
+scheme 0
+direct 0
+)
+*106 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_txn_pulse"
+t "std_logic"
+prec "signal init_txn_edge : std_logic;"
+preAdd 0
+posAdd 0
+o 53
+)
+)
+uid 380,0
+scheme 0
+direct 0
+)
+*107 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "ERROR"
+t "std_logic"
+prec "-- Asserts when ERROR is detected"
+preAdd 0
+posAdd 0
+o 1
+)
+)
+uid 385,0
+scheme 1
+rstVal "'0'"
+)
+*108 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWID"
+t "std_logic_vector"
+b "(C_M_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address ID"
+preAdd 0
+posAdd 0
+o 4
+)
+)
+uid 395,0
+scheme 0
+)
+*109 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWADDR"
+t "std_logic_vector"
+b "(C_M_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Address"
+preAdd 0
+posAdd 0
+o 5
+)
+)
+uid 397,0
+scheme 0
+)
+*110 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 6
+)
+)
+uid 399,0
+scheme 0
+)
+*111 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 7
+)
+)
+uid 401,0
+scheme 0
+)
+*112 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 8
+)
+)
+uid 403,0
+scheme 0
+)
+*113 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 9
+)
+)
+uid 405,0
+scheme 0
+)
+*114 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 10
+)
+)
+uid 407,0
+scheme 0
+)
+*115 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 11
+)
+)
+uid 409,0
+scheme 0
+)
+*116 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each write transaction."
+preAdd 0
+posAdd 0
+o 12
+)
+)
+uid 411,0
+scheme 0
+)
+*117 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWUSER"
+t "std_logic_vector"
+b "(C_M_AXI_AWUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write address channel."
+preAdd 0
+posAdd 0
+o 13
+)
+)
+uid 413,0
+scheme 0
+)
+*118 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_AWVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid write address and control information."
+preAdd 0
+posAdd 0
+o 14
+)
+)
+uid 415,0
+scheme 0
+)
+*119 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_WDATA"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Data."
+preAdd 0
+posAdd 0
+o 16
+)
+)
+uid 417,0
+scheme 0
+)
+*120 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_WSTRB"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH/8-1 downto 0)"
+prec "-- Write strobes. This signal indicates which byte
+  -- lanes hold valid data. There is one write strobe
+  -- bit for each eight bits of the write data bus."
+preAdd 0
+posAdd 0
+o 17
+)
+)
+uid 419,0
+scheme 0
+)
+*121 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_WLAST"
+t "std_logic"
+prec "-- Write last. This signal indicates the last transfer in a write burst."
+preAdd 0
+posAdd 0
+o 18
+)
+)
+uid 421,0
+scheme 0
+)
+*122 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_WUSER"
+t "std_logic_vector"
+b "(C_M_AXI_WUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write data channel."
+preAdd 0
+posAdd 0
+o 19
+)
+)
+uid 423,0
+scheme 0
+)
+*123 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_WVALID"
+t "std_logic"
+prec "-- Write valid. This signal indicates that valid write
+  -- data and strobes are available"
+preAdd 0
+posAdd 0
+o 20
+)
+)
+uid 425,0
+scheme 0
+)
+*124 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_BREADY"
+t "std_logic"
+prec "-- Response ready. This signal indicates that the master
+  -- can accept a write response."
+preAdd 0
+posAdd 0
+o 26
+)
+)
+uid 427,0
+scheme 0
+)
+*125 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARID"
+t "std_logic_vector"
+b "(C_M_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Read Address."
+preAdd 0
+posAdd 0
+o 27
+)
+)
+uid 429,0
+scheme 0
+)
+*126 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARADDR"
+t "std_logic_vector"
+b "(C_M_AXI_ADDR_WIDTH-1 downto 0)"
+prec "-- Read address. This signal indicates the initial
+  -- address of a read burst transaction."
+preAdd 0
+posAdd 0
+o 28
+)
+)
+uid 431,0
+scheme 0
+)
+*127 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARLEN"
+t "std_logic_vector"
+b "(7 downto 0)"
+prec "-- Burst length. The burst length gives the exact number of transfers in a burst"
+preAdd 0
+posAdd 0
+o 29
+)
+)
+uid 433,0
+scheme 0
+)
+*128 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARSIZE"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Burst size. This signal indicates the size of each transfer in the burst"
+preAdd 0
+posAdd 0
+o 30
+)
+)
+uid 435,0
+scheme 0
+)
+*129 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARBURST"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Burst type. The burst type and the size information,
+  -- determine how the address for each transfer within the burst is calculated."
+preAdd 0
+posAdd 0
+o 31
+)
+)
+uid 437,0
+scheme 0
+)
+*130 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARLOCK"
+t "std_logic"
+prec "-- Lock type. Provides additional information about the
+  -- atomic characteristics of the transfer."
+preAdd 0
+posAdd 0
+o 32
+)
+)
+uid 439,0
+scheme 0
+)
+*131 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARCACHE"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Memory type. This signal indicates how transactions
+  -- are required to progress through a system."
+preAdd 0
+posAdd 0
+o 33
+)
+)
+uid 441,0
+scheme 0
+)
+*132 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARPROT"
+t "std_logic_vector"
+b "(2 downto 0)"
+prec "-- Protection type. This signal indicates the privilege
+  -- and security level of the transaction, and whether
+  -- the transaction is a data access or an instruction access."
+preAdd 0
+posAdd 0
+o 34
+)
+)
+uid 443,0
+scheme 0
+)
+*133 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARQOS"
+t "std_logic_vector"
+b "(3 downto 0)"
+prec "-- Quality of Service, QoS identifier sent for each read transaction"
+preAdd 0
+posAdd 0
+o 35
+)
+)
+uid 445,0
+scheme 0
+)
+*134 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARUSER"
+t "std_logic_vector"
+b "(C_M_AXI_ARUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 36
+)
+)
+uid 447,0
+scheme 0
+)
+*135 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_ARVALID"
+t "std_logic"
+prec "-- Write address valid. This signal indicates that
+  -- the channel is signaling valid read address and control information"
+preAdd 0
+posAdd 0
+o 37
+)
+)
+uid 449,0
+scheme 0
+)
+*136 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "M_AXI_RREADY"
+t "std_logic"
+prec "-- Read ready. This signal indicates that the master can
+  -- accept the read data and response information."
+preAdd 0
+posAdd 0
+o 45
+)
+)
+uid 451,0
+scheme 0
+)
+*137 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_ACLK"
+t "std_logic"
+prec "-- Global Clock Signal."
+preAdd 0
+posAdd 0
+o 2
+)
+)
+uid 488,0
+cat 3
+ass ""
+expr "rising_edge (M_AXI_ACLK)"
+)
+*138 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_ARESETN"
+t "std_logic"
+prec "-- Global Reset Singal. This Signal is Active Low"
+preAdd 0
+posAdd 0
+o 3
+)
+)
+uid 490,0
+cat 13
+ass ""
+expr "M_AXI_ARESETN = '0'"
+)
+*139 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_AWREADY"
+t "std_logic"
+prec "-- Write address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 15
+)
+)
+uid 492,0
+ass ""
+)
+*140 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_WREADY"
+t "std_logic"
+prec "-- Write ready. This signal indicates that the slave
+  -- can accept the write data."
+preAdd 0
+posAdd 0
+o 21
+)
+)
+uid 494,0
+ass ""
+)
+*141 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_BID"
+t "std_logic_vector"
+b "(C_M_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Master Interface Write Response."
+preAdd 0
+posAdd 0
+o 22
+)
+)
+uid 496,0
+ass ""
+)
+*142 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_BRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Write response. This signal indicates the status of the write transaction."
+preAdd 0
+posAdd 0
+o 23
+)
+)
+uid 498,0
+ass ""
+)
+*143 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_BUSER"
+t "std_logic_vector"
+b "(C_M_AXI_BUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the write response channel"
+preAdd 0
+posAdd 0
+o 24
+)
+)
+uid 500,0
+ass ""
+)
+*144 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_BVALID"
+t "std_logic"
+prec "-- Write response valid. This signal indicates that the
+  -- channel is signaling a valid write response."
+preAdd 0
+posAdd 0
+o 25
+)
+)
+uid 502,0
+ass ""
+)
+*145 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_ARREADY"
+t "std_logic"
+prec "-- Read address ready. This signal indicates that
+  -- the slave is ready to accept an address and associated control signals"
+preAdd 0
+posAdd 0
+o 38
+)
+)
+uid 504,0
+ass ""
+)
+*146 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RID"
+t "std_logic_vector"
+b "(C_M_AXI_ID_WIDTH-1 downto 0)"
+prec "-- Read ID tag. This signal is the identification tag
+  -- for the read data group of signals generated by the slave."
+preAdd 0
+posAdd 0
+o 39
+)
+)
+uid 506,0
+ass ""
+)
+*147 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RDATA"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 downto 0)"
+prec "-- Master Read Data"
+preAdd 0
+posAdd 0
+o 40
+)
+)
+uid 508,0
+ass ""
+)
+*148 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RRESP"
+t "std_logic_vector"
+b "(1 downto 0)"
+prec "-- Read response. This signal indicates the status of the read transfer"
+preAdd 0
+posAdd 0
+o 41
+)
+)
+uid 510,0
+ass ""
+)
+*149 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RLAST"
+t "std_logic"
+prec "-- Read last. This signal indicates the last transfer in a read burst"
+preAdd 0
+posAdd 0
+o 42
+)
+)
+uid 512,0
+ass ""
+)
+*150 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RUSER"
+t "std_logic_vector"
+b "(C_M_AXI_RUSER_WIDTH-1 downto 0)"
+prec "-- Optional User-defined signal in the read address channel."
+preAdd 0
+posAdd 0
+o 43
+)
+)
+uid 514,0
+ass ""
+)
+*151 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "M_AXI_RVALID"
+t "std_logic"
+prec "-- Read valid. This signal indicates that the channel
+  -- is signaling the required read data."
+preAdd 0
+posAdd 0
+o 44
+)
+)
+uid 516,0
+ass ""
+)
+*152 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_rxn_ff"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 84
+)
+)
+uid 678,0
+scheme 1
+direct 0
+)
+*153 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_rxn_ff2"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 85
+)
+)
+uid 680,0
+scheme 1
+direct 0
+)
+*154 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_rxn_pulse"
+t "std_logic"
+prec "signal init_rxn_edge : std_logic;"
+preAdd 0
+posAdd 0
+o 54
+)
+)
+uid 684,0
+scheme 1
+direct 0
+)
+*155 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "target_slave_base_address"
+t "std_logic_vector"
+b "(31 DOWNTO 0)"
+o 46
+)
+)
+uid 718,0
+)
+*156 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "no_of_bursts_req"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 47
+)
+)
+uid 720,0
+ass ""
+)
+*157 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "we_next"
+t "std_logic"
+o 48
+)
+)
+uid 751,0
+scheme 0
+)
+*158 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rd_next"
+t "std_logic"
+o 49
+)
+)
+uid 753,0
+scheme 0
+)
+*159 (LeafLogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "we_data"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 DOWNTO 0)"
+o 50
+)
+)
+uid 755,0
+ass ""
+)
+*160 (LeafLogPort
+port (LogicalPort
+lang 2
+m 1
+decl (Decl
+n "rd_data"
+t "std_logic_vector"
+b "(C_M_AXI_DATA_WIDTH-1 DOWNTO 0)"
+o 51
+)
+)
+uid 757,0
+scheme 0
+)
+*161 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_axi_txn"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 86
+)
+)
+uid 1197,0
+scheme 1
+direct 0
+)
+*162 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "init_axi_rxn"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 87
+)
+)
+uid 1199,0
+scheme 1
+direct 0
+)
+*163 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "INIT_AXI_RX"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 88
+)
+)
+uid 1230,0
+scheme 1
+direct 0
+)
+*164 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "INIT_AXI_TX"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 89
+)
+)
+uid 1232,0
+scheme 1
+direct 0
+)
+*165 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "RXN_DONE"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 90
+)
+)
+uid 1234,0
+scheme 1
+direct 0
+)
+*166 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "TXN_DONE"
+t "std_logic"
+preAdd 0
+posAdd 0
+o 91
+)
+)
+uid 1236,0
+scheme 1
+direct 0
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 558,0
+optionalChildren [
+*167 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *168 (MRCItem
+litem &57
+pos 91
+dimension 20
+)
+uid 560,0
+optionalChildren [
+*169 (MRCItem
+litem &58
+pos 0
+dimension 20
+uid 561,0
+)
+*170 (MRCItem
+litem &59
+pos 1
+dimension 23
+uid 562,0
+)
+*171 (MRCItem
+litem &60
+pos 2
+hidden 1
+dimension 20
+uid 563,0
+)
+*172 (MRCItem
+litem &76
+pos 51
+dimension 20
+uid 319,0
+)
+*173 (MRCItem
+litem &77
+pos 52
+dimension 20
+uid 321,0
+)
+*174 (MRCItem
+litem &78
+pos 53
+dimension 20
+uid 323,0
+)
+*175 (MRCItem
+litem &79
+pos 54
+dimension 20
+uid 325,0
+)
+*176 (MRCItem
+litem &80
+pos 55
+dimension 20
+uid 327,0
+)
+*177 (MRCItem
+litem &81
+pos 56
+dimension 20
+uid 329,0
+)
+*178 (MRCItem
+litem &82
+pos 57
+dimension 20
+uid 331,0
+)
+*179 (MRCItem
+litem &83
+pos 58
+dimension 20
+uid 333,0
+)
+*180 (MRCItem
+litem &84
+pos 59
+dimension 20
+uid 335,0
+)
+*181 (MRCItem
+litem &85
+pos 60
+dimension 20
+uid 337,0
+)
+*182 (MRCItem
+litem &86
+pos 61
+dimension 20
+uid 339,0
+)
+*183 (MRCItem
+litem &87
+pos 62
+dimension 20
+uid 341,0
+)
+*184 (MRCItem
+litem &88
+pos 63
+dimension 20
+uid 343,0
+)
+*185 (MRCItem
+litem &89
+pos 64
+dimension 20
+uid 345,0
+)
+*186 (MRCItem
+litem &90
+pos 65
+dimension 20
+uid 347,0
+)
+*187 (MRCItem
+litem &91
+pos 66
+dimension 20
+uid 349,0
+)
+*188 (MRCItem
+litem &92
+pos 67
+dimension 20
+uid 351,0
+)
+*189 (MRCItem
+litem &93
+pos 68
+dimension 20
+uid 353,0
+)
+*190 (MRCItem
+litem &94
+pos 69
+dimension 20
+uid 355,0
+)
+*191 (MRCItem
+litem &95
+pos 70
+dimension 20
+uid 357,0
+)
+*192 (MRCItem
+litem &96
+pos 71
+dimension 20
+uid 359,0
+)
+*193 (MRCItem
+litem &97
+pos 72
+dimension 20
+uid 361,0
+)
+*194 (MRCItem
+litem &98
+pos 73
+dimension 20
+uid 363,0
+)
+*195 (MRCItem
+litem &99
+pos 74
+dimension 20
+uid 365,0
+)
+*196 (MRCItem
+litem &100
+pos 75
+dimension 20
+uid 367,0
+)
+*197 (MRCItem
+litem &101
+pos 76
+dimension 20
+uid 369,0
+)
+*198 (MRCItem
+litem &102
+pos 77
+dimension 20
+uid 371,0
+)
+*199 (MRCItem
+litem &103
+pos 78
+dimension 20
+uid 373,0
+)
+*200 (MRCItem
+litem &104
+pos 79
+dimension 20
+uid 375,0
+)
+*201 (MRCItem
+litem &105
+pos 80
+dimension 20
+uid 377,0
+)
+*202 (MRCItem
+litem &106
+pos 81
+dimension 20
+uid 381,0
+)
+*203 (MRCItem
+litem &107
+pos 0
+dimension 20
+uid 386,0
+)
+*204 (MRCItem
+litem &108
+pos 3
+dimension 20
+uid 396,0
+)
+*205 (MRCItem
+litem &109
+pos 4
+dimension 20
+uid 398,0
+)
+*206 (MRCItem
+litem &110
+pos 5
+dimension 20
+uid 400,0
+)
+*207 (MRCItem
+litem &111
+pos 6
+dimension 20
+uid 402,0
+)
+*208 (MRCItem
+litem &112
+pos 7
+dimension 20
+uid 404,0
+)
+*209 (MRCItem
+litem &113
+pos 8
+dimension 20
+uid 406,0
+)
+*210 (MRCItem
+litem &114
+pos 9
+dimension 20
+uid 408,0
+)
+*211 (MRCItem
+litem &115
+pos 10
+dimension 20
+uid 410,0
+)
+*212 (MRCItem
+litem &116
+pos 11
+dimension 20
+uid 412,0
+)
+*213 (MRCItem
+litem &117
+pos 12
+dimension 20
+uid 414,0
+)
+*214 (MRCItem
+litem &118
+pos 13
+dimension 20
+uid 416,0
+)
+*215 (MRCItem
+litem &119
+pos 15
+dimension 20
+uid 418,0
+)
+*216 (MRCItem
+litem &120
+pos 16
+dimension 20
+uid 420,0
+)
+*217 (MRCItem
+litem &121
+pos 17
+dimension 20
+uid 422,0
+)
+*218 (MRCItem
+litem &122
+pos 18
+dimension 20
+uid 424,0
+)
+*219 (MRCItem
+litem &123
+pos 19
+dimension 20
+uid 426,0
+)
+*220 (MRCItem
+litem &124
+pos 25
+dimension 20
+uid 428,0
+)
+*221 (MRCItem
+litem &125
+pos 26
+dimension 20
+uid 430,0
+)
+*222 (MRCItem
+litem &126
+pos 27
+dimension 20
+uid 432,0
+)
+*223 (MRCItem
+litem &127
+pos 28
+dimension 20
+uid 434,0
+)
+*224 (MRCItem
+litem &128
+pos 29
+dimension 20
+uid 436,0
+)
+*225 (MRCItem
+litem &129
+pos 30
+dimension 20
+uid 438,0
+)
+*226 (MRCItem
+litem &130
+pos 31
+dimension 20
+uid 440,0
+)
+*227 (MRCItem
+litem &131
+pos 32
+dimension 20
+uid 442,0
+)
+*228 (MRCItem
+litem &132
+pos 33
+dimension 20
+uid 444,0
+)
+*229 (MRCItem
+litem &133
+pos 34
+dimension 20
+uid 446,0
+)
+*230 (MRCItem
+litem &134
+pos 35
+dimension 20
+uid 448,0
+)
+*231 (MRCItem
+litem &135
+pos 36
+dimension 20
+uid 450,0
+)
+*232 (MRCItem
+litem &136
+pos 44
+dimension 20
+uid 452,0
+)
+*233 (MRCItem
+litem &137
+pos 1
+dimension 20
+uid 487,0
+)
+*234 (MRCItem
+litem &138
+pos 2
+dimension 20
+uid 489,0
+)
+*235 (MRCItem
+litem &139
+pos 14
+dimension 20
+uid 491,0
+)
+*236 (MRCItem
+litem &140
+pos 20
+dimension 20
+uid 493,0
+)
+*237 (MRCItem
+litem &141
+pos 21
+dimension 20
+uid 495,0
+)
+*238 (MRCItem
+litem &142
+pos 22
+dimension 20
+uid 497,0
+)
+*239 (MRCItem
+litem &143
+pos 23
+dimension 20
+uid 499,0
+)
+*240 (MRCItem
+litem &144
+pos 24
+dimension 20
+uid 501,0
+)
+*241 (MRCItem
+litem &145
+pos 37
+dimension 20
+uid 503,0
+)
+*242 (MRCItem
+litem &146
+pos 38
+dimension 20
+uid 505,0
+)
+*243 (MRCItem
+litem &147
+pos 39
+dimension 20
+uid 507,0
+)
+*244 (MRCItem
+litem &148
+pos 40
+dimension 20
+uid 509,0
+)
+*245 (MRCItem
+litem &149
+pos 41
+dimension 20
+uid 511,0
+)
+*246 (MRCItem
+litem &150
+pos 42
+dimension 20
+uid 513,0
+)
+*247 (MRCItem
+litem &151
+pos 43
+dimension 20
+uid 515,0
+)
+*248 (MRCItem
+litem &152
+pos 82
+dimension 20
+uid 679,0
+)
+*249 (MRCItem
+litem &153
+pos 83
+dimension 20
+uid 681,0
+)
+*250 (MRCItem
+litem &154
+pos 84
+dimension 20
+uid 685,0
+)
+*251 (MRCItem
+litem &155
+pos 45
+dimension 20
+uid 717,0
+)
+*252 (MRCItem
+litem &156
+pos 46
+dimension 20
+uid 719,0
+)
+*253 (MRCItem
+litem &157
+pos 47
+dimension 20
+uid 750,0
+)
+*254 (MRCItem
+litem &158
+pos 48
+dimension 20
+uid 752,0
+)
+*255 (MRCItem
+litem &159
+pos 49
+dimension 20
+uid 754,0
+)
+*256 (MRCItem
+litem &160
+pos 50
+dimension 20
+uid 756,0
+)
+*257 (MRCItem
+litem &161
+pos 85
+dimension 20
+uid 1198,0
+)
+*258 (MRCItem
+litem &162
+pos 86
+dimension 20
+uid 1200,0
+)
+*259 (MRCItem
+litem &163
+pos 87
+dimension 20
+uid 1231,0
+)
+*260 (MRCItem
+litem &164
+pos 88
+dimension 20
+uid 1233,0
+)
+*261 (MRCItem
+litem &165
+pos 89
+dimension 20
+uid 1235,0
+)
+*262 (MRCItem
+litem &166
+pos 90
+dimension 20
+uid 1237,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 564,0
+optionalChildren [
+*263 (MRCItem
+litem &61
+pos 0
+dimension 20
+uid 565,0
+)
+*264 (MRCItem
+litem &63
+pos 1
+dimension 50
+uid 566,0
+)
+*265 (MRCItem
+litem &64
+pos 2
+dimension 127
+uid 567,0
+)
+*266 (MRCItem
+litem &65
+pos 3
+dimension 50
+uid 568,0
+)
+*267 (MRCItem
+litem &66
+pos 4
+dimension 80
+uid 569,0
+)
+*268 (MRCItem
+litem &67
+pos 5
+dimension 80
+uid 570,0
+)
+*269 (MRCItem
+litem &68
+pos 6
+dimension 40
+uid 571,0
+)
+*270 (MRCItem
+litem &69
+pos 7
+dimension 100
+uid 572,0
+)
+*271 (MRCItem
+litem &70
+pos 8
+dimension 60
+uid 573,0
+)
+*272 (MRCItem
+litem &71
+pos 9
+dimension 130
+uid 574,0
+)
+*273 (MRCItem
+litem &72
+pos 10
+hidden 1
+dimension 56
+uid 575,0
+)
+*274 (MRCItem
+litem &73
+pos 11
+dimension 50
+uid 576,0
+)
+*275 (MRCItem
+litem &74
+pos 12
+dimension 50
+uid 577,0
+)
+*276 (MRCItem
+litem &75
+pos 13
+dimension 80
+uid 578,0
+)
+]
+)
+fixedCol 4
+fixedRow 2
+name "Ports"
+uid 559,0
+vaOverrides [
+]
+)
+]
+)
+uid 538,0
+)
+cdmCsm &1
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *277 (LEmptyRow
+)
+uid 580,0
+optionalChildren [
+*278 (RefLabelRowHdr
+)
+*279 (TitleRowHdr
+)
+*280 (FilterRowHdr
+)
+*281 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*282 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*283 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*284 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*285 (TypeColHdr
+tm "GenericTypeColHdrMgr"
+)
+*286 (InitColHdr
+tm "GenericValueColHdrMgr"
+)
+*287 (PragmaColHdr
+tm "GenericPragmaColHdrMgr"
+)
+*288 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+*289 (LogGeneric
+generic (GiElement
+name "C_M_TARGET_SLAVE_BASE_ADDR"
+type "std_logic_vector"
+value "x\"40000000\""
+pr "-- Users to add parameters here
+
+-- User parameters ends
+-- Do not modify the parameters beyond this line
+
+-- Base address of targeted slave"
+apr 0
+)
+uid 518,0
+)
+*290 (LogGeneric
+generic (GiElement
+name "C_M_AXI_BURST_LEN"
+type "integer"
+value "16"
+pr "-- Burst Length. Supports 1, 2, 4, 8, 16, 32, 64, 128, 256 burst lengths"
+apr 0
+)
+uid 520,0
+)
+*291 (LogGeneric
+generic (GiElement
+name "C_M_AXI_ID_WIDTH"
+type "integer"
+value "1"
+pr "-- Thread ID Width"
+apr 0
+)
+uid 522,0
+)
+*292 (LogGeneric
+generic (GiElement
+name "C_M_AXI_ADDR_WIDTH"
+type "integer"
+value "32"
+pr "-- Width of Address Bus"
+apr 0
+)
+uid 524,0
+)
+*293 (LogGeneric
+generic (GiElement
+name "C_M_AXI_DATA_WIDTH"
+type "integer"
+value "32"
+pr "-- Width of Data Bus"
+apr 0
+)
+uid 526,0
+)
+*294 (LogGeneric
+generic (GiElement
+name "C_M_AXI_AWUSER_WIDTH"
+type "integer"
+value "1"
+pr "-- Width of User Write Address Bus"
+apr 0
+)
+uid 528,0
+)
+*295 (LogGeneric
+generic (GiElement
+name "C_M_AXI_ARUSER_WIDTH"
+type "integer"
+value "1"
+pr "-- Width of User Read Address Bus"
+apr 0
+)
+uid 530,0
+)
+*296 (LogGeneric
+generic (GiElement
+name "C_M_AXI_WUSER_WIDTH"
+type "integer"
+value "1"
+pr "-- Width of User Write Data Bus"
+apr 0
+)
+uid 532,0
+)
+*297 (LogGeneric
+generic (GiElement
+name "C_M_AXI_RUSER_WIDTH"
+type "integer"
+value "1"
+pr "-- Width of User Read Data Bus"
+apr 0
+)
+uid 534,0
+)
+*298 (LogGeneric
+generic (GiElement
+name "C_M_AXI_BUSER_WIDTH"
+type "integer"
+value "1"
+pr "-- Width of User Response Bus"
+apr 0
+)
+uid 536,0
+)
+]
+)
+pdm (PhysicalDM
+displayShortBounds 1
+editShortBounds 1
+uid 592,0
+optionalChildren [
+*299 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *300 (MRCItem
+litem &277
+pos 10
+dimension 20
+)
+uid 594,0
+optionalChildren [
+*301 (MRCItem
+litem &278
+pos 0
+dimension 20
+uid 595,0
+)
+*302 (MRCItem
+litem &279
+pos 1
+dimension 23
+uid 596,0
+)
+*303 (MRCItem
+litem &280
+pos 2
+hidden 1
+dimension 20
+uid 597,0
+)
+*304 (MRCItem
+litem &289
+pos 0
+dimension 20
+uid 517,0
+)
+*305 (MRCItem
+litem &290
+pos 1
+dimension 20
+uid 519,0
+)
+*306 (MRCItem
+litem &291
+pos 2
+dimension 20
+uid 521,0
+)
+*307 (MRCItem
+litem &292
+pos 3
+dimension 20
+uid 523,0
+)
+*308 (MRCItem
+litem &293
+pos 4
+dimension 20
+uid 525,0
+)
+*309 (MRCItem
+litem &294
+pos 5
+dimension 20
+uid 527,0
+)
+*310 (MRCItem
+litem &295
+pos 6
+dimension 20
+uid 529,0
+)
+*311 (MRCItem
+litem &296
+pos 7
+dimension 20
+uid 531,0
+)
+*312 (MRCItem
+litem &297
+pos 8
+dimension 20
+uid 533,0
+)
+*313 (MRCItem
+litem &298
+pos 9
+dimension 20
+uid 535,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 598,0
+optionalChildren [
+*314 (MRCItem
+litem &281
+pos 0
+dimension 20
+uid 599,0
+)
+*315 (MRCItem
+litem &283
+pos 1
+dimension 50
+uid 600,0
+)
+*316 (MRCItem
+litem &284
+pos 2
+dimension 100
+uid 601,0
+)
+*317 (MRCItem
+litem &285
+pos 3
+dimension 100
+uid 602,0
+)
+*318 (MRCItem
+litem &286
+pos 4
+dimension 50
+uid 603,0
+)
+*319 (MRCItem
+litem &287
+pos 5
+dimension 50
+uid 604,0
+)
+*320 (MRCItem
+litem &288
+pos 6
+dimension 80
+uid 605,0
+)
+]
+)
+fixedCol 3
+fixedRow 2
+name "Ports"
+uid 593,0
+vaOverrides [
+]
+)
+]
+)
+uid 579,0
+type 1
+)
+signalSuffix "_int"
+clockSuffix "_cld"
+defaultState (State
+shape (Circle
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 2
+)
+xt "-3000,-3000,3000,3000"
+radius 3000
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "0,0,1800,1200"
+st "s0"
+ju 0
+blo "900,1000"
+tm "ONodeName"
+)
+wait (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "1000,900,4600,2100"
+st "wait 2"
+blo "1000,1900"
+tm "SmWaitText"
+)
+)
+encoding (Text
+va (VaSet
+font "Arial,8,1"
+)
+blo "0,0"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "3900,3100,4100,3300"
+)
+autoResize 1
+tline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+pts [
+"0,0"
+"0,0"
+]
+)
+bline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+pts [
+"0,0"
+"0,0"
+]
+)
+ttri (Triangle
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "-450,-175,-100,175"
+)
+btri (Triangle
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "-450,-175,-100,175"
+)
+entryActions (MLText
+va (VaSet
+)
+tm "Actions"
+)
+inActions (MLText
+va (VaSet
+)
+tm "Actions"
+)
+exitActions (MLText
+va (VaSet
+)
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "-1600,1000,3400,2000"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+)
+defaultWaitState (State
+shape (CircleInOctagon
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "26368,26368,26368"
+lineWidth 2
+)
+xt "-529,-529,6529,6529"
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "0,0,1800,1200"
+st "s0"
+ju 0
+blo "900,1000"
+tm "ONodeName"
+)
+wait (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "1000,900,4600,2100"
+st "wait 2"
+blo "1000,1900"
+tm "SmWaitText"
+)
+)
+encoding (Text
+va (VaSet
+font "Arial,8,1"
+)
+blo "0,0"
+tm "SmEncodingMgr"
+)
+actionBlk (SmStateActionsBlock
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "8900,6100,9100,6300"
+)
+autoResize 1
+tline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "5000,3000,5000,3000"
+pts [
+"5000,3000"
+"5000,3000"
+]
+)
+bline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "5000,3000,5000,3000"
+pts [
+"5000,3000"
+"5000,3000"
+]
+)
+ttri (Triangle
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "4550,2825,4900,3175"
+)
+btri (Triangle
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "39936,56832,65280"
+lineWidth -1
+)
+xt "4550,2825,4900,3175"
+)
+entryActions (MLText
+va (VaSet
+)
+xt "5000,3000,5000,3000"
+tm "Actions"
+)
+inActions (MLText
+va (VaSet
+)
+xt "5000,3000,5000,3000"
+tm "Actions"
+)
+exitActions (MLText
+va (VaSet
+)
+xt "5000,3000,5000,3000"
+tm "Actions"
+)
+)
+caseExpr (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "-1600,1000,3400,2000"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+isWait 1
+)
+defaultCompositeState (CompositeState
+shape (TripleCircle
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+lineColor "0,0,32768"
+lineWidth 2
+)
+xt "-3000,-3000,3000,3000"
+radius 3000
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "-900,-600,900,600"
+st "s0"
+ju 0
+blo "0,400"
+tm "ONodeName"
+)
+childDiagram &0
+)
+defaultJunction (Junction
+shape (Diamond
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+)
+xt "-1150,-1150,2150,2150"
+)
+symbol (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "-150,-100,1150,1100"
+st "&"
+ju 0
+blo "500,900"
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "2000,1000,2000,1000"
+blo "2000,1000"
+tm "JunctionName"
+)
+)
+caseExpr (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "-1850,2000,3150,3000"
+st "CASE: expr"
+tm "SmCaseExpr"
+)
+)
+)
+defaultEntryPoint (EntryPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-875,875,1375,1875"
+)
+(Line
+sl 0
+ro 270
+xt "1375,1375,1875,1375"
+pts [
+"1375,1375"
+"1875,1375"
+]
+)
+]
+)
+)
+defaultInterruptPoint (InterruptPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-875,875,1375,1875"
+)
+(Line
+sl 0
+ro 270
+xt "1375,1375,1875,1375"
+pts [
+"1375,1375"
+"1875,1375"
+]
+)
+(CustomPolygon
+pts [
+"-625,1600"
+"-625,1300"
+"25,1425"
+"-75,1150"
+"1025,1350"
+"200,1350"
+"375,1600"
+]
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "65535,0,0"
+lineColor "65535,65535,0"
+)
+xt "-625,1150,1025,1600"
+)
+]
+)
+)
+defaultLink (Link
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "0,0,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-375,875,1875,1875"
+)
+(Line
+sl 0
+ro 270
+xt "-875,1375,-375,1375"
+pts [
+"-875,1375"
+"-375,1375"
+]
+)
+]
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "2375,875,4375,1875"
+st "Link"
+blo "2375,1675"
+tm "LinkName"
+)
+)
+)
+defaultExitPoint (ExitPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-375,875,1875,1875"
+)
+(Line
+sl 0
+ro 270
+xt "-875,1375,-375,1375"
+pts [
+"-875,1375"
+"-375,1375"
+]
+)
+]
+)
+)
+defaultTransition (Transition
+shape (Spline
+va (VaSet
+vasetType 3
+)
+pts [
+"0,0"
+"0,0"
+]
+arrow 1
+)
+ss 0
+es 0
+cond "condition"
+tb (TransitionBlock
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "-500,-500,3900,1500"
+)
+autoResize 1
+lineShape (Line
+va (VaSet
+vasetType 3
+isHidden 1
+)
+xt "1700,1400,1700,1400"
+pts [
+"1700,1400"
+"1700,1400"
+]
+)
+condition (MLText
+va (VaSet
+)
+xt "0,0,3400,1000"
+st "condition"
+tm "Condition"
+)
+actions (MLText
+va (VaSet
+)
+xt "1700,1800,1700,1800"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+ps "PercentageFromStartStrategy"
+shape (Circle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "-781,-781,781,781"
+radius 781
+)
+pr (Text
+va (VaSet
+)
+xt "-400,-500,400,500"
+st "1"
+ju 0
+blo "0,300"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+defaultClk (SmClockPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-625,625,1625,1625"
+)
+(OrthoPolyLine
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "275,825,874,1425"
+pts [
+"275,1425"
+"574,1425"
+"574,825"
+"874,825"
+]
+)
+(Arc2D
+pts [
+"-116,1278"
+"-371,972"
+"-116,972"
+]
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "-441,926,-116,1323"
+)
+]
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "arial,8,0"
+)
+xt "-2425,625,-1125,1625"
+st "clk"
+ju 2
+blo "-1125,1425"
+tm "SmControlSignalNameMgr"
+)
+)
+cond (SmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "1625,525,3825,1725"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+font "arial,8,0"
+)
+xt "1725,625,3725,1625"
+st "cond"
+tm "SmControlConditionMgr"
+)
+)
+)
+defaultEnable (SmEnablePoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-625,625,1625,1625"
+)
+(OrthoPolyLine
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "275,825,874,1425"
+pts [
+"874,1425"
+"574,1425"
+"574,825"
+"275,825"
+]
+)
+(Arc2D
+pts [
+"-130,1263"
+"-415,1064"
+"-76,1064"
+]
+layer 10
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "-425,943,-76,1304"
+)
+(Line
+sl 0
+ro 270
+xt "-415,1064,-106,1064"
+pts [
+"-415,1064"
+"-106,1064"
+]
+)
+]
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "arial,8,0"
+)
+xt "-3725,625,-1125,1625"
+st "enable"
+ju 2
+blo "-1125,1425"
+tm "SmControlSignalNameMgr"
+)
+)
+cond (SmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "1625,525,3825,1725"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+font "arial,8,0"
+)
+xt "1725,625,3725,1625"
+st "cond"
+tm "SmControlConditionMgr"
+)
+)
+)
+defaultRst (SmResetPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-625,625,1625,1625"
+)
+(OrthoPolyLine
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "275,825,874,1425"
+pts [
+"874,1425"
+"574,1425"
+"574,825"
+"275,825"
+]
+)
+(Line
+sl 0
+ro 270
+xt "-376,950,-276,1000"
+pts [
+"-376,1000"
+"-276,950"
+]
+)
+(Line
+sl 0
+ro 270
+xt "-376,950,-376,1300"
+pts [
+"-376,1300"
+"-376,950"
+]
+)
+(Circle
+layer 10
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,0"
+)
+xt "424,975,724,1275"
+radius 150
+)
+]
+)
+cond (SmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "-625,-975,1575,225"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+font "arial,8,0"
+)
+xt "-525,-875,1475,125"
+st "cond"
+tm "SmControlConditionMgr"
+)
+)
+prio (TransitionPriority
+ps "PercentageFromStartStrategy"
+shape (Circle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "1625,344,3187,1906"
+radius 781
+)
+pr (Text
+va (VaSet
+)
+xt "2006,625,2806,1625"
+st "1"
+ju 0
+blo "2406,1425"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "arial,8,0"
+)
+xt "-1925,625,-625,1625"
+st "rst"
+ju 2
+blo "-625,1425"
+tm "SmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+isHidden 1
+font "arial,8,0"
+)
+xt "4750,2625,10250,3625"
+st "< Automatic >"
+tm "Actions"
+)
+)
+)
+defaultRecStatePt (SmRecoveryStatePoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Circle
+sl 0
+xt "-900,-900,900,900"
+radius 900
+)
+(Line
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-426,-426,426,426"
+pts [
+"-426,426"
+"426,-426"
+]
+)
+(Line
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-426,-426,426,426"
+pts [
+"426,426"
+"-426,-426"
+]
+)
+]
+)
+)
+activeModelName "StateMachine"
+LanguageMgr "VhdlLangMgr"
+)

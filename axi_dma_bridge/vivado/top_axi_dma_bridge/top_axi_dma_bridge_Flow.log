@@ -1,0 +1,211 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jul 30 16:53:23 2018
+# Process ID: 11908
+# Current directory: D:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge
+# Command line: vivado.exe -mode gui -journal ./top_axi_dma_bridge_Flow.jou -log ./top_axi_dma_bridge_Flow.log -source ./HDS_Scripts/top_axi_dma_bridge_Flow.tcl
+# Log file: D:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge/./top_axi_dma_bridge_Flow.log
+# Journal file: D:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge\./top_axi_dma_bridge_Flow.jou
+#-----------------------------------------------------------
+start_gui
+source ./HDS_Scripts/top_axi_dma_bridge_Flow.tcl
+# lappend ::auto_path "$::env(HDS_HOME)/resources/tcl/tcllib1.4"
+# set ::hdsDebug 0
+# proc ::hdsDebugPuts {msg} {
+#    if {$::hdsDebug} {
+#       puts $msg
+#    }
+# }
+# set normVars {HDS_PROJECT_DIR HDS_TEAM_HOME HDS_HOME XILINX_VIVADO}
+# foreach varName $normVars {
+#    if {[info exists ::env($varName)]} {
+#       set ::env($varName) [file normalize [subst -nobackslash {$::env($varName)}]]
+#    }
+# }
+# puts "## HDS #Running Vivado Project Creation/Update#"
+## HDS #Running Vivado Project Creation/Update#
+# set ::errorCount 0
+# if {[catch {source ./HDS_Scripts/top_axi_dma_bridge_Create.tcl} errMsg]} {
+#    if {[regexp "(?q)$errMsg" $errorInfo]} {
+#       puts "Error: $errorInfo"
+#    } else {
+#       puts "Error: $errMsg"
+#    }
+#    return
+# }
+Creating project ./top_axi_dma_bridge.xpr
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 890.066 ; gain = 158.492
+## get_filesets
+## get_property DEFAULT_LIB [current_project]
+## current_project
+## current_project
+## current_project
+## current_project
+Project HDL files to add stored in:
+   ./HDS_Scripts/top_axi_dma_bridge_fileList.tcl
+## list
+## list
+## list
+## join $vivadoCoresExtList "|"
+## get_files -all -quiet
+## join $nonIpFiles \n
+## join $ipFiles \n
+## join $coreIpFiles \n
+### list
+### list
+### list
+# if {$::errorCount == 0} {
+#    puts "Note: \"source ./HDS_Scripts/top_axi_dma_bridge_Create.tcl\" completed successfully\n"
+# } else {
+#    puts "Error: \"source ./HDS_Scripts/top_axi_dma_bridge_Create.tcl\" completed with errors\n"
+# }
+Note: "source ./HDS_Scripts/top_axi_dma_bridge_Create.tcl" completed successfully
+
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  D:/ECM_DCD/username/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECM_DCD/username/ip_repo'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/ECM_DCD/username/ip_repo' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge'.)
+ipx::package_project -root_dir d:/ecm_dcd/username/ip_repo/axi_dma_bridge -vendor fh-joanneum.local -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-5107] Inferred bus interface 'user_dma_channel' of definition 'fh-joanneum.local:user:dma_channel:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'user_sbus' of definition 'fh-joanneum.local:user:sbus:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'xfer_ext' of definition 'fh-joanneum.local:user:sig:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M00_AXI' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-4747] Not inferring AXIMM interface 'dma' due to missing slave read-channel signals ARADDR ARVALID ARREADY RVALID RREADY.
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-4747] Not inferring AXIMM interface 'sbus' due to missing master read-channel signals ARADDR ARVALID ARREADY RVALID RREADY.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 's00_axi_aresetn' as interface 's00_axi_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'M00_AXI_ARESETN' as interface 'M00_AXI_ARESETN'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M00_AXI_ARESETN': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 's00_axi_aclk' as interface 's00_axi_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's00_axi'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'M00_AXI_ACLK' as interface 'M00_AXI_ACLK'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M00_AXI_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'M00_AXI'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4753] Inferred signal 'interrupt' from port 'irq' as interface 'irq'.
+INFO: [IP_Flow 19-4728] Bus Interface 'irq': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M00_AXI_ACLK': Added interface parameter 'ASSOCIATED_RESET' with value 'M00_AXI_ARESETN'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's00_axi_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'.
+set_property name axi_dma_bridge [ipx::current_core]
+set_property display_name axi_dma_bridge [ipx::current_core]
+set_property description axi_dma_bridge [ipx::current_core]
+ipx::remove_bus_interface user_dma_channel [ipx::current_core]
+set_property name sbus_mst [ipx::get_bus_interfaces user_sbus -of_objects [ipx::current_core]]
+ipx::remove_bus_interface xfer_ext [ipx::current_core]
+ipx::remove_bus_interface reset [ipx::current_core]
+ipx::remove_bus_interface clk [ipx::current_core]
+ipx::create_abstraction_definition fh-joanneum.local user dma_rd_channel_rtl 1.0
+ipx::create_bus_definition fh-joanneum.local user dma_rd_channel 1.0
+set_property xml_file_name D:/ECM_DCD/username/ip_repo/Interfaces/dma_rd_channel_rtl.xml [ipx::current_busabs]
+set_property xml_file_name D:/ECM_DCD/username/ip_repo/Interfaces/dma_rd_channel.xml [ipx::current_busdef]
+set_property bus_type_vlnv fh-joanneum.local:user:dma_rd_channel:1.0 [ipx::current_busabs]
+ipx::save_abstraction_definition [ipx::current_busabs]
+ipx::save_bus_definition [ipx::current_busdef]
+ipx::add_bus_abstraction_port dma_rd [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_rd_addr [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_rd_mode [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_rd_request_size [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_rd_fifosize [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_rdata [ipx::current_busabs]
+ipx::save_bus_definition [ipx::current_busdef]
+ipx::save_abstraction_definition [ipx::current_busabs]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECM_DCD/username/ip_repo'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/ECM_DCD/username/ip_repo' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge'.)
+update_ip_catalog -rebuild -repo_path d:/ECM_DCD/username/ip_repo
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ECM_DCD/username/ip_repo'
+ERROR: [Common 17-190] Invalid Tcl eval of 'ipx::infer_bus_interface {dma_rd dma_rd_addr dma_rd_mode dma_rd_request_size dma_rd_fifosize dma_rdata} fh-joanneum.local:user:dma_rd_channel:1.0 {component component_1}' during processing of event '267'.
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See D:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge/vivado_pid11908.debug)
+ERROR: [Common 17-39] 'update_ip_catalog' failed due to earlier errors.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/ECM_DCD/username/ip_repo
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ECM_DCD/username/ip_repo'
+ipx::infer_bus_interface {dma_rd dma_rd_addr dma_rd_mode dma_rd_request_size dma_rd_fifosize dma_rdata} fh-joanneum.local:user:dma_rd_channel_rtl:1.0 [ipx::current_core]
+set_property name dma_rd_channel [ipx::get_bus_interfaces dma_rd_channel_1 -of_objects [ipx::current_core]]
+ipx::create_abstraction_definition fh-joanneum.local user dma_wr_channel_rtl 1.0
+ipx::create_bus_definition fh-joanneum.local user dma_wr_channel 1.0
+set_property xml_file_name D:/ECM_DCD/username/ip_repo/Interfaces/dma_wr_channel_rtl.xml [ipx::current_busabs]
+set_property xml_file_name D:/ECM_DCD/username/ip_repo/Interfaces/dma_wr_channel.xml [ipx::current_busdef]
+set_property bus_type_vlnv fh-joanneum.local:user:dma_wr_channel:1.0 [ipx::current_busabs]
+ipx::save_abstraction_definition [ipx::current_busabs]
+ipx::save_bus_definition [ipx::current_busdef]
+ipx::add_bus_abstraction_port dma_wdata [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_wr [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_wr_addr [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_wr_mode [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_wr_request_size [ipx::current_busabs]
+ipx::add_bus_abstraction_port dma_wr_fifosize [ipx::current_busabs]
+ipx::save_bus_definition [ipx::current_busdef]
+ipx::save_abstraction_definition [ipx::current_busabs]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ECM_DCD/username/ip_repo'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/ECM_DCD/username/ip_repo' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/ECM_DCD/username/ip_repo/axi_dma_bridge/vivado/top_axi_dma_bridge'.)
+update_ip_catalog -rebuild -repo_path d:/ECM_DCD/username/ip_repo
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ECM_DCD/username/ip_repo'
+ipx::infer_bus_interface {dma_wdata dma_wr dma_wr_addr dma_wr_mode dma_wr_request_size dma_wr_fifosize} fh-joanneum.local:user:dma_wr_channel_rtl:1.0 [ipx::current_core]
+set_property name dma_wr_channel [ipx::get_bus_interfaces dma_wr_channel_1 -of_objects [ipx::current_core]]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/ECM_DCD/username/ip_repo
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'fh-joanneum.local:user:ads7883:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'fh-joanneum.local:user:ads7883_rtl:1.0' found within IP repository 'd:/ECM_DCD/username/ip_repo'.
+File in use: d:/ECM_DCD/username/ip_repo/Interfaces/ads7883_rtl.xml
+File ignored: d:/ECM_DCD/username/ip_repo/proj_audio_gan/vivado/vivado/ip_repo/ads7883_rtl.xml
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ECM_DCD/username/ip_repo'
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 30 17:25:55 2018...

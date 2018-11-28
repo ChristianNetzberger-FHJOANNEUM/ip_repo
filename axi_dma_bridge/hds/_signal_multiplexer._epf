@@ -1,0 +1,2 @@
+DEFAULT_FILE atom signal_multiplexer/struct.bd
+DEFAULT_ARCHITECTURE atom struct

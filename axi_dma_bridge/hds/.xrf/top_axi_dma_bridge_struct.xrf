@@ -1,0 +1,1538 @@
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 13,0 15 1 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 128,0 51 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 148,0 53 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 178,0 56 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 238,0 59 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 258,0 61 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 268,0 63 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 273,0 65 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 278,0 68 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 283,0 70 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 288,0 73 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 293,0 75 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 303,0 77 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 308,0 79 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 313,0 82 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 328,0 85 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5117,0 86 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5027,0 87 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5107,0 88 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5037,0 89 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5057,0 90 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5122,0 91 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5052,0 92 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5112,0 93 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5047,0 94 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 348,0 102 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 353,0 103 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 358,0 104 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 363,0 105 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 368,0 106 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 373,0 107 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 378,0 108 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 383,0 109 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 388,0 110 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 393,0 111 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 403,0 112 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 408,0 113 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 413,0 114 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 418,0 115 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 423,0 116 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 428,0 117 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 433,0 118 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 438,0 119 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 443,0 120 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 448,0 121 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 453,0 122 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 458,0 123 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 468,0 124 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 473,0 125 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 478,0 126 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 483,0 127 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 493,0 128 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 528,0 129 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 548,0 130 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 553,0 131 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 563,0 132 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 568,0 133 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 573,0 134 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2385,0 135 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2380,0 136 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 4544,0 137 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 4916,0 138 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 133,0 141 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 138,0 144 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 143,0 147 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 153,0 149 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 158,0 151 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 163,0 154 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 168,0 158 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 173,0 160 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 183,0 162 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 188,0 164 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 193,0 167 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 198,0 169 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 203,0 172 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 208,0 175 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 213,0 177 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 218,0 179 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 223,0 182 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 228,0 186 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 233,0 188 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 243,0 190 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 248,0 192 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 253,0 195 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 263,0 198 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 298,0 201 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 318,0 203 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 323,0 205 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 333,0 209 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 338,0 211 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 343,0 214 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2329,0 216 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5246,0 217 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5032,0 218 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 5251,0 219 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2539,0 220 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2324,0 221 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 398,0 222 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 463,0 223 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 488,0 224 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 498,0 225 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 503,0 226 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 508,0 227 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 513,0 228 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 518,0 229 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 523,0 230 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 533,0 231 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 538,0 232 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 543,0 233 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 558,0 234 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2360,0 235 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 4390,0 236 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2375,0 237 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2365,0 238 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 2370,0 239 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 4539,0 240 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 4911,0 241 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 1,0 244 0 
+DESIGN top_axi_dma_bridge
+VIEW symbol.sb
+GRAPHIC 1,0 245 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 248
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 1545,0 257 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 263
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 0,0 266 2 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3486,0 277 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3484,0 284 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3370,0 286 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3368,0 288 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17194,0 289 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17206,0 290 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27419,0 291 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27427,0 292 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3360,0 293 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3374,0 294 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3364,0 295 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 4446,0 296 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3436,0 297 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27110,0 298 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7832,0 299 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3446,0 300 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3438,0 301 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3440,0 305 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 9276,0 306 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7810,0 307 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 12011,0 308 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17545,0 309 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3444,0 310 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7840,0 311 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 13271,0 312 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3442,0 313 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3362,0 314 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 13464,0 315 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3372,0 316 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3366,0 317 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 318
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7848,0 320 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17513,0 321 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 323
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 1,0 324 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 324
+LIBRARY axi_dma_bridge
+DESIGN @m00_@a@x@i
+VIEW implementation
+GRAPHIC 23029,0 335 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 14,0 336 1 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 605,0 364 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 48,0 371 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 681,0 378 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 53,0 380 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 58,0 382 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 63,0 384 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 68,0 386 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 73,0 388 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 78,0 390 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 83,0 392 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 88,0 394 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 93,0 396 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 98,0 399 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 103,0 402 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 108,0 405 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 113,0 409 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 118,0 411 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 123,0 413 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 128,0 416 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 133,0 419 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 138,0 421 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 143,0 425 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 148,0 427 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 153,0 429 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 158,0 432 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 163,0 435 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 168,0 437 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 173,0 439 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 178,0 441 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 183,0 444 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 188,0 447 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 193,0 449 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 198,0 452 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 203,0 454 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 208,0 456 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 213,0 459 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 218,0 462 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 223,0 465 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 228,0 469 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 233,0 471 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 238,0 473 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 243,0 476 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 248,0 479 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 253,0 482 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 258,0 484 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 263,0 486 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 268,0 488 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 273,0 490 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 278,0 493 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 737,0 496 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 774,0 497 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 832,0 498 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 837,0 499 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 848,0 500 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 853,0 501 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 1141,0 502 0 
+DESIGN @m00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 1146,0 503 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23255,0 506 0 
+DESIGN @s00_@a@x@i
+VIEW symbol.sb
+GRAPHIC 14,0 507 1 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 645,0 533 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 650,0 535 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1245,0 536 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1988,0 537 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1235,0 538 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1250,0 539 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1230,0 540 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1240,0 541 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 1255,0 542 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 56,0 543 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 76,0 548 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 146,0 550 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 131,0 552 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 151,0 554 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 181,0 556 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 136,0 558 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 156,0 561 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 141,0 564 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 161,0 567 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 166,0 571 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 176,0 574 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 186,0 577 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 191,0 579 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 171,0 583 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 256,0 587 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 271,0 589 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 261,0 593 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 276,0 596 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 281,0 598 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 266,0 601 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 196,0 604 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 206,0 607 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 211,0 610 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 216,0 612 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 201,0 615 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 81,0 618 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 61,0 621 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 86,0 624 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 116,0 626 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 66,0 628 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 91,0 631 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 71,0 634 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 96,0 637 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 101,0 641 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 111,0 644 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 121,0 647 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 126,0 649 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 106,0 653 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 226,0 657 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 221,0 660 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 241,0 662 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 231,0 665 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 246,0 668 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 251,0 670 0 
+DESIGN @s00_@a@x@i
+VIEW arch_imp
+GRAPHIC 236,0 673 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 29445,0 678 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 14,0 679 1 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2175,0 690 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2150,0 692 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 4453,0 694 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7507,0 695 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7583,0 696 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7705,0 697 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7598,0 698 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7517,0 699 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7522,0 700 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7588,0 701 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7700,0 702 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7593,0 703 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2185,0 704 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2165,0 705 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 4458,0 706 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 4393,0 707 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 6550,0 708 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2170,0 709 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 5550,0 710 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2145,0 711 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2140,0 718 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7306,0 725 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7311,0 726 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7859,0 727 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7502,0 728 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7854,0 729 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 4687,0 730 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2155,0 731 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 4398,0 732 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 6545,0 733 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2160,0 734 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 2180,0 735 0 
+DESIGN axi_master_control
+VIEW symbol.sb
+GRAPHIC 7274,0 736 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23476,0 739 0 
+DESIGN profiler
+VIEW symbol.sb
+GRAPHIC 14,0 740 1 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 51,0 748 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 56,0 750 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 61,0 751 0 
+DESIGN profiler
+VIEW rtl
+GRAPHIC 193,0 752 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23301,0 755 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 495,0 757 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 51,0 758 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 56,0 759 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 91,0 760 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 61,0 761 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 66,0 762 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 918,0 763 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 972,0 764 0 
+DESIGN sbus_mux3
+VIEW rtl
+GRAPHIC 96,0 765 0 
+LIBRARY axi_dma_bridge
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 768
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23029,0 771 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23255,0 772 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 29445,0 773 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23476,0 774 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23301,0 775 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 778
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 9878,0 781 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 789
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 4370,0 790 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 816
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 817
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23029,0 819 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23036,0 820 1 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3268,0 848 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3264,0 849 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3036,0 850 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3032,0 851 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2840,0 853 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2844,0 854 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2928,0 855 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2904,0 856 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2940,0 857 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2936,0 858 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2944,0 859 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3012,0 860 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2952,0 861 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2908,0 862 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2920,0 863 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2924,0 864 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2868,0 865 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2968,0 866 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2896,0 867 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2892,0 868 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2852,0 869 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2884,0 870 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2980,0 871 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2964,0 872 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2864,0 873 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2984,0 874 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2848,0 875 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2888,0 876 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2876,0 877 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2900,0 878 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2916,0 879 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2880,0 880 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2976,0 881 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2972,0 882 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2856,0 883 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2988,0 884 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3004,0 885 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3008,0 886 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3000,0 887 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2872,0 888 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2912,0 889 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2948,0 890 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2960,0 891 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2932,0 892 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2992,0 893 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2956,0 894 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2996,0 895 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 2860,0 896 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3020,0 897 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3016,0 898 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3028,0 899 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3024,0 900 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3040,0 901 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3044,0 902 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27421,0 903 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27429,0 904 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23255,0 906 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23262,0 907 1 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3196,0 933 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3192,0 934 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3176,0 935 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27112,0 936 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3188,0 937 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3184,0 938 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3168,0 939 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3172,0 940 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3180,0 941 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3212,0 942 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3208,0 943 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3216,0 944 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3204,0 945 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3200,0 946 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3260,0 947 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3256,0 948 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3252,0 949 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3248,0 950 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3244,0 951 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3240,0 952 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3236,0 953 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3232,0 954 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3228,0 955 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3116,0 956 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3224,0 957 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3220,0 958 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3048,0 959 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3052,0 960 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3056,0 961 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3120,0 962 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3124,0 963 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3128,0 964 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3132,0 965 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3136,0 966 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3060,0 967 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3064,0 968 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3068,0 969 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3072,0 970 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3076,0 971 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3080,0 972 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3084,0 973 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3088,0 974 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3092,0 975 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3096,0 976 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3100,0 977 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3104,0 978 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3108,0 979 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3140,0 980 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3144,0 981 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3148,0 982 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3152,0 983 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3156,0 984 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3160,0 985 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3164,0 986 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3112,0 987 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 29445,0 989 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 29452,0 990 1 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3036,0 1001 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3032,0 1002 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3196,0 1003 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28609,0 1004 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28321,0 1005 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28585,0 1006 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28345,0 1007 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28543,0 1008 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28621,0 1009 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28531,0 1010 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28597,0 1011 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28369,0 1012 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3044,0 1013 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3024,0 1014 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3192,0 1015 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 4410,0 1016 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 26056,0 1017 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3028,0 1018 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 26902,0 1019 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3268,0 1020 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3264,0 1021 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27421,0 1022 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27429,0 1023 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28357,0 1024 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28333,0 1025 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 28571,0 1026 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3802,0 1027 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3016,0 1028 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7812,0 1029 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 26044,0 1030 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3020,0 1031 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 3040,0 1032 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 26890,0 1033 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23476,0 1035 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23483,0 1036 1 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17521,0 1044 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17513,0 1045 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17529,0 1046 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17537,0 1047 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 23301,0 1049 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7848,0 1051 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7834,0 1052 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 4410,0 1053 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7842,0 1054 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7812,0 1055 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7818,0 1056 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 12013,0 1057 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17605,0 1058 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 13273,0 1059 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27784,0 1062 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 27447,0 1064 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 1076
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 7848,0 1080 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+GRAPHIC 17513,0 1081 0 
+DESIGN top_axi_dma_bridge
+VIEW struct.bd
+NO_GRAPHIC 1083
